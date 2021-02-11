@@ -5,12 +5,41 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      screens: {
+        'xs': '360px',
+      },
       colors: {
+        'primary-001': "#FFFAF2",
+        'primary-100': '#F6F0E6',
+        'primary-200': '#F6EBDA',
         'primary': '#D4A45B',
         'primary-light': "#E3B977",
         'gray': "#827F7C",
-        'dark': "1C1812"
-      }
+        'dark': "1C1812",
+        'pink-001': "#FFF2F8",
+        'secondary-100': "#CDE5F7",
+        'secondary-200': "#83C5F7",
+        'secondary-300': "#70A9D4",
+        'secondary-400': "#527C9C",
+        'secondary-500': "#405F78",
+
+      },
+      height: theme => ({
+        "screen-adjusted": "calc(100vh - 1.5rem - 43px)", // vh - padding - logo height - gradient
+        "full-adjusted": "calc(100% - 2rem)", // vh - padding - logo height - gradient
+      }),
+      width: {
+        'prose': '40ch',
+        'icon-md': '4rem'
+      },
+      maxWidth: {
+        'prose': '40ch'
+      }, 
+      backgroundImage: theme => ({
+        'hero-image': "url('../images/hian-oliveira-n_L_ppO4QtY-unsplash.jpg')",
+        'clinic-image': "url('../images/clinica.jpg')",
+        'hero-none': "#FFFFFF"
+      })
     },
     container: {
       center: true,
@@ -21,11 +50,8 @@ module.exports = {
       mwsr: ['MerriweatherSans-Regular', 'font-sans'],
       mwsl: ['MerriweatherSans-Light', 'font-sans'],
       mvr: ['MuktaVanni-Regular', 'font-sans'],
+      mvl: ['MuktaVanni-Light', 'font-sans'],
     },
-    backgroundImage: theme => ({
-      'hero-image': "url('../images/hian-oliveira-n_L_ppO4QtY-unsplash.jpg')",
-      'hero-none': "#FFFFFF"
-    })
   },
   variants: {
     extend: {},
