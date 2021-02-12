@@ -1,13 +1,13 @@
 <template>
   <div class="mt-8 flex">
     <!-- Icon -->
-    <div class="flex justify-end w-1/6">
+    <div class="flex justify-end w-1/6 lg:w-16">
       <icon :name=iconName></icon>
     </div>
     
     <!-- Text -->
-    <div class="flex flex-col w-5/6 pl-4 pr-12 md:w-80">
-      <div class="font-mwsb tracking-wide text-md md:text-xl">{{ title }}</div>
+    <div class="flex flex-col w-5/6 pl-4 pr-16 md:pr-0 md:w-72 lg:w-prose">
+      <div class="font-mwsb tracking-wide text-md">{{ title }}</div>
       <p class="mt-4 text-justify font-mvl tracking-wide text-md">
         <slot></slot>
       </p>

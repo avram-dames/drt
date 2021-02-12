@@ -13,10 +13,10 @@
           class="flex flex-col justify-end h-full-adjusted md:justify-start md:h-auto md:pl-2 lg:pl-20"
         >
           <div class="pt-6 px-4 bg-primary-200 bg-opacity-60 md:bg-white" style="backdrop-filter: blur(20px);-webkit-backdrop-filter: blur(20px);">
-          <h1 class="font-mwb text-center tracking-wide text-dark text-2xl md:text-left">
+          <h1 class="font-mwb tracking-wide text-dark text-center md:text-left text-2xl md:text-3xl lg:text-4xl">
             Zâmbetul perfect începe cu o consultație gratuită
           </h1>
-          <p class="mt-4 md:mt2 font-mvl tracking-wide text-justify text-dark text-sm md:text-md">
+          <p class="mt-4 md:mt2 font-mvl tracking-wide text-justify text-dark text-sm md:text-md lg:text-lg">
             Echipa noastră de dentiști din Aiud îți va reda zâmbetul și starea
             de bine! Profită de consultația ta gratuită!
           </p>
@@ -45,18 +45,19 @@
     </div>
 
     <!-- Tratamente -->
-    <div class="container flex flex-col">
-      <h2 class="mt-16 px-16 text-center font-mwb tracking-wide text-2xl">
+    <div class="mt-24 md:mt-0 container flex flex-col">
+      <h2 class="px-8 md:px-0 text-center font-mwb tracking-wide text-xl md:text-2xl lg:text-3xl">
         Tratamente inovatoare
       </h2>
-      <div class="mt-8 px-4 flex justify-center text-center font-mvl text-md">
+      <div class="mt-4 px-8 md:px-0 flex justify-center text-center font-mvl text-sm md:text-md lg:text-lg">
         Descoperă gama noastră variată de tratamente stomatologice la prețuri
         surprinzător de avantajoase!
       </div>
       <div
-        class="mt-8 grid grid-cols-1 justify-items-center md:grid-cols-2 md:gap-4"
+        class="mt-8 md:mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2"
       >
         <t-card
+        class="lg:flex lg:justify-end lg:pr-8"
           title="Prevenție"
           flink="/tratamente-preventive"
           iconName="tooth"
@@ -68,6 +69,7 @@
           DRT Dentist!
         </t-card>
         <t-card
+        class="lg:flex lg:justify-start lg:pl-4"
           title="Endodonție"
           flink="/tratamente-endodontie"
           iconName="endo"
@@ -79,6 +81,7 @@
           dinții cu tratamente stomatologice de ultimă generație!
         </t-card>
         <t-card
+          class="lg:flex lg:justify-end lg:pr-8"
           title="Protetică"
           flink="/tratamente-protetica"
           iconName="prosthesis"
@@ -92,6 +95,7 @@
           echipa noastră de dentiști din Aiud!
         </t-card>
         <t-card
+          class="lg:flex lg:justify-start lg:pl-4"
           title="Chirurgie"
           flink="/tratamente-chirurgie"
           iconName="syringe"
@@ -104,6 +108,7 @@
           și mizăm pe rezultate rapide, ușoare și fără durere!
         </t-card>
         <t-card
+          class="lg:flex lg:justify-end lg:pr-8"
           title="Ortodonție"
           flink="/tratamente-ortodontie"
           iconName="orthodontics"
@@ -116,6 +121,7 @@
           reduce riscul apariției cariilor.
         </t-card>
         <t-card
+          class="lg:flex lg:justify-start lg:pl-4"
           title="Implantologie"
           flink="/tratamente-implantologie"
           iconName="implant"
@@ -130,7 +136,7 @@
           noștri dentiști din Aiud!
         </t-card>
       </div>
-      <div class="mx-5 my-12 md:mx-0 md:mt-8 md:flex md:justify-start">
+      <div class="mx-5 my-12 md:mx-0 md:mt-8 md:flex md:justify-center">
         <div class="rounded-md shadow">
           <a
             href="#"
@@ -142,7 +148,7 @@
       </div>
     </div>
 
-    <div class="px-4">
+    <div class="px-4 hidden">
       <div class="max-w-3xl bg-red-200 rounded-lg mx-auto my-16 p-16">
         <h1 class="text-2xl font-mwb mb-2">Let's build with TailwindCSS</h1>
         <p class="uppercase tracking-wide">
@@ -152,34 +158,45 @@
       </div>
     </div>
 
-    <div class="flex flex-col">
-      <h2 class="mt-16 px-16 text-center font-mwb tracking-wide text-2xl">
+    <div class="flex flex-col md:flex-row md:container md:justify-evenly">
+      <h2 class="mt-16 px-16 text-center font-mwb tracking-wide text-xl md:hidden">
         Echipa Noastră
       </h2>
-      <img
-        class="mt-16 w-4/5 m-auto rounded-md"
-        src="../assets/images/Emanuela.png"
-        alt="Emanuela Breaz - Contabil clinica DRT Dentist"
-      />
-      <h3 class="mt-16 px-16 text-center font-mwsb tracking-wide text-xl">
-        Emanuela Breaz
-      </h3>
-      <p class="mt-2 text-center font-mvl tracking-wide text-md">Contabil</p>
-      <p class="mt-2 text-center font-mvl tracking-wide text-lg">
-        Scurtă descriere
-      </p>
+
+      <div class="mt-16 m-auto md:m-0 md:mt-0 w-4/5 md:w-80 lg:w-96 rounded-md md:order-last">
+        <img
+          src="../assets/images/Emanuela.png"
+          alt="Emanuela Breaz - Contabil clinica DRT Dentist"
+        />
+      </div>
+
+      <div class="md:flex md:flex-col md:justify-between md:py-8">
+        <h2 class="hidden md:block text-center md:text-left font-mwb tracking-wide text-2xl lg:text-2xl">
+          Echipa Noastră
+        </h2>
+        <div>
+        <h3 class="mt-16 px-16 md:p-0 text-center md:text-left font-mwsb tracking-wide text-md md:text-lg lg:text-xl">
+          Emanuela Breaz
+        </h3>
+        <p class="mt-2 text-center md:text-left font-mvl tracking-wide text-sm">Contabil</p>
+        <p class="mt-2 text-center md:text-left font-mvl tracking-wide text-md">
+          Scurtă descriere
+        </p>
+        </div>
+        <div class="h-20"></div>
+      </div> 
     </div>
 
-    <div class="mt-16 flex flex-col">
-      <div class="h-screen bg-clinic-image bg-cover bg-right-bottom">
+    <div class="mt-16 flex flex-col md:flex-row">
+      <div class="min-h-screen bg-clinic-image bg-cover bg-right-bottom md:w-1/2">
         <!-- <img class="h-full"
           src="../assets/images/clinica.jpg" 
           alt="Clinica DRT Dentist" /> -->
       </div>
       <div
-        class="py-24 px-16 bg-gradient-to-br from-primary-100 to-primary-200"
+        class="min-h-screen py-24 px-16 bg-gradient-to-br from-primary-100 to-primary-200 md:w-1/2 md:flex md:flex-col md:justify-center"
       >
-        <h2 class="text-center font-mwb tracking-wide text-2xl">
+        <h2 class="text-center md:text-left font-mwb tracking-wide text-xl md:text-2xl">
           CLINICA NOASTRĂ
         </h2>
         <p class="mt-12 text-justify font-mvl tracking-wide text-md">
@@ -208,62 +225,69 @@
     </div>
 
     <!-- Programare Online Form -->
-    <div class="pt-24 px-16">
-      <h1 class="text-center font-mwb tracking-wide text-2xl text-primary">
-        Programare Online
-      </h1>
-      <form
-        name="programare"
-        method="post"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-      >
-        <div class="mt-8 flex flex-col font-mvl text-gray text-sm">
-          <input type="hidden" name="form-name" value="programare" />
+    <div class="pt-24 px-16 md:container md:flex md:flex-row">
+      <div class="flex-shrink-0">
+        <h1 class="text-center font-mwb tracking-wide text-2xl text-primary">
+          Programare Online
+        </h1>
+        <form
+          name="programare"
+          method="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          target="_blank"
+        >
+          <div class="mt-8 flex flex-col font-mvl text-gray text-sm">
+            <input type="hidden" name="form-name" value="programare" />
 
-          <label for="name">Nume</label>
-          <input
-            class="border border-primary rounded-sm text-lg"
-            id="name"
-            type="text"
-            name="nume"
-          />
+            <label for="name">Nume</label>
+            <input
+              class="border border-primary rounded-sm text-lg"
+              id="name"
+              type="text"
+              name="nume"
+            />
 
-          <label class="mt-4" for="phone">Telefon</label>
-          <input
-            class="border border-primary rounded-sm text-lg"
-            id="phone"
-            type="text"
-            name="telefon"
-          />
+            <label class="mt-4" for="phone">Telefon</label>
+            <input
+              class="border border-primary rounded-sm text-lg"
+              id="phone"
+              type="text"
+              name="telefon"
+            />
 
-          <label class="mt-4" form="reason">Motiv</label>
-          <select
-            class="border border-primary rounded-sm text-lg"
-            id="reason"
-            name="motiv"
-          >
-            <option value="consultatie">Consultație</option>
-            <option value="igienizare">Igienizare</option>
-            <option value="urgenta">Urgență</option>
-          </select>
+            <label class="mt-4" form="reason">Motiv</label>
+            <select
+              class="border border-primary rounded-sm text-lg"
+              id="reason"
+              name="motiv"
+            >
+              <option value="consultatie">Consultație</option>
+              <option value="igienizare">Igienizare</option>
+              <option value="urgenta">Urgență</option>
+            </select>
 
-          <div class="mt-8 md:mx-0 md:mt-8 md:flex md:justify-start">
-            <div class="rounded-md shadow">
-              <button
-                type="submit"
-                class="w-full flex items-center justify-center px-10 py-2 border border-transparent font-mwsr text-sm rounded-md text-white bg-primary hover:bg-primary-light"
-              >
-                Trimite
-              </button>
+            <div class="mt-8 md:mx-0 md:mt-8 md:flex md:justify-start">
+              <div class="rounded-md shadow">
+                <button
+                  type="submit"
+                  class="w-full flex items-center justify-center px-10 py-2 border border-transparent font-mwsr text-sm rounded-md text-white bg-primary hover:bg-primary-light"
+                >
+                  Trimite
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
+      <div class="hidden md:block pl-16 pt-16">
+        <h1 class="font-mwb text-gray text-xl lg:text-2xl">Ai nevoie de o consultație periodică sau un plan de tratament?</h1>
+        <h2 class="mt-8 font-mwsr text-gray text-lg lg:text-xl">Folosește formularul online și te contactam noi!</h2>
+      </div>
     </div>
 
-    <div class="mt-20 py-16 px-16 flex flex-col bg-gradient-to-br from-primary-001 to-pink-001">
-      <div class="flex flex-col">
+    <div class="mt-20 py-2 px-16 flex flex-col bg-gradient-to-br from-primary-001 to-pink-001">
+      <div class="flex flex-col md:flex-row md:justify-around">
         <div>
           <h2 class="mt-12 font-mwsb tracking-wide text-xl">Contact</h2>
           <div class="mt-1 font-mvr tracking-wide text-md">+40 358 405 272</div>
@@ -283,7 +307,8 @@
           <div class="mt-1 font-mvr tracking-wide text-md">România</div>
         </div>
       </div>
-      <div class="mt-12 flex flex-col">
+
+      <div class="mt-12 flex flex-col md:flex-row md:justify-between md:align-baseline">
         <div class="mt-1 font-mvl tracking-wide text-sm text-primary-light">Copyright @2021 drtdentist.ro all rights reserved</div>
         <div class="mt-2 font-mvl tracking-wide text-sm text-primary-light">Politică de date</div>
       </div>
