@@ -22,7 +22,12 @@ module.exports = {
         'secondary-300': "#70A9D4",
         'secondary-400': "#527C9C",
         'secondary-500': "#405F78",
-
+      },
+      spacing: {
+        '140': "35rem",
+        '156': "39rem",
+        '160': "40rem",
+        '192': "48rem",
       },
       height: theme => ({
         "screen-adjusted": "calc(100vh - 1.5rem - 43px)", // vh - padding - logo height - gradient
@@ -38,13 +43,14 @@ module.exports = {
       backgroundImage: theme => ({
         'hero-image': "url('../images/hian-oliveira-n_L_ppO4QtY-unsplash.jpg')",
         'clinic-image': "url('../images/clinica.jpg')",
-        'hero-none': "#FFFFFF"
+        'hero-none': "#FFFFFF",
       })
     },
     container: {
       center: true,
     },
     fontFamily: {
+      mwr : ['Merriweather-Regular', 'serif'],
       mwb : ['Merriweather-Bold', 'serif'],
       mwsb: ['MerriweatherSans-Bold', 'font-sans'],
       mwsr: ['MerriweatherSans-Regular', 'font-sans'],
@@ -56,5 +62,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-question-mark'),
+  ],
 }

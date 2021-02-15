@@ -1,6 +1,6 @@
 <template>
   <header
-    class="container px-6 pt-4 pb-2 md:px-4 lg:px-2 flex flex-wrap items-center"
+    class="container px-6 pt-4 pb-2 flex flex-wrap items-center"
   >
     <div class="flex-1 lg:flex-none justify-between items-center">
       <v-link href="/">
@@ -46,12 +46,12 @@
     >
       <ul class="lg:flex lg:items-center text-sm text-primary pt-4 lg:pt-0">
         <li>
-          <span class="lg:p-4 py-3 px-0 block font-mwsr">+40 731 212 121</span>
+          <span class="pr-4 font-mwr text-lg">+40 731 212 121</span>
         </li>
         <li>
           <v-link
             href="/about"
-            class="px-6 py-3 block font-mwsr text-sm border-solid border-primary border-2 rounded-md uppercase"
+            class="px-6 py-3 block font-mwsr text-sm border-solid border-primary border-2 hover:border-primary-light hover:bg-primary-light hover:text-white rounded-md uppercase"
             >Programează-te online</v-link
           >
         </li>
