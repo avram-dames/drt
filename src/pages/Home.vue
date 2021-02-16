@@ -97,7 +97,7 @@
         <t-card
           class="lg:flex lg:justify-end lg:pr-8"
           title="Protetică"
-          flink="/tratamente-protetica"
+          flink="/protetica-dentara"
           iconName="prosthesis"
         >
           Când a sosit momentul să îți înlocuiești dinții, alege punți dentare
@@ -124,7 +124,7 @@
         <t-card
           class="lg:flex lg:justify-end lg:pr-8"
           title="Ortodonție"
-          flink="/tratamente-ortodontie"
+          flink="/tratamente-ortodontice"
           iconName="orthodontics"
         >
           Clinica noastră perfecționează zâmbete prin tratamente ortodontice
@@ -137,7 +137,7 @@
         <t-card
           class="lg:flex lg:justify-start lg:pl-4"
           title="Implantologie"
-          flink="/tratamente-implantologie"
+          flink="/implanturi-dentare"
           iconName="implant"
         >
           Implantologia este una dintre cele mai importante ramuri ale
