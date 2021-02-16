@@ -1,7 +1,5 @@
 <template>
-  <header
-    class="container px-6 pt-4 pb-2 flex flex-wrap items-center"
-  >
+  <header class="container px-6 pt-4 pb-2 flex flex-wrap items-center">
     <div class="flex-1 lg:flex-none justify-between items-center">
       <v-link href="/">
         <icon name="logo"></icon>
@@ -60,16 +58,24 @@
   </header>
 
   <slot></slot>
+
+  <appointment-form></appointment-form>
+
+  <footer-section></footer-section>
 </template>
 
 <script>
 import VLink from "../components/VLink.vue";
 import Icon from "../components/Icon.vue";
+import AppointmentForm from "../components/AppointmentForm.vue";
+import FooterSection from "../components/FooterSection.vue";
 
 export default {
   components: {
     VLink,
-    Icon
+    Icon,
+    AppointmentForm,
+    FooterSection,
   },
 };
 </script>
