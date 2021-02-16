@@ -10,6 +10,6 @@
       @apply mt-12 mb-4 font-mwsb tracking-wide text-black text-base md:text-lg lg:text-xl;
     }
     p {
-        @apply font-mvr text-black text-base text-justify;
+        @apply font-mvr text-black text-lg text-justify;
     }
   }

@@ -36,7 +36,7 @@
               <div class="rounded-md shadow">
                 <a
                   href="#"
-                  class="w-full flex items-center justify-center px-4 py-2 md:px-6 md:py-3 border border-transparent font-mwsr text-sm rounded-md text-white bg-primary hover:bg-primary-light"
+                  class="w-full flex items-center justify-center px-4 py-2 md:px-6 md:py-3 border border-transparent font-mwsr text-sm rounded-md text-white bg-primary hover:bg-primary-light shadow-md focus:shadow-none"
                 >
                   PROGRAMEAZĂ-TE ACUM
                 </a>
@@ -154,7 +154,7 @@
         <div class="rounded-md shadow">
           <v-link 
             href="/tratamente-detalii-si-preturi"
-            class="w-full flex items-center justify-center px-10 py-2 border border-transparent font-mwsr text-sm rounded-md text-white bg-secondary-300 hover:bg-secondary-200"
+            class="w-full flex items-center justify-center px-10 py-2 border border-transparent font-mwsr text-sm rounded-md text-white bg-secondary-300 hover:bg-secondary-200 shadow-md focus:shadow-none"
           >
             DETALII ȘI PREȚURI
           </v-link>
@@ -164,10 +164,10 @@
     </div>
 
     <div
-      class="hidden md:flex justify-center bg-gradient-to-br from-primary-100 to-primary-200"
+      class="hidden md:flex justify-center"
     >
-      <div class="w-160 lg:w-192 rounded-lg mx-auto my-16">
-        <h1 class="text-2xl font-mwb my-16 text-center">Echipa Noastră</h1>
+      <div class="w-160 lg:w-192 rounded-lg p-8 mt-16 bg-gradient-to-br from-primary-100 to-primary-200 shadow-md">
+        <h1 class="text-2xl font-mwb my-8 text-center">Echipa Noastră</h1>
         <p class="text-justify">
           Ne mândrim cu o echipă profesionistă, determinată să țină pasul cu
           descoperirile din domeniul stomatologiei și dornică să ofere

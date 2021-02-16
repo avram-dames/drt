@@ -9,8 +9,9 @@
     </div>
 
     <div
-      class="flex flex-col md:w-80 lg:w-96 justify-between items-center md:items-start pt-4"
+      class="flex flex-col h-80 md:h-auto md:w-80 lg:w-96 justify-between items-center md:items-start pt-4"
     >
+      <div></div>
       <div>
         <h3
           class="text-center md:text-left font-mwsb tracking-wide text-md md:text-lg lg:text-xl"
