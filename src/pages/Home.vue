@@ -152,12 +152,13 @@
       </div>
       <div class="my-12 md:mt-8 md:flex md:justify-center">
         <div class="rounded-md shadow">
-          <a
-            href="#"
+          <v-link 
+            href="/detalii"
             class="w-full flex items-center justify-center px-10 py-2 border border-transparent font-mwsr text-sm rounded-md text-white bg-secondary-300 hover:bg-secondary-200"
           >
             DETALII ȘI PREȚURI
-          </a>
+          </v-link>
+          
         </div>
       </div>
     </div>
@@ -403,11 +404,13 @@
 </template>
 
 <script>
+import VLink from "../components/VLink.vue";
 import MainLayout from "../layouts/Main.vue";
 import TCard from "../components/TCard.vue";
 
 export default {
   components: {
+    VLink,
     MainLayout,
     TCard,
   },
