@@ -45,7 +45,7 @@
                 <button
                   type="submit"
                   disabled
-                  class="w-full flex items-center justify-center px-10 py-2 border border-transparent font-mwsr text-sm rounded-md text-white bg-primary hover:bg-primary-light"
+                  class="w-full flex items-center justify-center px-10 py-2 border border-transparent font-mwsr text-sm rounded-md text-white bg-primary hover:bg-primary-light shadow-md focus:shadow-none"
                 >
                   Trimite
                 </button>

@@ -111,7 +111,7 @@
         <t-card
           class="lg:flex lg:justify-start lg:pl-4"
           title="Chirurgie"
-          flink="/tratamente-chirurgie"
+          flink="/tratamente-chirurgicale"
           iconName="syringe"
         >
           Echipa noastră de chirurgi stomatologi are o singură prioritate:
@@ -164,9 +164,9 @@
     </div>
 
     <div
-      class="hidden md:flex justify-center"
+      class="hidden md:flex mt-16 justify-center bg-gradient-to-br from-primary-100 to-primary-200"
     >
-      <div class="w-160 lg:w-192 rounded-lg p-8 mt-16 bg-gradient-to-br from-primary-100 to-primary-200 shadow-md">
+      <div class="w-160 lg:w-192 rounded-lg my-16">
         <h1 class="text-2xl font-mwb my-8 text-center">Echipa Noastră</h1>
         <p class="text-justify">
           Ne mândrim cu o echipă profesionistă, determinată să țină pasul cu
