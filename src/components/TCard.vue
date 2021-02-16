@@ -11,9 +11,12 @@
       <p class="mt-4 text-justify font-mvl tracking-wide text-md">
         <slot></slot>
       </p>
-      <p class="mt-4 text-right tracking-wide font-mvl text-sm text-secondary-300">
+      <v-link 
+      class="mt-4 text-right tracking-wide font-mvl text-sm text-secondary-300" 
+      :href="flink"
+      >
         Citește mai mult
-      </p>
+      </v-link>
     </div>
   
   </div>
@@ -21,11 +24,13 @@
 
 <script>
 import Icon from "./Icon.vue";
+import VLink from './VLink.vue';
 
 export default {
   name: "TCard",
   components: {
     Icon,
+    VLink,
   },
   props: {
     title: String,

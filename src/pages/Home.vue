@@ -21,17 +21,17 @@
               -webkit-backdrop-filter: blur(20px);
             "
           >
-            <h1
+            <div
               class="font-mwb tracking-wide text-dark text-center md:text-left text-2xl md:text-3xl lg:text-4xl"
             >
               Zâmbetul perfect începe cu o consultație gratuită
-            </h1>
-            <p
+            </div>
+            <div
               class="my-2 font-mvl tracking-wide text-justify text-dark text-sm md:text-md lg:text-lg"
             >
               Echipa noastră de dentiști din Aiud îți va reda zâmbetul și starea
               de bine! Profită de consultația ta gratuită!
-            </p>
+            </div>
             <div class="md:mt-8 md:flex md:justify-start">
               <div class="rounded-md shadow">
                 <a
@@ -57,7 +57,7 @@
     </div>
 
     <!-- Tratamente -->
-    <div class="mt-24 md:mt-0 container flex flex-col">
+    <div id="tratamente" class="mt-24 md:mt-0 container flex flex-col">
       <h2
         class="text-center font-mwb tracking-wide text-xl md:text-2xl lg:text-3xl"
       >
@@ -85,7 +85,7 @@
         <t-card
           class="lg:flex lg:justify-start lg:pl-4"
           title="Endodonție"
-          flink="/tratamente-endodontie"
+          flink="/endodontie"
           iconName="endo"
         >
           Endodonția se concentrează pe păstrarea dintelui natural cât mai mult
@@ -153,7 +153,7 @@
       <div class="my-12 md:mt-8 md:flex md:justify-center">
         <div class="rounded-md shadow">
           <v-link 
-            href="/detalii"
+            href="/tratamente-detalii-si-preturi"
             class="w-full flex items-center justify-center px-10 py-2 border border-transparent font-mwsr text-sm rounded-md text-white bg-secondary-300 hover:bg-secondary-200"
           >
             DETALII ȘI PREȚURI

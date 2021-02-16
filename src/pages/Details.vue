@@ -1,6 +1,6 @@
 <template>
   <main-layout>
-    <div class="container w-160 px-12 md:px-0">
+    <div class="container w-full md:w-160 px-4 md:px-0">
       <h1 class="text-center">Tratamente oferite de clinica noastră</h1>
 
       <h2 class="text-center">Tratamente de prevenție</h2>

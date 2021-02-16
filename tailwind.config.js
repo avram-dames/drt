@@ -36,7 +36,7 @@ module.exports = {
       }),
       width: {
         'prose': '40ch',
-        'icon-md': '4rem'
+        'icon-md': '4rem',
       },
       maxWidth: {
         'prose': '40ch'

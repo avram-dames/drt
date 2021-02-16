@@ -1,5 +1,5 @@
 <template>
-  <header class="container px-6 pt-4 pb-2 flex flex-wrap items-center">
+  <header class="container px-6 lg:px-0 pt-4 pb-2 flex flex-wrap items-center">
     <div class="flex-1 lg:flex-none justify-between items-center">
       <v-link href="/">
         <icon name="logo"></icon>
@@ -29,11 +29,11 @@
         <ul
           class="lg:flex items-center justify-between text-sm text-dark font-mwsl pt-4 lg:pt-0 lg:pl-16"
         >
-          <li><v-link href="/" class="navbar-link">Tratamente</v-link></li>
+          <li><v-link href="/tratamente-detalii-si-preturi" class="navbar-link">Tratamente</v-link></li>
           <li>
-            <v-link href="/about" class="navbar-link">Echipa Noastră</v-link>
+            <v-link href="/" class="navbar-link">Echipa Noastră</v-link>
           </li>
-          <li><v-link href="/foo" class="navbar-link">Contact</v-link></li>
+          <li><v-link href="/" class="navbar-link">Contact</v-link></li>
         </ul>
       </nav>
     </div>
@@ -47,10 +47,10 @@
           <span class="pr-4 font-mwr text-lg">+40 731 212 121</span>
         </li>
         <li>
-          <v-link
-            href="/about"
+          <a
             class="px-6 py-3 block font-mwsr text-sm border-solid border-primary border-2 hover:border-primary-light hover:bg-primary-light hover:text-white rounded-md uppercase"
-            >Programează-te online</v-link
+            @click="scrollMeTo('appointment-form')"
+            >Programează-te online</a
           >
         </li>
       </ul>
@@ -59,7 +59,7 @@
 
   <slot></slot>
 
-  <appointment-form></appointment-form>
+  <appointment-form ref="appointment-form"></appointment-form>
 
   <footer-section></footer-section>
 </template>
