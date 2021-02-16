@@ -42,7 +42,7 @@ module.exports = {
         'prose': '40ch'
       }, 
       backgroundImage: theme => ({
-        'hero-image': "url('../images/hian-oliveira-n_L_ppO4QtY-unsplash.jpg')",
+        'hero-image': "url('../images/HeroFull.jpg')",
         'clinic-image': "url('../images/clinica.jpg')",
         'hero-none': "#FFFFFF",
       })

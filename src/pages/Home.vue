@@ -48,7 +48,7 @@
         <!-- Hero Image -->
         <div class="hidden md:inline-block">
           <img
-            src="../assets/images/header.png"
+            src="../assets/images/HeroShape.png"
             alt="Photo of smiling lady by Hian Oliveira borrowd from Unsplash"
             class="w-"
           />
