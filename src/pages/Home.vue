@@ -73,7 +73,7 @@
         <t-card
           class="lg:flex lg:justify-end lg:pr-8"
           title="Prevenție"
-          flink="/tratamente-preventive"
+          flink="/tratamente-de-preventie"
           iconName="tooth"
         >
           Primul pas spre un zâmbet sănătos este prevenția. Controalele regulate

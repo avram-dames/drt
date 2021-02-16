@@ -2,5 +2,6 @@ export default {
     '/': 'Home',
     '/about': 'About',
     '/tratamente-detalii-si-preturi': 'Details',
-    '/endodontie': 'Endo'
+    '/endodontie': 'Endo',
+    '/tratamente-de-preventie': 'Prevention'
   }
