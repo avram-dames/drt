@@ -41,7 +41,7 @@
                   PROGRAMEAZĂ-TE ACUM
                 </a>
               </div>
-            </div>
+            </div> 
           </div>
         </div>
 

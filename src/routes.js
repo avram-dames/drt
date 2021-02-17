@@ -7,5 +7,5 @@ export default {
     '/tratamente-chirurgicale': 'Surgery',
     '/implanturi-dentare': 'Implant',
     '/tratamente-ortodontice': 'Orto',
-    '/protetica-dentara': 'Prosthetics'
+    '/protetica-dentara': 'Prosthetics',
   }
