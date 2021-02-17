@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'xs': '360px',
+        // 'xs': '360px',
       },
       colors: {
         'primary-001': "#FFFAF2",
@@ -57,6 +57,8 @@ module.exports = {
       mwsr: ['MerriweatherSans-Regular', 'font-sans'],
       mwsl: ['MerriweatherSans-Light', 'font-sans'],
       mvr: ['MuktaVanni-Regular', 'font-sans'],
+      mvb: ['MuktaVanni-Bold', 'font-sans'],
+      mveb: ['MuktaVanni-ExtraBold', 'font-sans'],
       mvl: ['MuktaVanni-Light', 'font-sans'],
     },
   },

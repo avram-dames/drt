@@ -127,6 +127,18 @@ export default {
     url(../assets/fonts/Mukta_Vaani/MuktaVaani-Light.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "MuktaVanni-ExtraBold";
+  src: local("MuktaVanni-ExtraBold"),
+    url(../assets/fonts/Mukta_Vaani/MuktaVaani-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MuktaVanni-Bold";
+  src: local("MuktaVanni-Bold"),
+    url(../assets/fonts/Mukta_Vaani/MuktaVaani-ExtraBold.ttf) format("truetype");
+}
+
 #menu-toggle:checked + #menu {
   display: block;
 }
