@@ -88,7 +88,7 @@ export default {
   },
   computed: {
     service() {
-      return store.services.find((s) => s.name == this.serviceName);
+      return store.services.find((s) => s.id == 4);
     },
   },
 };

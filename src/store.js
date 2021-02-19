@@ -256,7 +256,7 @@ export default {
     },
     {
       id: 2,
-      name: 'Isolated',
+      name: 'Prevention',
       isComponent: false,
       title: {
         ro: 'Nu afectează dinții învecinați',
@@ -267,7 +267,7 @@ export default {
     },
     {
       id: 3,
-      name: 'Unrestrictive',
+      name: 'Prevention',
       isComponent: false,
       title: {
         ro: 'Nu restricționează masticația',
@@ -278,7 +278,7 @@ export default {
     },
     {
       id: 4,
-      name: 'Resilient',
+      name: 'Prevention',
       isComponent: false,
       title: {
         ro: 'Garantează o rezistență mai mare',
