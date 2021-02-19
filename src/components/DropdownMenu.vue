@@ -26,6 +26,7 @@
     >
       <div
         v-show="isOpen"
+        @click="toggleOff"
         class="origin-top-right absolute -right-1/2 text-center rounded-md w-52 shadow-lg bg-white"
       >
         <div
@@ -33,39 +34,14 @@
           aria-orientation="vertical"
           aria-labelledby="options-menu"
         >
-          <v-link
-            href="/tratamente-de-preventie"
+          <router-link
+            v-for="service in services"
+            :key="service.id"
+            :to="{name: service.name}"
             role="menuitem"
             class="navbar-link"
-            >Prevenție</v-link
-          >
-          <v-link href="/endodontie" role="menuitem" class="navbar-link"
-            >Endodonție</v-link
-          >
-          <v-link href="/protetica-dentara" role="menuitem" class="navbar-link"
-            >Protetică</v-link
-          >
-          <v-link
-            href="/tratamente-chirurgicale"
-            role="menuitem"
-            class="navbar-link"
-            >Chirurgie</v-link
-          >
-          <v-link
-            href="/tratamente-ortodontice"
-            role="menuitem"
-            class="navbar-link"
-            >Ortodonție</v-link
-          >
-          <v-link href="/implanturi-dentare" role="menuitem" class="navbar-link"
-            >Implantologie</v-link
-          >
-          <v-link
-            href="/tratamente-detalii-si-preturi"
-            role="menuitem"
-            class="navbar-link"
-            >Detalii și Prețuri</v-link
-          >
+            >{{ service.title.ro}}
+          </router-link>
         </div>
       </div>
     </transition>
@@ -73,17 +49,21 @@
 </template>
 
 <script>
-import VLink from "./VLink";
+import store from '@/store'
 
 export default {
   name: "DropdownMenu",
   data() {
     return {
       isOpen: false,
+      services: store.services
     };
   },
-  components: {
-    VLink,
+  methods: {
+    toggleOff() {
+      this.isOpen = false
+    }
   },
+  components: {},
 };
 </script>

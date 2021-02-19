@@ -42,47 +42,11 @@
         </h2>
         <div class="mt-8 md:mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2">
           <t-card
+            v-for="benefit in benefits"
+            :key="benefit.id"
+            :body="benefit"
             class="lg:flex lg:justify-end lg:pr-8"
-            title="Previne migrarea dinților"
-            flink=""
-            iconName="prosthesis"
-          >
-            Implantul unei rădăcini artificiale previne procesul de migrare a
-            dinților învecinați spre spațiul gol rămas după extracție, păstrând
-            astfel forma naturală a maxilarului și prevenind posibile
-            complicații de vorbire sau masticație.
-          </t-card>
-          <t-card
-            class="lg:flex lg:justify-start lg:pl-4"
-            title="Nu restricționează masticația"
-            flink=""
-            iconName="endo"
-          >
-            Comparativ cu punțile sau protezele (backlink la proteze, daca
-            există) clasice, un implant dentar este mai stabil și nu acoperă
-            cerul gurii. De aceea, pacienții cu implanturi dentare se pot bucura
-            de o gamă mai largă de produse alimentare.
-          </t-card>
-          <t-card
-            class="lg:flex lg:justify-end lg:pr-8"
-            title="Garantează o rezistență mai mare"
-            flink="/protetica-dentara"
-            iconName="prosthesis"
-          >
-            Implantele dentare au o durată de viață superioară altor lucrări
-            protetice. Implantul de titan poate rezista pe durata întregii
-            vieți, pentru că este asimilat de organism, spre deosebire de o
-            coroană dentară, care are o durată de viață intre 5 și 15 ani.
-          </t-card>
-          <t-card
-            class="lg:flex lg:justify-start lg:pl-4"
-            title="Nu afectează dinții învecinați"
-            flink="/tratamente-chirurgicale"
-            iconName="syringe"
-          >
-            Pe lângă prevenirea migrării dinților, procedura de implant dentar
-            nu compromite dinții adiacenți pentru construcția de punți.
-          </t-card>
+          />
         </div>
       </div>
 
@@ -202,11 +166,17 @@
 <script>
 import PriceTable from "../components/PriceTable.vue";
 import TCard from "../components/TCard.vue";
+import store from '@/store'
 
 export default {
   components: {
     PriceTable,
     TCard,
   },
+  data() {
+    return {
+      benefits: store.dentalImplantBenefits
+    }
+  }
 };
 </script>

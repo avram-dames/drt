@@ -2,15 +2,14 @@
   <nav-bar></nav-bar>
   <router-view :key="$route.path" />
 
-  <appointment-form ref="appointment-form"></appointment-form>
-
-  <footer-section></footer-section>
+  <appointment-form id="appointment-form"></appointment-form>
+  <footer-section id="contact"></footer-section>
 </template>
 
 <script>
 import NavBar from "./components/NavBar";
-import AppointmentForm from "./components/AppointmentForm.vue";
 import FooterSection from "./components/FooterSection.vue";
+import AppointmentForm from "@/components/AppointmentForm.vue";
 import './assets/styles/main.css';
 
 export default {

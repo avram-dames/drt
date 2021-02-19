@@ -2,40 +2,40 @@
   <div class="mt-8 flex">
     <!-- Icon -->
     <div class="flex justify-end w-1/6 lg:w-16">
-      <icon :name=iconName></icon>
+      <icon :name="body.name"></icon>
     </div>
-    
+
     <!-- Text -->
     <div class="flex flex-col w-5/6 pl-4 pr-16 md:pr-0 md:w-72 lg:w-prose">
-      <div class="font-mwsb tracking-wide text-md">{{ title }}</div>
+      <div class="font-mwsb tracking-wide text-md">{{ body.title.ro }}</div>
       <p class="mt-4 text-justify font-mvl tracking-wide text-md">
-        <slot></slot>
+        {{ body.description.ro}}
       </p>
-      <v-link 
-      class="mt-4 text-right tracking-wide font-mvl text-sm text-secondary-300" 
-      :href="flink"
+      <router-link
+        v-if="body.isComponent"
+        :to="{ name: body.name }"
+        class="mt-4 text-right tracking-wide font-mvl text-sm text-secondary-300"
+        :key="body.id"
       >
         Citește mai mult
-      </v-link>
+      </router-link>
     </div>
-  
   </div>
 </template>
 
 <script>
 import Icon from "./Icon.vue";
-import VLink from './VLink.vue';
 
 export default {
   name: "TCard",
   components: {
     Icon,
-    VLink,
   },
   props: {
-    title: String,
-    iconName: String,
-    flink: String,
-  },
+    body: {
+      type: Object,
+      required: true,
+    },
+  }
 };
 </script>

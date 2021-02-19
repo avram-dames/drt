@@ -20,10 +20,6 @@
 
 @layer components {
   .navbar-link {
-    @apply lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-primary;
-  }
-
-  .navbar-sublink {
-    @apply lg:p-4 py-2 px-0  border-b-2 border-transparent hover:border-primary;
+    @apply lg:p-4 py-3 px-0 font-mwsr text-black block border-b-2 border-transparent hover:border-primary;
   }
 }

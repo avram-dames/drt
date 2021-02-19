@@ -1,9 +1,9 @@
 <template>
   <header class="container px-6 lg:px-0 pt-4 pb-2 flex flex-wrap items-center">
     <div class="flex-1 lg:flex-none justify-between items-center">
-      <v-link href="/">
+      <router-link to="/">
         <icon name="logo"></icon>
-      </v-link>
+      </router-link>
     </div>
 
     <!-- Mobile Toggle -->
@@ -24,70 +24,37 @@
       <nav class="dividy-solid divide-y divide-black">
         <ul class="lg:flex lg:items-center lg:justify-between">
           <li class="hidden lg:block"><dropdown-menu></dropdown-menu></li>
-          <li>
-            <v-link href="/" class="navbar-link lg:hidden">Home</v-link>
+          <li class="navbar-link lg:hidden" @click="toggleOff">
+            <router-link :to="{ name: 'Home' }"> Home </router-link>
           </li>
-          <li>
-            <v-link href="/" class="navbar-link">Echipa Noastră</v-link>
+          <li class="navbar-link" @click="toggleOff">
+            <a href="/#echipa-noastra"> Echipa Noastră </a>
           </li>
-          <li>
-            <v-link href="/" class="navbar-link">Contact</v-link>
+          <li class="navbar-link" @click="toggleOff">
+            <a href="#contact"> Contact </a>
           </li>
         </ul>
 
         <ul class="lg:hidden">
-          <li class="text-xl font-mwsb my-4">Tratamente</li>
-          <li>
-            <v-link
-              href="/tratamente-de-preventie"
+          <li class="text-xl font-mwsb my-4" role="menuitem">Tratamente</li>
+          <li
+            v-for="service in services"
+            :key="service.id"
+            @click="toggleOff"
+          >
+            <router-link 
+              :to="{ name: service.name }" 
               role="menuitem"
               class="navbar-link"
-              >Prevenție</v-link
-            >
+              >{{ service.title.ro }}
+            </router-link>
           </li>
-          <li>
-            <v-link href="/endodontie" role="menuitem" class="navbar-link"
-              >Endodonție</v-link
-            >
-          </li>
-          <li>
-            <v-link
-              href="/protetica-dentara"
+          <li @click="toggleOff">
+            <router-link
+              :to="{name: 'Details'}"
               role="menuitem"
               class="navbar-link"
-              >Protetică</v-link
-            >
-          </li>
-          <li>
-            <v-link
-              href="/tratamente-chirurgicale"
-              role="menuitem"
-              class="navbar-link"
-              >Chirurgie</v-link
-            >
-          </li>
-          <li>
-            <v-link
-              href="/tratamente-ortodontice"
-              role="menuitem"
-              class="navbar-link"
-              >Ortodonție</v-link
-            >
-          </li>
-          <li>
-            <v-link
-              href="/implanturi-dentare"
-              role="menuitem"
-              class="navbar-link"
-              >Implantologie</v-link
-            >
-          </li>
-          <li>
-            <v-link
-              href="/tratamente-detalii-si-preturi"
-              role="menuitem"
-              class="navbar-link"
-              >Detalii și Prețuri</v-link
+              >Detalii și Prețuri</router-link
             >
           </li>
         </ul>
@@ -100,14 +67,15 @@
     >
       <ul class="lg:flex lg:items-center text-sm text-primary pt-4 lg:pt-0">
         <li>
-          <span class="pr-4 font-mwr text-lg">+40 731 212 121</span>
+          <span class="pr-4 font-mwr text-lg">+40 358 405 272</span>
         </li>
         <li>
-          <button
-            class="px-6 py-3 block font-mwsr text-sm border-solid border-primary border-2 hover:border-primary-light hover:bg-primary-light hover:text-white rounded-md uppercase"
-            @click="scrollMeTo('appointment-form')"
-            >Programează-te online
-          </button>
+          <a
+            href="#appointment-form"
+            class="px-6 py-3 block font-mwsr text-sm border-solid border-primary border-2 hover:border-primary-light hover:bg-primary-light hover:text-white rounded-md"
+          >
+            Programare Online
+          </a>
         </li>
       </ul>
     </div>
@@ -116,20 +84,25 @@
 
 <script>
 import Icon from "./Icon.vue";
-import VLink from "./VLink.vue";
 import DropdownMenu from "./DropdownMenu";
+import store from "@/store";
 
 export default {
   name: "NavigationBar",
   components: {
     Icon,
-    VLink,
     DropdownMenu,
   },
   data() {
     return {
       menuToggleOn: false,
+      services: store.services,
     };
   },
+  methods: {
+    toggleOff() {
+      this.menuToggleOn = false
+    }
+  }
 };
 </script>

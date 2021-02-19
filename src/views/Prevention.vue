@@ -38,7 +38,7 @@
     <!-- Treatment Steps -->
     <div class="px-6 max-w-2xl">
       <h2 class="text-center">Ce este tartrul?</h2>
-      <img src="../assets/images/Plaque.png" alt="" class="float-right p-4 ?" />
+      <img src="../assets/images/Plaque.png" alt="" class="float-right p-4" />
       <p>
         Tartrul este o substanță de culoare galben-brună, formată prin
         mineralizarea plăcii bacteriene, care se solidifică pe suprafața

@@ -38,7 +38,7 @@
   </svg>
 
   <svg
-    v-if="name === 'tooth'"
+    v-if="name === 'Prevention'"
     width="57"
     height="65"
     viewBox="0 0 57 65"
@@ -87,7 +87,7 @@
   </svg>
 
   <svg
-    v-if="name === 'endo'"
+    v-if="name === 'Endodontics'"
     width="52"
     height="67"
     viewBox="0 0 52 67"
@@ -107,7 +107,7 @@
   </svg>
 
   <svg
-    v-if="name === 'orthodontics'"
+    v-if="name === 'Orthodontics'"
     width="58"
     height="66"
     viewBox="0 0 58 66"
@@ -172,7 +172,7 @@
   </svg>
 
   <svg
-    v-if="name === 'prosthesis'"
+    v-if="name === 'Prosthetics'"
     width="50"
     height="23"
     viewBox="0 0 50 23"
@@ -187,7 +187,7 @@
   </svg>
 
   <svg
-    v-if="name === 'syringe'"
+    v-if="name === 'Surgery'"
     width="50"
     height="48"
     viewBox="0 0 50 48"
@@ -276,7 +276,7 @@
   </svg>
 
   <svg
-    v-if="name === 'implant'"
+    v-if="name === 'Implantology'"
     width="57"
     height="80"
     viewBox="0 0 57 80"

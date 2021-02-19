@@ -35,7 +35,7 @@
             <div class="md:mt-8 md:flex md:justify-start">
               <div class="rounded-md shadow">
                 <a
-                  href="#"
+                  href="#appointment-form"
                   class="w-full flex items-center justify-center px-4 py-2 md:px-6 md:py-3 border border-transparent font-mwsr text-sm rounded-md text-white bg-primary hover:bg-primary-light shadow-md focus:shadow-none"
                 >
                   PROGRAMEAZĂ-TE ACUM
@@ -70,99 +70,27 @@
         surprinzător de avantajoase!
       </div>
       <div class="mt-8 md:mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2">
-        <t-card
+        <t-card 
+          v-for="service in services"
+          :key="service.id"
+          :body="service"
           class="lg:flex lg:justify-end lg:pr-8"
-          title="Prevenție"
-          flink="/tratamente-de-preventie"
-          iconName="tooth"
-        >
-          Primul pas spre un zâmbet sănătos este prevenția. Controalele regulate
-          și tratamentele de igienizare profesională bianuale sunt recomandate
-          de medicii dentiști din toată lumea pentru prevenția cariilor și a
-          afecțiunilor gingivale. Alege un dentist în Aiud căruia îi pasă! Alege
-          DRT Dentist!
-        </t-card>
-        <t-card
-          class="lg:flex lg:justify-start lg:pl-4"
-          title="Endodonție"
-          flink="/endodontie"
-          iconName="endo"
-        >
-          Endodonția se concentrează pe păstrarea dintelui natural cât mai mult
-          timp posibil. Echipa noastră de dentiști din Aiud-Cluj are experiența
-          necesară pentru a trata straturile interioare ale dintelui,
-          contribuind astfel la prelungirea duratei sale de viață. Salvează-ți
-          dinții cu tratamente stomatologice de ultimă generație!
-        </t-card>
-        <t-card
-          class="lg:flex lg:justify-end lg:pr-8"
-          title="Protetică"
-          flink="/protetica-dentara"
-          iconName="prosthesis"
-        >
-          Când a sosit momentul să îți înlocuiești dinții, alege punți dentare
-          sau proteze care să reziste! Lipsa unui dinte sau a unui grup de dinți
-          se va răsfrânge dincolo de aspectul estetic. De la probleme de
-          masticație și afecțiuni ale cavității bucale la afecțiuni ale
-          articulației gurii și afecțiuni digestive, lipsa dinților îți poate
-          afecta calitatea vieții. Profită de serviciile de protetică oferite de
-          echipa noastră de dentiști din Aiud!
-        </t-card>
-        <t-card
-          class="lg:flex lg:justify-start lg:pl-4"
-          title="Chirurgie"
-          flink="/tratamente-chirurgicale"
-          iconName="syringe"
-        >
-          Echipa noastră de chirurgi stomatologi are o singură prioritate:
-          salvarea dinților tăi naturali! Clinica noastră se mândrește cu
-          tratamente chirurgicale de ultimă generație, care reduc la minim
-          durerea și maximizează eficacitatea procedurilor chirurgicale. Ne
-          concentrăm pe rezolvarea rapidă a complicațiilor dentare și gingivale
-          și mizăm pe rezultate rapide, ușoare și fără durere!
-        </t-card>
-        <t-card
-          class="lg:flex lg:justify-end lg:pr-8"
-          title="Ortodonție"
-          flink="/tratamente-ortodontice"
-          iconName="orthodontics"
-        >
-          Clinica noastră perfecționează zâmbete prin tratamente ortodontice
-          moderne. Folosind aparate dentare fixe sau mobile, ne asigurăm că
-          dinții strâmbi sau înghesuiți rămân doar o amintire. Mai mult decât
-          atât, tratamentele ortodontice nu numai că vor corecta dantura, dar
-          vor contribui și la menținerea unei igiene orale impecabile și vor
-          reduce riscul apariției cariilor.
-        </t-card>
-        <t-card
-          class="lg:flex lg:justify-start lg:pl-4"
-          title="Implantologie"
-          flink="/implanturi-dentare"
-          iconName="implant"
-        >
-          Implantologia este una dintre cele mai importante ramuri ale
-          stomatologiei datorită rolului vital pe care îl joacă în păstrarea
-          unei danturi frumoase și sănătoase. Implanturile dentare se remarcă
-          datorită rezistenței în timp și nu compromit dinții alăturați. Cu cât
-          se acționează mai repede pentru înlocuirea dintelui extras, cu atât
-          mai bine pentru întreaga dantură! Descoperă materialele și tehnologia
-          de ultimă generație utilizate pentru implanturi de către medicii
-          noștri dentiști din Aiud!
-        </t-card>
+        />
       </div>
       <div class="my-12 md:mt-8 md:flex md:justify-center">
         <div class="rounded-md shadow">
-          <v-link 
-            href="/tratamente-detalii-si-preturi"
+          <router-link
+            :to="{name: 'Details'}"
             class="w-full flex items-center justify-center px-10 py-2 border border-transparent font-mwsr text-sm rounded-md text-white bg-secondary-300 hover:bg-secondary-200 shadow-md focus:shadow-none"
           >
             DETALII ȘI PREȚURI
-          </v-link>
+          </router-link>
           
         </div>
       </div>
     </div>
 
+    <section id="echipa-noastra">
     <div
       class="hidden md:flex mt-16 justify-center bg-gradient-to-br from-primary-100 to-primary-200"
     >
@@ -183,6 +111,8 @@
 
     <!-- Carousel -->
     <carousel></carousel>
+
+    </section>
 
     <!-- Clinica Noastra -->
     <div class="mt-16 flex flex-col md:flex-row">
@@ -222,19 +152,25 @@
         </p>
       </div>
     </div>
+
+    
   </div>
 </template>
 
 <script>
-import VLink from "../components/VLink.vue";
-import TCard from "../components/TCard.vue";
-import Carousel from '../components/Carousel.vue';
+import TCard from "@/components/TCard.vue";
+import Carousel from '@/components/Carousel.vue';
+import store from '@/store'
 
 export default {
   components: {
-    VLink,
     TCard,
     Carousel,
+  },
+  data() {
+    return {
+      services: store.services
+    }
   }
 };
 </script>
