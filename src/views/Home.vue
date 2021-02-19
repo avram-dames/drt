@@ -1,5 +1,5 @@
 <template>
-  <main-layout>
+  <div>
     <div class="h-screen-adjusted bg-hero-image bg-cover md:container">
       <!-- Gradient step for mobile -->
       <div
@@ -222,20 +222,17 @@
         </p>
       </div>
     </div>
-
-  </main-layout>
+  </div>
 </template>
 
 <script>
 import VLink from "../components/VLink.vue";
-import MainLayout from "../layouts/Main.vue";
 import TCard from "../components/TCard.vue";
 import Carousel from '../components/Carousel.vue';
 
 export default {
   components: {
     VLink,
-    MainLayout,
     TCard,
     Carousel,
   }

@@ -1,4 +1,5 @@
-export default {
+{
+    routes: {
     '/': 'Home',
     '/about': 'About',
     '/tratamente-detalii-si-preturi': 'Details',
@@ -9,3 +10,4 @@ export default {
     '/tratamente-ortodontice': 'Orto',
     '/protetica-dentara': 'Prosthetics',
   }
+}

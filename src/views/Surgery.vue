@@ -1,5 +1,5 @@
 <template>
-  <main-layout>
+  <div>
     <!-- Hero -->
     <div
       class="container flex flex-col md:flex-row justify-around items-center"
@@ -69,16 +69,14 @@
       <!-- Price Table -->
       <price-table></price-table>
     </div>
-  </main-layout>
+  </div>
 </template>
 
 <script>
-import MainLayout from "../layouts/Main.vue";
 import PriceTable from "../components/PriceTable.vue";
 
 export default {
   components: {
-    MainLayout,
     PriceTable,
   },
 };

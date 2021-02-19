@@ -1,5 +1,5 @@
 <template>
-  <main-layout>
+  <div>
     <div class="container w-full md:w-160 px-4 md:px-0">
       <h1 class="text-center">Tratamente oferite de clinica noastră</h1>
 
@@ -56,16 +56,14 @@
       </p>
       <price-table :rows="tables.ortodentie"></price-table>
     </div>
-  </main-layout>
+  </div>
 </template>
 
 <script>
-import MainLayout from "../layouts/Main.vue";
 import PriceTable from "../components/PriceTable.vue";
 
 export default {
   components: {
-    MainLayout,
     PriceTable,
   },
   data() {

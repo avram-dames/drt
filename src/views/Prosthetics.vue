@@ -1,5 +1,5 @@
 <template>
-  <main-layout>
+  <div>
     <div class="container px-4">
       <!-- Hero -->
       <div class="flex flex-col md:flex-row justify-between items-center">
@@ -158,17 +158,15 @@
         <dropdown-menu></dropdown-menu>
       </div>
     </div>
-  </main-layout>
+  </div>
 </template>
 
 <script>
-import MainLayout from "../layouts/Main.vue";
 import PriceTable from "../components/PriceTable.vue";
 import DropdownMenu from '../components/DropdownMenu.vue';
 
 export default {
   components: {
-    MainLayout,
     PriceTable,
     DropdownMenu,
   },
