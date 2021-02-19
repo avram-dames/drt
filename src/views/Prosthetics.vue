@@ -151,24 +151,29 @@
       </div>
 
       <!-- Price Table -->
-      <price-table></price-table>
-
-      <!-- This example requires Tailwind CSS v2.0+ -->
-      <div class="flex flex-row justify-center">
-        <dropdown-menu></dropdown-menu>
-      </div>
+      <price-table :rows="service.priceTable.rows.ro"></price-table>
     </div>
   </div>
 </template>
 
 <script>
+import store from '@/store'
 import PriceTable from "../components/PriceTable.vue";
-import DropdownMenu from '../components/DropdownMenu.vue';
 
 export default {
   components: {
     PriceTable,
-    DropdownMenu,
+  },
+    props: {
+    serviceName: {
+      type: String,
+      required: true,
+    },
+  },
+  computed: {
+    service() {
+      return store.services.find((s) => s.name == this.serviceName);
+    },
   },
 };
 </script>

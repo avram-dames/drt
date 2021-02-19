@@ -9,11 +9,14 @@
     <div class="flex flex-col w-5/6 pl-4 pr-16 md:pr-0 md:w-72 lg:w-prose">
       <div class="font-mwsb tracking-wide text-md">{{ body.title.ro }}</div>
       <p class="mt-4 text-justify font-mvl tracking-wide text-md">
-        {{ body.description.ro}}
+        {{ body.description.ro }}
       </p>
       <router-link
         v-if="body.isComponent"
-        :to="{ name: body.name }"
+        :to="{
+          name: body.name,
+          params: { serviceName: body.name },
+        }"
         class="mt-4 text-right tracking-wide font-mvl text-sm text-secondary-300"
         :key="body.id"
       >
@@ -36,6 +39,6 @@ export default {
       type: Object,
       required: true,
     },
-  }
+  },
 };
 </script>

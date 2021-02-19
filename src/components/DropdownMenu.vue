@@ -37,11 +37,20 @@
           <router-link
             v-for="service in services"
             :key="service.id"
-            :to="{name: service.name}"
+            :to="{
+              name: service.name,
+              params: { serviceName: service.name }
+            }"
             role="menuitem"
             class="navbar-link"
-            >{{ service.title.ro}}
+            >{{ service.title.ro }}
           </router-link>
+          <router-link
+            :to="{ name: 'Details' }"
+            role="menuitem"
+            class="navbar-link"
+            >Detalii și Prețuri</router-link
+          >
         </div>
       </div>
     </transition>
@@ -49,20 +58,20 @@
 </template>
 
 <script>
-import store from '@/store'
+import store from "@/store";
 
 export default {
   name: "DropdownMenu",
   data() {
     return {
       isOpen: false,
-      services: store.services
+      services: store.services,
     };
   },
   methods: {
     toggleOff() {
-      this.isOpen = false
-    }
+      this.isOpen = false;
+    },
   },
   components: {},
 };

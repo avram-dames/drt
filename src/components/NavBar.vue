@@ -43,7 +43,10 @@
             @click="toggleOff"
           >
             <router-link 
-              :to="{ name: service.name }" 
+              :to="{ 
+                name: service.name,
+                params: { serviceName: service.name }
+                }"
               role="menuitem"
               class="navbar-link"
               >{{ service.title.ro }}

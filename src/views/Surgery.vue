@@ -67,17 +67,29 @@
 
     <div class="container w-full md:w-160 px-4 md:px-0">
       <!-- Price Table -->
-      <price-table></price-table>
+      <price-table :rows="service.priceTable.rows.ro"></price-table>
     </div>
   </div>
 </template>
 
 <script>
+import store from "@/store";
 import PriceTable from "../components/PriceTable.vue";
 
 export default {
   components: {
     PriceTable,
+  },
+  props: {
+    serviceName: {
+      type: String,
+      required: true,
+    },
+  },
+  computed: {
+    service() {
+      return store.services.find((s) => s.name == this.serviceName);
+    },
   },
 };
 </script>

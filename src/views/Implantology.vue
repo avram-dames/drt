@@ -51,114 +51,113 @@
       </div>
 
       <!-- Etapele Tratamentului -->
-        <h2>Etapele Implantului Dentar</h2>
-        <div class="flex flex-col md:flex-row justify-between">
-          <div class="md:w-2/3 md:pr-4 flex flex-col justify-around">
-            <div>
-              <h3>Consultația și planul de tratament</h3>
-              <img src="../assets/images/1.svg" alt="" class="p-4 float-left" />
-              <p>
-                Planul de tratament este stabilit de medicul specialist, pe baza
-                unei radiografii panoramice. În unele cazuri, este nevoie și de
-                o scanare CT, în special atunci când radiografia simplă nu
-                reflectă clar volumul osului. Dacă pacientul suferă de afecțiuni
-                cronice, medicul implantolog poate recomanda efectuarea unor
-                analize suplimentare.
-              </p>
-              <p class="mt-4">
-                De obicei, planul de tratament cuprinde procedura de inserarea a
-                rădăcinii din titan și montarea bontului de prindere și a
-                coroanei dentare. Acest plan va conține o estimare a costurilor
-                și a programărilor calendaristice.
-              </p>
-              <p class="mt-4">
-                Uneori, este necesar ca planul de tratament sa conțină și
-                proceduri de creștere a volumului de os, prin adiție osoasă și,
-                eventual, sinus lifting.
-              </p>
-            </div>
+      <h2>Etapele Implantului Dentar</h2>
+      <div class="flex flex-col md:flex-row justify-between">
+        <div class="md:w-2/3 md:pr-4 flex flex-col justify-around">
+          <div>
+            <h3>Consultația și planul de tratament</h3>
+            <img src="../assets/images/1.svg" alt="" class="p-4 float-left" />
+            <p>
+              Planul de tratament este stabilit de medicul specialist, pe baza
+              unei radiografii panoramice. În unele cazuri, este nevoie și de o
+              scanare CT, în special atunci când radiografia simplă nu reflectă
+              clar volumul osului. Dacă pacientul suferă de afecțiuni cronice,
+              medicul implantolog poate recomanda efectuarea unor analize
+              suplimentare.
+            </p>
+            <p class="mt-4">
+              De obicei, planul de tratament cuprinde procedura de inserarea a
+              rădăcinii din titan și montarea bontului de prindere și a coroanei
+              dentare. Acest plan va conține o estimare a costurilor și a
+              programărilor calendaristice.
+            </p>
+            <p class="mt-4">
+              Uneori, este necesar ca planul de tratament sa conțină și
+              proceduri de creștere a volumului de os, prin adiție osoasă și,
+              eventual, sinus lifting.
+            </p>
           </div>
-          <img
-            src="../assets/images/ImplantStep1.png"
-            alt=""
-            class="object-scale-down"
-          />
         </div>
+        <img
+          src="../assets/images/ImplantStep1.png"
+          alt=""
+          class="object-scale-down"
+        />
+      </div>
 
-        <div class="mt-12 flex flex-col md:flex-row justify-between">
-          <div class="md:w-2/3 md:pl-4 lg:pr-8 flex flex-col justify-around">
-            <div>
-              <h3>Inserarea chirurgicală a implantului</h3>
-              <img src="../assets/images/2.svg" alt="" class="p-4 float-left" />
-              <p>
-                Inserarea unui implant dentar în os se face sub anestezie
-                locală. Procedura nu este dureroasă și are o durată de
-                aproximativ 30 de minute. În funcție de caz, după inserare,
-                implantul poate fi acoperit cu gingia, pentru a facilita
-                procesul de osteointegrare sau se poate continua cu montarea
-                bontului și atașarea coroanei.
-              </p>
-            </div>
-            <div>
-              <h3>Perioada de osteointegrarea</h3>
-              <img src="../assets/images/3.svg" alt="" class="p-4 float-left" />
-              <p>
-                De cele mai multe ori, implantul dentar presupune o perioadă de
-                vindecare între inserarea implantului și montarea bontului și a
-                coroanei dentare. Această perioadă poate dura de la 3 la 6 luni,
-                în funcție de recomandarea medicul implantolog.
-              </p>
-            </div>
+      <div class="mt-12 flex flex-col md:flex-row justify-between">
+        <div class="md:w-2/3 md:pl-4 lg:pr-8 flex flex-col justify-around">
+          <div>
+            <h3>Inserarea chirurgicală a implantului</h3>
+            <img src="../assets/images/2.svg" alt="" class="p-4 float-left" />
+            <p>
+              Inserarea unui implant dentar în os se face sub anestezie locală.
+              Procedura nu este dureroasă și are o durată de aproximativ 30 de
+              minute. În funcție de caz, după inserare, implantul poate fi
+              acoperit cu gingia, pentru a facilita procesul de osteointegrare
+              sau se poate continua cu montarea bontului și atașarea coroanei.
+            </p>
           </div>
-          <img
-            src="../assets/images/ImplantStep2.png"
-            alt=""
-            class="object-scale-down md:order-first"
-          />
-        </div>
-
-        <div class="mt-12 flex flex-col md:flex-row justify-between">
-          <div class="md:w-2/3 md:pr-4 flex flex-col justify-around">
-            <div>
-              <h3>Montarea bonturilor</h3>
-              <img src="../assets/images/4.svg" alt="" class="p-4 float-left" />
-              <p class="">
-                La finalul perioadei de osteointegrare, se montează, pentru o
-                perioadă de 2-3 săptămâni, un bont de vindecare, ce ajută gingia
-                să capete o formă naturală. Apoi, se atașează o altă piesă,
-                numită bont protetic, care va constitui suportul pentru coroana
-                dentară ce va înlocui dintele lipsă.
-              </p>
-            </div>
-            <div>
-              <h3 class="mt-12">Atașarea Coroanei</h3>
-              <img src="../assets/images/5.svg" alt="" class="p-4 float-left" />
-              <p>
-                Coroana este realizată de tehnicianul dentar, conform
-                specificațiilor medicului implantolog. Aceasta urmează a fi
-                cimentată pe bont, rezultând astfel un dinte perfect funcțional
-                și estetic.
-              </p>
-            </div>
+          <div>
+            <h3>Perioada de osteointegrarea</h3>
+            <img src="../assets/images/3.svg" alt="" class="p-4 float-left" />
+            <p>
+              De cele mai multe ori, implantul dentar presupune o perioadă de
+              vindecare între inserarea implantului și montarea bontului și a
+              coroanei dentare. Această perioadă poate dura de la 3 la 6 luni,
+              în funcție de recomandarea medicul implantolog.
+            </p>
           </div>
-          <img
-            src="../assets/images/ImplantStep3.png"
-            alt=""
-            class="object-scale-down"
-          />
         </div>
+        <img
+          src="../assets/images/ImplantStep2.png"
+          alt=""
+          class="object-scale-down md:order-first"
+        />
+      </div>
 
-        <p>
-          Implantul dentar este recomandat de medici din întreaga lume pentru
-          că, spre deosebire de punțile sau protezele clasice, acesta este mai
-          estetic, mai funcțional, mai rezistent și prezintă mai puține riscuri.
-          Procedura de implant dentar este specialitatea clinicii noastre,
-          echipa noastră oferind servicii de înaltă calitate la costuri sub
-          nivelul celor din clinicile din marile orașe.
-        </p>
+      <div class="mt-12 flex flex-col md:flex-row justify-between">
+        <div class="md:w-2/3 md:pr-4 flex flex-col justify-around">
+          <div>
+            <h3>Montarea bonturilor</h3>
+            <img src="../assets/images/4.svg" alt="" class="p-4 float-left" />
+            <p class="">
+              La finalul perioadei de osteointegrare, se montează, pentru o
+              perioadă de 2-3 săptămâni, un bont de vindecare, ce ajută gingia
+              să capete o formă naturală. Apoi, se atașează o altă piesă, numită
+              bont protetic, care va constitui suportul pentru coroana dentară
+              ce va înlocui dintele lipsă.
+            </p>
+          </div>
+          <div>
+            <h3 class="mt-12">Atașarea Coroanei</h3>
+            <img src="../assets/images/5.svg" alt="" class="p-4 float-left" />
+            <p>
+              Coroana este realizată de tehnicianul dentar, conform
+              specificațiilor medicului implantolog. Aceasta urmează a fi
+              cimentată pe bont, rezultând astfel un dinte perfect funcțional și
+              estetic.
+            </p>
+          </div>
+        </div>
+        <img
+          src="../assets/images/ImplantStep3.png"
+          alt=""
+          class="object-scale-down"
+        />
+      </div>
+
+      <p>
+        Implantul dentar este recomandat de medici din întreaga lume pentru că,
+        spre deosebire de punțile sau protezele clasice, acesta este mai
+        estetic, mai funcțional, mai rezistent și prezintă mai puține riscuri.
+        Procedura de implant dentar este specialitatea clinicii noastre, echipa
+        noastră oferind servicii de înaltă calitate la costuri sub nivelul celor
+        din clinicile din marile orașe.
+      </p>
 
       <!-- Price Table -->
-      <price-table></price-table>
+      <price-table :rows="service.priceTable.rows.ro"></price-table>
     </div>
   </div>
 </template>
@@ -166,7 +165,7 @@
 <script>
 import PriceTable from "../components/PriceTable.vue";
 import TCard from "../components/TCard.vue";
-import store from '@/store'
+import store from "@/store";
 
 export default {
   components: {
@@ -175,8 +174,19 @@ export default {
   },
   data() {
     return {
-      benefits: store.dentalImplantBenefits
-    }
-  }
+      benefits: store.dentalImplantBenefits,
+    };
+  },
+  props: {
+    serviceName: {
+      type: String,
+      required: true,
+    },
+  },
+  computed: {
+    service() {
+      return store.services.find((s) => s.name == this.serviceName);
+    },
+  },
 };
 </script>
