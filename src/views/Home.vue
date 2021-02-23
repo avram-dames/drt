@@ -36,12 +36,12 @@
               <div class="rounded-md shadow">
                 <a
                   href="#appointment-form"
-                  class="w-full flex items-center justify-center px-4 py-2 md:px-6 md:py-3 border border-transparent font-mwsr text-sm rounded-md text-white bg-primary hover:bg-primary-light shadow-md focus:shadow-none"
+                  class="w-full flex items-center justify-center px-4 py-3 md:px-6 md:py-3 border border-transparent font-mwsr text-sm rounded-md text-white bg-primary hover:bg-primary-light shadow-md focus:shadow-none"
                 >
                   PROGRAMEAZĂ-TE ACUM
                 </a>
               </div>
-            </div> 
+            </div>
           </div>
         </div>
 
@@ -70,56 +70,55 @@
         surprinzător de avantajoase!
       </div>
       <div class="mt-8 md:mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2">
-        <t-card 
+        <t-card
           v-for="service in services"
           :key="service.id"
           :body="service"
-          class="lg:flex lg:justify-end lg:pr-8"
+          class="lg:flex lg:justify-center lg:pr-8"
         />
       </div>
-      <div class="my-12 md:mt-8 md:flex md:justify-center">
+      <div class="my-12 md:mt-8 mx-6 md:flex md:justify-center">
         <div class="rounded-md shadow">
           <router-link
-            :to="{name: 'Details'}"
+            :to="{ name: 'Details' }"
             class="w-full flex items-center justify-center px-10 py-2 border border-transparent font-mwsr text-sm rounded-md text-white bg-secondary-300 hover:bg-secondary-200 shadow-md focus:shadow-none"
           >
             DETALII ȘI PREȚURI
           </router-link>
-          
         </div>
       </div>
     </div>
 
     <section id="echipa-noastra">
-    <div
-      class="hidden md:flex mt-16 justify-center bg-gradient-to-br from-primary-100 to-primary-200"
-    >
-      <div class="w-160 lg:w-192 rounded-lg my-16">
-        <h1 class="text-2xl font-mwb my-8 text-center">Echipa Noastră</h1>
-        <p class="text-justify">
-          Ne mândrim cu o echipă profesionistă, determinată să țină pasul cu
-          descoperirile din domeniul stomatologiei și dornică să ofere
-          pacienților servicii de cea mai bună calitate. Echipa noastră își
-          întâmpină pacienții cu zâmbetul pe buze, într-o atmosferă primitoare.
-          Fiecare dentist din cadrul clinicii noastre își rezervă timp nu numai
-          pentru a oferi tratamente personalizate, ci și pentru a le explica
-          pacienților procedurile și pașii pe care trebuie să îi urmeze pentru
-          sănătatea lor orală. Rezultatele de durată se nasc din comunicare!
-        </p>
+      <h1 class="md:hidden text-2xl font-mwb my-8 text-center">Echipa Noastră</h1>
+      <div
+        class="hidden md:flex mt-16 justify-center bg-gradient-to-br from-primary-100 to-primary-200"
+      >
+        <div class="w-160 lg:w-192 rounded-lg my-16">
+          <h1 class="text-2xl font-mwb my-8 text-center">Echipa Noastră</h1>
+          <p class="text-justify">
+            Ne mândrim cu o echipă profesionistă, determinată să țină pasul cu
+            descoperirile din domeniul stomatologiei și dornică să ofere
+            pacienților servicii de cea mai bună calitate. Echipa noastră își
+            întâmpină pacienții cu zâmbetul pe buze, într-o atmosferă
+            primitoare. Fiecare dentist din cadrul clinicii noastre își rezervă
+            timp nu numai pentru a oferi tratamente personalizate, ci și pentru
+            a le explica pacienților procedurile și pașii pe care trebuie să îi
+            urmeze pentru sănătatea lor orală. Rezultatele de durată se nasc din
+            comunicare!
+          </p>
+        </div>
       </div>
-    </div>
 
-    <!-- Carousel -->
-    <carousel></carousel>
-
+      <!-- Carousel -->
+      <carousel></carousel>
     </section>
 
     <!-- Clinica Noastra -->
     <div class="mt-16 flex flex-col md:flex-row">
       <div
         class="min-h-screen bg-clinic-image bg-cover bg-right-bottom md:w-1/2"
-      >
-      </div>
+      ></div>
       <div
         class="min-h-screen py-24 px-8 md:px-12 lg:px-16 bg-gradient-to-br from-primary-100 to-primary-200 md:w-1/2 md:flex md:flex-col md:justify-center"
       >
@@ -152,15 +151,13 @@
         </p>
       </div>
     </div>
-
-    
   </div>
 </template>
 
 <script>
 import TCard from "@/components/TCard.vue";
-import Carousel from '@/components/Carousel.vue';
-import store from '@/store'
+import Carousel from "@/components/Carousel.vue";
+import store from "@/store";
 
 export default {
   components: {
@@ -169,8 +166,8 @@ export default {
   },
   data() {
     return {
-      services: store.services
-    }
-  }
+      services: store.services,
+    };
+  },
 };
 </script>

@@ -15,7 +15,7 @@ export default {
           ro: 'Tratamente de prevenție'
         },
         description: {
-          ro: 'Cea mai sigură metodă de prevenție împotriva cariilor și a afecțiunilorgingivale este igienizarea profesională. Dacă au trecut mai mult de 6luni de la ultima ta igienizare, flosește formularul de mai jos pentru aprograma o nouă ședință.',
+          ro: 'Cea mai sigură metodă de prevenție împotriva cariilor și a afecțiunilor gingivale este igienizarea profesională. Dacă au trecut mai mult de 6 luni de la ultima ta igienizare, flosește formularul de mai jos pentru a programa o nouă ședință.',
         },
         rows: {
           ro: [
@@ -24,6 +24,48 @@ export default {
               price: "200 Lei",
             },
           ],
+        }
+      },
+      details: {
+        hero: {
+          title: {
+            ro: ''
+          },
+          description: {
+            ro: ''
+          }
+        },
+        pageContent: {
+          title: 'Cum se efectuează igienizarea profesională?',
+          treatmentSteps: [
+            {
+              step: 1,
+              title: 'Detartraj cu ultrasunete',
+              icon: require('@/assets/images/1.svg'),
+              illustration: require('@/assets/images/Sonic.png'),
+              description: {
+                'ro': 'Primul pas în tratamentul de igienizare profesională este îndepărtarea tartrului. Deoarece detartrajul manual crește riscul deteriorării smalțului, clinica noastră folosește procedura de detartraj cu ultrasunete, care nu afectează smalțul dinților sau gingiile și este mai puțin dureroasă decât procedura standard de detartraj.'
+              }
+            },
+            {
+              step: 2,
+              title: 'Periaj profesional',
+              icon: require('@/assets/images/2.svg'),
+              illustration: require('@/assets/images/Brush.png'),
+              description: {
+                'ro': 'Urmează procedura de periaj profesional pentru a îndepărta resturile mai mici de tartru rămase în zonele mai puțin accesibile ale dinților. Aceasta este complet nedureroasă fiind realizată cu ajutorul unor instrumente și paste de dinți speciale. Periajul profesional nu folosește substanțe chimice care deteriorează dintele sau gingia.'
+              }
+            },
+            {
+              step: 3,
+              title: 'Airflow',
+              icon: require('@/assets/images/3.svg'),
+              illustration: require('@/assets/images/Airflow.png'),
+              description: {
+                'ro': 'Air Flow-ul este ultima procedură efectuată în procesul de igienizare. Procedura este efectuată cu ajutorul unui aparat care pulverizează un jet de aer comprimat, apă și particule fine de bicarbonat de sodiu direct pe suprafața dintelui, curățând smalțul dinților de pete sau alte depuneri ce nu au putut fi îndepărtate cu ajutorul detartrajului și al periajului profesional.'
+              }
+            }
+          ]
         }
       }
     },

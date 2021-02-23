@@ -1,11 +1,11 @@
 <template>
-  <div>
-    <div class="container px-4">
+  <div class="container px-6 md:px-0">
+    <div>
       <!-- Hero -->
       <div class="flex flex-col md:flex-row justify-between items-center">
         <!-- Text -->
-        <div class="md:max-w-sm lg:max-w-2xl order-last md:order-first">
-          <h1 class="">Tratamente ortodontice</h1>
+        <div class="max-w-prose order-last md:order-first">
+          <h1 class="text-center md:text-left">Tratamente ortodontice</h1>
           <p class="">
             Din ce în ce mai multe persoane adulte apelează la tratamente
             ortodontice recunoscând astfel importanța alinierii dinților și a
@@ -34,8 +34,10 @@
       </div>
 
       <!-- Content -->
-      <h2>De ce tip de aparat dentar am nevoie?</h2>
-      <p>
+      <h2 class="text-center md:text-left">
+        De ce tip de aparat dentar am nevoie?
+      </h2>
+      <p class="max-w-prose">
         Cu toții ne dorim ca tratamentul ortodontic sa fie cât mai scurt, iar
         aparatul dentar să fie cât mai puțin vizibil. Însă, pentru că fiecare
         plan de tratament trebuie să se țină cont de aspectele individuale ale
@@ -43,16 +45,17 @@
         ortodont.
       </p>
 
-      <h3>Aparate dentare fixe (Brackets)</h3>
-      <div class="flex flex-col md:flex-row justify-between">
-        <div class="md:w-2/3 md:pr-4">
-          <p>
+      <h2 class="md:hidden text-center">Aparate dentare fixe (Brackets)</h2>
+      <div class="flex flex-col md:flex-row justify-between items-end">
+        <div>
+          <h2 class="hidden md:block">Aparate dentare fixe (Brackets)</h2>
+          <p class="max-w-prose">
             Aparatul dentar fix este dispozitivul recomandat cel mai des pentru
             adolescenți și adulți datorită timpului mai scurt de purtare și a
             rezistenței sporite la alimentele neindicate și activități sportive
             intense.
           </p>
-          <p class="mt-4">
+          <p class="max-w-prose mt-4">
             Aplicațiile metalice sau brackets-urile sunt lipite de dinte
             folosind o substanță bogată în fluor și minerale, ce hrănește și
             protejează suprafața dintelui de carii sau pete, pe toată durata
@@ -60,16 +63,20 @@
             "sârma" care aplică forțele corectoare asupra arcadei dentare.
           </p>
         </div>
-        <img
-          src="../assets/images/AparatDentarFixMetalic.png"
-          alt="Little girl having a toothache."
-          class="w-60"
-        />
+        <div
+          class="w-full mb-4 md:mb-0 md:w-60 flex justify-center order-first md:order-last"
+        >
+          <img
+            src="../assets/images/AparatDentarFixMetalic.png"
+            alt="Little girl having a toothache."
+            class="w-60"
+          />
+        </div>
       </div>
 
-      <div class="flex flex-col md:flex-row justify-between">
-        <div class="md:w-2/3 md:pr-4">
-          <p>
+      <div class="flex flex-col md:flex-row justify-between items-end">
+        <div>
+          <p class="max-w-prose">
             Brackets-urile realizate din material ceramic sau safir sunt mai
             estetice comparativ cu cele metalice. De aceea, acestea sunt
             recomandate persoanelor pentru care, pe durata tratamentului,
@@ -77,68 +84,85 @@
             cele metalice, cum ar fi cazul persoanelor care lucrează cu
             publicul.
           </p>
-          <p class="mt-4">
+          <p class="max-w-prose mt-4">
             Acest tip de aparat necesită o igienă riguroasă (backlink prevenție)
             specifică pentru a menține aspectul discret al dispozitivului.
             Totodată, este importantă evitarea alimentelor tari ce pot cauza
             desprinderea bracket-ului de pe suprafața dintelui.
           </p>
         </div>
-        <img
-          src="../assets/images/AparatDentarFixCeramic.png"
-          alt="Little girl having a toothache."
-          class="w-60"
-        />
+        <div
+          class="w-full mb-4 md:mb-0 md:w-60 flex justify-center order-first md:order-last"
+        >
+          <img
+            src="../assets/images/AparatDentarFixCeramic.png"
+            alt="Little girl having a toothache."
+            class="w-60 mt-4"
+          />
+        </div>
       </div>
 
-      <h3>Aparate dentare mobile</h3>
-      <div class="flex flex-col md:flex-row justify-between">
-        <div class="md:w-2/3 md:pr-4">
-          <p>
+      <h2 class="md:hidden text-center">Aparate dentare mobile</h2>
+      <div class="flex flex-col md:flex-row justify-between items-end">
+        <div>
+          <h2 class="hidden md:block">Aparate dentare mobile</h2>
+          <p class="max-w-prose">
             Acest tip de aparat poate fi aplicat și îndepărtat de pacient, fără
             ajutorul medicului. Spre deosebire de aparatul fix, acesta are un
             efect corectiv mai limitat, tratând doar înclinările dinților. Poate
             fi folosit și cu efect de contenție, adică de fixare a poziției
             dinților după terminarea tratamentului ortodontic.
           </p>
-          <p class="mt-4">
+          <p class="max-w-prose mt-4">
             Este, de obicei, recomandat copiilor de până la 12 ani, tratând
             defecte de vorbire, înghițire (deglutiție), poziție a limbii și
             altele, dar poate avea și un efect ortopedic, de ghidare a creșterii
             oaselor maxilare.
           </p>
         </div>
-        <img
-          src="../assets/images/AparatDentarMobil.png"
-          alt="Little girl having a toothache."
-          class="w-60"
-        />
+        <div
+          class="w-full mb-4 md:mb-0 md:w-60 flex justify-center order-first md:order-last"
+        >
+          <img
+            src="../assets/images/AparatDentarMobil.png"
+            alt="Little girl having a toothache."
+            class="w-60"
+          />
+        </div>
       </div>
 
-      <h3>Aparate dentare de contenție</h3>
-      <div class="flex flex-col md:flex-row justify-between">
-        <div class="md:w-2/3 md:pr-4">
-          <p>
+      <h2 class="md:hidden text-center">Aparate dentare de contenție</h2>
+      <div class="flex flex-col md:flex-row justify-between items-end">
+        <div>
+          <h2 class="hidden md:block">Aparate dentare de contenție</h2>
+          <p class="max-w-prose">
             Purtarea aparatului de contenție după terminarea tratamentului
             ortodontic este o etapă deosebit de importantă pentru păstrarea
             rezultatelor obținute. Țesutul osos are nevoie de o perioada de 3-6
             luni pentru a se forma complet în jurul dinților și a-i fixa în noua
             poziție, prevenind migrarea acestora înapoi la locul lor obișnuit.
           </p>
-          <p class="mt-4">
+          <p class="max-w-prose mt-4">
             Stabilirea perioadei de purtare și alegerea tipului de aparat de
             contenție se va face împreună cu medicul ortodont.
           </p>
         </div>
-        <img
-          src="../assets/images/AparatDentarContentie.png"
-          alt="Little girl having a toothache."
-          class="w-60"
-        />
+        <div
+          class="w-full mb-4 md:mb-0 md:w-60 flex justify-center order-first md:order-last"
+        >
+          <img
+            src="../assets/images/AparatDentarContentie.png"
+            alt="Little girl having a toothache."
+            class="w-60"
+          />
+        </div>
       </div>
 
       <!-- Price Table -->
-      <price-table :rows="service.priceTable.rows.ro"></price-table>
+      <div class="my-24 w-full">
+        <h3>Listă prețuri</h3>
+        <price-table :rows="service.priceTable.rows.ro"></price-table>
+      </div>
     </div>
   </div>
 </template>

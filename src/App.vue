@@ -3,6 +3,7 @@
   <router-view :key="$route.path" />
 
   <appointment-form id="appointment-form"></appointment-form>
+
   <footer-section id="contact"></footer-section>
 </template>
 

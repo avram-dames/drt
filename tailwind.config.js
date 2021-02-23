@@ -35,11 +35,9 @@ module.exports = {
         "full-adjusted": "calc(100% - 2rem)", // vh - padding - logo height - gradient
       }),
       width: {
-        'prose': '40ch',
         'icon-md': '4rem',
       },
       maxWidth: {
-        'prose': '40ch'
       }, 
       backgroundImage: theme => ({
         'hero-image': "url('../images/HeroFull.jpg')",

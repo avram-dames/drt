@@ -8,7 +8,7 @@
       @apply mt-16 md:mt-24 mb-12 font-mwb tracking-wide text-black text-xl md:text-2xl lg:text-3xl;
     }
     h2 {
-      @apply mt-12 mb-4 font-mwsb tracking-wide text-black text-base md:text-lg lg:text-xl;
+      @apply mt-12 mb-8 font-mwsb tracking-wide text-black text-lg md:text-lg lg:text-xl;
     }
     h3 {
       @apply mt-4 mb-2 font-mvb tracking-wide text-black text-base md:text-lg lg:text-xl;

@@ -1,21 +1,21 @@
-<template>
-    <div class="container py-24 px-12 md:flex md:flex-row">
+<template> 
+    <div class="my-24 mx-6 md:container md:flex md:flex-row items-center space-x-12">
       <div class="flex-shrink-0">
-        <h1 class="text-center font-mwb tracking-wide text-2xl text-primary">
+        <h2 class="mt-0 text-center font-mwb tracking-wide text-2xl text-primary">
           Programare Online
-        </h1>
+        </h2>
         <form
           name="programare"
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-          <div class="mt-8 flex flex-col font-mvl text-gray text-sm">
+          <div class="mt-8 flex flex-col font-mvl text-gray text-md">
             <input type="hidden" name="form-name" value="programare" />
 
             <label for="name">Nume</label>
             <input
-              class="border border-primary rounded-sm text-lg"
+              class="border border-primary rounded-sm text-xl px-2 py-1"
               id="name"
               type="text"
               name="nume"
@@ -23,15 +23,16 @@
 
             <label class="mt-4" for="phone">Telefon</label>
             <input
-              class="border border-primary rounded-sm text-lg"
+              class="border border-primary rounded-sm text-xl px-2 py-1"
               id="phone"
-              type="text"
+              type="tel"
               name="telefon"
             />
 
             <label class="mt-4" form="reason">Motiv</label>
+            <!-- Select input needs padding y 0 to keep in line with the otthers -->
             <select
-              class="border border-primary rounded-sm text-lg"
+              class="border border-primary rounded-sm text-xl px-2 py-0"
               id="reason"
               name="motiv"
             >
@@ -54,13 +55,14 @@
           </div>
         </form>
       </div>
-      <div class="hidden md:block pl-16 pt-16">
-        <h1 class="font-mwb text-gray text-xl lg:text-2xl">
+
+      <div class="hidden md:block">
+        <h3 class="mt-0 font-mwb text-gray text-xl lg:text-2xl">
           Ai nevoie de o consultație periodică sau un plan de tratament?
-        </h1>
-        <h2 class="mt-8 font-mwsr text-gray text-lg lg:text-xl">
+        </h3>
+        <h3 class="font-mwsr text-gray text-lg lg:text-xl">
           Folosește formularul online și te contactam noi!
-        </h2>
+        </h3>
       </div>
     </div>
 </template>

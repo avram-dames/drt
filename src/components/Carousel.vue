@@ -28,10 +28,10 @@
         {{ teamMember.description }}
       </p>
 
-      <div class="flex flex-row justify-end pr-4 md:justify-start">
+      <div class="flex flex-row pr-4 space-x-6 items-center">
         <!-- Left Arrow -->
         <button
-          class="w-6 h-6"
+          class="w-8 h-8 md:w-6 md:h-6"
           @click="previousTeamMember"
           :disabled="leftArrowDisabled"
         >
@@ -49,9 +49,11 @@
             />
           </svg>
         </button>
+
+        <div class="font-mvr text-md">{{ teamMember.id }} / {{ teamLength }}</div>
         <!-- Right Arrow -->
         <button
-          class="w-6 h-6"
+          class="w-8 h-8 md:w-6 md:h-6"
           @click="nextTeamMember"
           :disabled="rightArrowDisabled"
         >
@@ -161,6 +163,9 @@ export default {
     rightArrowColor() {
       return this.rightArrowDisabled ? "gray" : "black";
     },
+    teamLength() {
+      return this.team.length
+    }
   },
   mounted() {
     // this.carouselInterval()

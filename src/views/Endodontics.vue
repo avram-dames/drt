@@ -1,12 +1,13 @@
 <template>
-  <div>
+  <div class="container px-6 md:px-0">
+    
     <!-- Hero -->
     <div
-      class="container flex flex-col md:flex-row justify-around items-center"
+      class="flex flex-col md:flex-row justify-between items-center"
     >
       <!-- Text -->
       <div class="md:max-w-sm lg:max-w-2xl order-last md:order-first">
-        <h1 class="">Tratamente de salvare a dintelui</h1>
+        <h1 class="text-center md:text-left">Tratamente de salvare a dintelui</h1>
         <p class="">
           Tratamentul endodontic are ca obiectiv salvarea dintelui natural sau
           cel puțin a rădăcinii acestuia, folosind tehnici de tratare a
@@ -35,9 +36,9 @@
     </div>
 
     <!-- Treatment Steps -->
-    <div class="container">
-      <h2>Etapele tratamentului</h2>
-      <p>
+    <div class="">
+      <h2 class="text-center md:text-left">Etapele tratamentului</h2>
+      <p class="max-w-prose">
         Tratamentul de canal se administrează sub anestezie locală și durează în
         medie 2 ore. În cazuri complexe, atunci când pulpa este inflamată sau
         infectată, tratamentul poate implica 2 sau mai multe ședințe. Medicul
@@ -45,14 +46,14 @@
         24-48 de ore de la efectuarea tratamentului.
       </p>
 
-      <div class="mt-12 md:mt-16 flex flex-col md:flex-row justify-around">
-        <div class="md:max-w-sm lg:max-w-2xl">
-          <p>
+      <div class="mt-8 flex flex-col md:flex-row justify-beween items-center space-x-8">
+        <div class="max-w-prose">
+          <p class="mt-8">
             Prima etapă a tratamentului constă în curățarea canalului (scoaterea
             nervului) și eliminarea totală a infecției din canalul dintelui.
           </p>
         </div>
-        <div class="flex-none">
+        <div class="flex-none order-first md:order-last">
           <img
             src="../assets/images/Endo1.png"
             alt="Ilustratie Tratament Endodontic - Carie si Deschidere Dinte."
@@ -60,9 +61,9 @@
         </div>
       </div>
 
-      <div class="mt-12 md:mt-16 flex flex-col md:flex-row justify-around">
-        <div class="md:max-w-sm lg:max-w-2xl">
-          <p>
+      <div class="mt-8 flex flex-col md:flex-row justify-beween items-center space-x-8">
+        <div class="max-w-prose">
+          <p class="mt-8">
             A doua etapă se concentrează pe umplerea canalului cu o pasta
             biocompatibilă (compusă din antibiotic, iodoform, endometazonă, oxid
             de zinc, eugenol) pentru a preveni răspândirea baterilor. În anumite
@@ -70,7 +71,7 @@
             corono-radicular pentru stabilizarea lucrării protetice.
           </p>
         </div>
-        <div class="flex-none">
+        <div class="flex-none order-first md:order-last">
           <img
             src="../assets/images/Endo2.png"
             alt="Ilustratie Tratament Endodontic - Carie si Deschidere Dinte."
@@ -78,14 +79,14 @@
         </div>
       </div>
 
-      <div class="mt-12 md:mt-16 flex flex-col md:flex-row justify-around">
-        <div class="md:max-w-sm lg:max-w-2xl">
-          <p>
+      <div class="mt-8 flex flex-col md:flex-row justify-beween items-center space-x-8">
+        <div class="max-w-prose">
+          <p class="mt-8">
             A treia etapă are în vedere plombarea dintelui (obturație) și,
             eventual, refacerea coroanei dentare, atunci când este cazul.
           </p>
         </div>
-        <div class="flex-none">
+        <div class="flex-none order-first md:order-last">
           <img
             src="../assets/images/Endo3.png"
             alt="Ilustratie Tratament Endodontic - Carie si Deschidere Dinte."
@@ -94,8 +95,9 @@
       </div>
     </div>
 
-    <div class="container w-full md:w-160 px-4 md:px-0">
+    <div class="w-full my-24">
       <!-- Price Table -->
+      <h3>Listă prețuri</h3>
       <price-table :rows="service.priceTable.rows.ro"></price-table>
     </div>
   </div>
