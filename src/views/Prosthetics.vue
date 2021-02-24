@@ -1,12 +1,12 @@
 <template>
-  <div>
-    <div class="container px-4">
+    <div class="container px-6">
       <!-- Hero -->
+      <section>
       <div class="flex flex-col md:flex-row justify-between items-center">
         <!-- Text -->
-        <div class="md:max-w-sm lg:max-w-2xl order-last md:order-first">
-            <h1 class="">Protetică dentară</h1>
-            <p class="">
+        <div class="md:max-w-sm lg:max-w-prose mr-2 order-last md:order-first">
+            <h1>Protetică dentară</h1>
+            <p>
               Pe lângă dificultăți de masticație si vorbire, lipsa unui dinte
               sau a unui grup de dinți duce și la afecțiuni ale cavitații bucale, 
               ale articulației gurii sau afecțiuni digestive. De aceea este recomandată 
@@ -24,26 +24,42 @@
           />
         </div>
       </div>
+      </section>
 
-      <!-- Content -->
-      <h2>Care soluție e potrivită pentru mine?</h2>
-      <p>
-        Există mai multe tipuri de proteze, fixe sau mobile, cum ar fi: 
+      <section class="mt-24">
+      <div
+        class="pb-12 px-4 flex justify-center bg-gradient-to-br from-primary-001 to-primary-200"
+      >
+        <div class="max-w-prose">
+          <h2 class="text-center">Care soluție e potrivită pentru mine?</h2>
+          <p>
+            Există mai multe tipuri de proteze, fixe sau mobile, cum ar fi: 
         proteze care se conectează la dinți sau implanturi, proteze care se atașează 
         folosind adezivi, sau care pot fi menținute de mușchii înconjurători. Aceste 
         proteze au scopul de a reda forma și culoarea dinților dumneavoastră naturali, 
         pentru a vă oferi un zâmbet cât mai natural și estetic.
-      </p>
-      <p class="mt-4">
-        Soluția potrivită pentru tine, însă, trebuie aleasă împreună cu medicul stomatolog, 
-        în urma unei consultații profesioniste.
-      </p>
+          </p>
+          <p class="mt-4">Soluția potrivită pentru tine, însă, trebuie aleasă împreună cu medicul stomatolog, 
+        în urma unei consultații profesioniste.</p>
+          <div class="mt-8 md:flex md:justify-center">
+            <div class="rounded-md shadow">
+              <a
+                href="#appointment-form"
+                class="w-full flex items-center justify-center px-4 py-3 md:px-6 md:py-3 border border-transparent font-mwsr text-sm rounded-md text-white bg-primary hover:bg-primary-light shadow-md focus:shadow-none"
+              >
+                Programare Consultatie
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      
+    <section>
+      <h2 class="">Proteze dentare mobile</h2>      
       <div class="mt-8 flex flex-col md:flex-row justify-between">
-        <div class="md:w-2/3 md:pr-4">
-        <h2 class="mt-0 mb-8">Proteze dentare mobile</h2>
-          <p>
+        <div class="md:w-2/3 md:pr-4 order-last md:order-first">
+          <p class="max-w-prose">
             <strong class="font-mvb">Avantaje</strong>
           <ul class="list-inside list-disc">
             <li>Îmbunătățirea masticației, a vorbirii și a digestiei;</li>
@@ -53,7 +69,7 @@
             <li>Nu implică durere.</li>
           </ul>
           </p>
-          <p class="mt-8">
+          <p class="mt-4 max-w-prose">
             <strong class="font-mveb">Dezavantaje</strong>
           <ul class="list-inside list-disc">
             <li>Necesită ajustări periodice;</li>
@@ -66,14 +82,14 @@
         <img
           src="../assets/images/ProtezaDentaraMobila.png"
           alt="Little girl having a toothache."
-          class="w-80 object-contain"
+          class="w-80 object-contain mb-8"
         />
       </div>
 
-      <div class="mt-24 flex flex-col md:flex-row justify-between">
-        <div class="mt-8 md:w-2/3 md:pr-4 md:order-last">
-          <h2 class="mt-0 mb-8">Proteze dentare fixe</h2>
-          <p>
+      <h2 class="mt-24">Proteze dentare fixe</h2>
+      <div class="flex flex-col md:flex-row justify-between">
+        <div class="md:w-2/3 md:mr-4 order-last md:order-first">
+          <p class="max-w-prose">
             <strong class="font-mveb">Avantaje</strong>
           <ul class="list-inside list-disc">
             <li>Stabilitate ridicată, fiind amplasate pe implanturi dentare sau pe dinții adiacenți;</li>
@@ -81,7 +97,7 @@
             <li>Spre deosebire de protezele mobile, acestea sunt mai ușor de igienizat.</li>
           </ul>
           </p>
-          <p class="mt-8">
+          <p class="mt-8 max-w-prose">
             <strong class="font-mveb">Dezavantaje</strong>
           <ul class="list-inside list-disc">
             <li>Cost mai ridicat decât cel al protezelor dentare mobile.</li>
@@ -91,14 +107,15 @@
         <img
           src="../assets/images/ProtezaDentaraFixa.png"
           alt="Little girl having a toothache."
-          class="w-80 object-contain"
+          class="w-80 object-contain mb-8"
         />
       </div>
 
-      <div class="mt-24 flex flex-col md:flex-row justify-between">
-        <div class="mt-8 md:w-2/3 md:pr-4">
-          <h2 class="mt-0 mb-8">Coroane dentare</h2>
-          <p>
+      <h2 class="mt-24">Coroane dentare</h2>
+      <div class="flex flex-col md:flex-row justify-between">
+        <div class="md:w-2/3 md:pr-4 order-last md:order-first">
+          
+          <p class="max-w-prose">
             <strong class="font-mveb">Avantaje</strong>
           <ul class="list-inside list-disc">
             <li>Sunt folosite pentru a restaura dinții ce pot fi salvați;</li>
@@ -109,7 +126,7 @@
             <li>Prezintă o duritate crescută, datorită materialelor folosite (ceramică sau zirconiu).</li>
           </ul>
           </p>
-          <p class="mt-8">
+          <p class="mt-8 max-w-prose">
             <strong class="font-mveb">Dezavantaje</strong>
           <ul class="list-inside list-disc">
             <li>Cost mai ridicat decât cel al punților dentare.</li>
@@ -119,15 +136,14 @@
         <img
           src="../assets/images/CoroanaDentara.png"
           alt="Little girl having a toothache."
-          class="w-80 object-contain"
+          class="w-80 object-contain mb-8"
         />
       </div>
 
-      
-      <div class="mt-24 flex flex-col md:flex-row justify-between">
-        <div class="mt-8 md:w-2/3 md:pr-4 md:order-last">
-        <h2 class="mt-0 mb-8">Punți dentare</h2>
-          <p>
+      <h2 class="mt-24">Punți dentare</h2>
+      <div class="flex flex-col md:flex-row justify-between">
+        <div class="md:w-2/3 md:pr-4 order-last md:order-first">
+          <p class="max-w-prose">
             <strong class="font-mveb">Avantaje</strong>
           <ul class="list-inside list-disc">
             <li>Cu o igienă corectă, acestea pot rezista pană la 10 ani;</li>
@@ -136,7 +152,7 @@
             <li>nu există riscul apariției cariilor.</li>
           </ul>
           </p>
-          <p class="mt-8">
+          <p class="mt-8 max-w-prose">
             <strong class="font-mveb">Dezavantaje</strong>
           <ul class="list-inside list-disc">
             <li>Procesul poate necesita șlefuirea dinților vecini sănătoși.</li>
@@ -146,25 +162,28 @@
         <img
           src="../assets/images/PunteDentara.png"
           alt="Little girl having a toothache."
-          class="w-80 object-contain"
+          class="w-80 object-contain mb-8"
         />
       </div>
+    </section>
 
+    <section class="w-full my-24">
       <!-- Price Table -->
+      <h3>Listă prețuri</h3>
       <price-table :rows="service.priceTable.rows.ro"></price-table>
-    </div>
+    </section>
   </div>
 </template>
 
 <script>
-import store from '@/store'
+import store from "@/store";
 import PriceTable from "../components/PriceTable.vue";
 
 export default {
   components: {
     PriceTable,
   },
-    props: {
+  props: {
     serviceName: {
       type: String,
       required: true,

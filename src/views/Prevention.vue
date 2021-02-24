@@ -1,11 +1,11 @@
 <template>
-  <div class="container px-6 md:px-0">  
+  <div class="container px-6">
     <!-- Hero Section -->
     <section class="">
       <div class="flex flex-col md:flex-row justify-between items-center">
         <!-- Text -->
-        <div class="md:max-w-sm lg:max-w-2xl order-last md:order-first">
-          <h1 class="text-center md:text-left">Tratamente de prevenție</h1>
+        <div class="md:max-w-sm lg:max-w-2xl mr-2 order-last md:order-first">
+          <h1 class="">Tratamente de prevenție</h1>
           <p class="">
             Întotdeauna este mai ieftin și mai puțin dureros să previi o
             afecțiune decât să o tratezi. Placa bacteriană (tartrul) este
@@ -39,7 +39,7 @@
     <section class="">
       <div class="max-w-2xl md:flex md:flex-row md:items-center md:space-x-4">
         <div class="">
-          <h2 class="text-center md:text-left">Ce este tartrul?</h2>
+          <h2 class="">Ce este tartrul?</h2>
           <img
             src="../assets/images/Plaque.png"
             alt=""
@@ -91,7 +91,9 @@
     <!-- Treatment Steps -->
     <section class="mt-12 flex justify-center">
       <div>
-        <h2 class="text-center">{{ service.details.pageContent.title }}</h2>
+        <h2 class="text-left md:text-center">
+          {{ service.details.pageContent.title }}
+        </h2>
 
         <div
           v-for="treatmentStep in service.details.pageContent.treatmentSteps"
@@ -109,10 +111,7 @@
           <div
             class="w-full flex justify-end flex-shrink-0 mb-4 md:mb-0 md:justify-start md:w-60 md:ml-12 order-first md:order-last"
           >
-            <img
-              :src="treatmentStep.illustration"
-              :alt="treatmentStep.title"
-            />
+            <img :src="treatmentStep.illustration" :alt="treatmentStep.title" />
           </div>
         </div>
       </div>

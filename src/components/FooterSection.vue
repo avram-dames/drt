@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col bg-gradient-to-br from-primary-001 to-pink-001">
-      <div class="mx-6 md:container flex flex-col md:flex-row md:justify-between">
+      <div class="px-6 md:container flex flex-col md:flex-row md:justify-between">
         <div>
           <h2 class="mt-12 font-mwsb tracking-wide text-xl">Contact</h2>
           <div class="mt-1 font-mvr tracking-wide text-md">+40 358 405 272</div>
@@ -32,7 +32,7 @@
       </div>
 
       <div
-        class="mx-6 md:container mt-12 flex flex-col md:flex-row md:justify-between md:align-baseline"
+        class="px-6 pb-4 md:container mt-12 flex flex-col md:flex-row md:justify-between md:align-baseline"
       >
         <div class="mt-1 font-mvl tracking-wide text-sm text-primary-light">
           Copyright @2021 drtdentist.ro all rights reserved

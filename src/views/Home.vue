@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div class="h-screen-adjusted bg-hero-image bg-cover md:container">
+    <div class="h-screen-adjusted bg-hero-image bg-cover md:container relative">
       <!-- Gradient step for mobile -->
       <div
-        class="bg-gradient-to-b from-white via-white to-transparent h-16 md:hidden"
+        class="bg-gradient-to-b from-white absolute inset-0 h-16 md:hidden"
       ></div>
 
       <!-- Container for hero secion, turns to white background on medium screens and larger -->
@@ -15,7 +15,7 @@
           class="flex flex-col justify-end h-full-adjusted md:justify-start md:h-auto"
         >
           <div
-            class="p-6 bg-primary-200 bg-opacity-60 md:bg-white"
+            class="px-6 py-8 bg-primary-200 bg-opacity-60 md:bg-white"
             style="
               backdrop-filter: blur(20px);
               -webkit-backdrop-filter: blur(20px);
@@ -27,16 +27,16 @@
               Zâmbetul perfect începe cu o consultație gratuită
             </div>
             <div
-              class="my-2 font-mvl tracking-wide text-justify text-dark text-sm md:text-md lg:text-lg"
+              class="my-4 font-mvl tracking-wide text-justify text-dark text-sm md:text-md lg:text-lg"
             >
               Echipa noastră de dentiști din Aiud îți va reda zâmbetul și starea
               de bine! Profită de consultația ta gratuită!
             </div>
-            <div class="md:mt-8 md:flex md:justify-start">
+            <div class="mt-8 md:flex md:justify-start">
               <div class="rounded-md shadow">
                 <a
                   href="#appointment-form"
-                  class="w-full flex items-center justify-center px-4 py-3 md:px-6 md:py-3 border border-transparent font-mwsr text-sm rounded-md text-white bg-primary hover:bg-primary-light shadow-md focus:shadow-none"
+                  class="w-full flex items-center justify-center py-3 px-6 border border-transparent font-mwsr tracking-wide text-md rounded-md text-white bg-primary hover:bg-primary-light shadow-md focus:shadow-none"
                 >
                   PROGRAMEAZĂ-TE ACUM
                 </a>
@@ -50,53 +50,52 @@
           <img
             src="../assets/images/HeroShape.png"
             alt="Photo of smiling lady by Hian Oliveira borrowd from Unsplash"
-            class="w-"
           />
         </div>
       </div>
     </div>
 
     <!-- Tratamente -->
-    <div id="tratamente" class="mt-24 md:mt-0 container flex flex-col">
-      <h2
-        class="text-center font-mwb tracking-wide text-xl md:text-2xl lg:text-3xl"
-      >
-        Tratamente inovatoare
-      </h2>
-      <div
-        class="mt-4 px-6 flex justify-center text-center font-mvl text-sm md:text-md lg:text-lg"
-      >
-        Descoperă gama noastră variată de tratamente stomatologice la prețuri
-        surprinzător de avantajoase!
+    <section id="services" class="md:mt-24 px-6 md:container">
+      <div class="flex flex-col items-center">
+        <h2 class="md:mt-0">Tratamente inovatoare</h2>
+        <p class="max-w-prose text-center">
+          Descoperă gama noastră variată de tratamente stomatologice la prețuri
+          surprinzător de avantajoase!
+        </p>
       </div>
+
       <div class="mt-8 md:mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2">
         <t-card
           v-for="service in services"
           :key="service.id"
           :body="service"
-          class="lg:flex lg:justify-center lg:pr-8"
+          class="lg:flex lg:justify-center"
         />
       </div>
-      <div class="my-12 md:mt-8 mx-6 md:flex md:justify-center">
+
+      <div class="my-12 md:flex md:justify-center">
         <div class="rounded-md shadow">
-          <router-link
-            :to="{ name: 'Details' }"
-            class="w-full flex items-center justify-center px-10 py-2 border border-transparent font-mwsr text-sm rounded-md text-white bg-secondary-300 hover:bg-secondary-200 shadow-md focus:shadow-none"
+          <a
+            href="#appointment-form"
+            class="w-full flex items-center justify-center py-3 px-6 border border-transparent font-mwsr tracking-wide text-md rounded-md text-white bg-primary hover:bg-primary-light shadow-md focus:shadow-none"
           >
-            DETALII ȘI PREȚURI
-          </router-link>
+            PROGRAMEAZĂ-TE ACUM
+          </a>
         </div>
       </div>
-    </div>
+    </section>
 
-    <section id="echipa-noastra">
-      <h1 class="md:hidden text-2xl font-mwb my-8 text-center">Echipa Noastră</h1>
+    <section id="team">
+      <h1 class="md:hidden text-2xl font-mwb my-8 text-center">
+        Echipa Noastră
+      </h1>
       <div
-        class="hidden md:flex mt-16 justify-center bg-gradient-to-br from-primary-100 to-primary-200"
+        class="hidden md:flex mt-16 justify-center bg-gradient-to-br from-primary-001 to-primary-200"
       >
-        <div class="w-160 lg:w-192 rounded-lg my-16">
+        <div class="w-160 lg:w-192 my-16">
           <h1 class="text-2xl font-mwb my-8 text-center">Echipa Noastră</h1>
-          <p class="text-justify">
+          <p class="">
             Ne mândrim cu o echipă profesionistă, determinată să țină pasul cu
             descoperirile din domeniul stomatologiei și dornică să ofere
             pacienților servicii de cea mai bună calitate. Echipa noastră își

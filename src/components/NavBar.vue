@@ -1,5 +1,5 @@
 <template>
-  <header class="container px-6 lg:px-0 pt-4 pb-2 flex flex-wrap items-center">
+  <header class="container px-6 pt-4 pb-2 flex flex-wrap items-center">
     <div class="flex-1 lg:flex-none justify-between items-center">
       <router-link to="/">
         <icon name="logo"></icon>
@@ -28,7 +28,7 @@
             <router-link :to="{ name: 'Home' }"> Home </router-link>
           </li>
           <li class="navbar-link" @click="toggleOff">
-            <a href="/#echipa-noastra"> Echipa Noastră </a>
+            <a href="/#team"> Echipa Noastră </a>
           </li>
           <li class="navbar-link" @click="toggleOff">
             <a href="#contact"> Contact </a>
@@ -109,3 +109,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+#menu a.router-link-exact-active {
+  color: #D4A45B;
+}
+</style>

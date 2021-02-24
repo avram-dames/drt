@@ -1,13 +1,13 @@
 <template>
-  <div class="container px-6 md:px-0">
+  <div class="container px-6">
     
     <!-- Hero -->
     <div
       class="flex flex-col md:flex-row justify-between items-center"
     >
       <!-- Text -->
-      <div class="md:max-w-sm lg:max-w-2xl order-last md:order-first">
-        <h1 class="text-center md:text-left">Tratamente de salvare a dintelui</h1>
+      <div class="md:max-w-sm lg:max-w-prose mr-2 order-last md:order-first">
+        <h1 class="">Tratamente de salvare a dintelui</h1>
         <p class="">
           Tratamentul endodontic are ca obiectiv salvarea dintelui natural sau
           cel puțin a rădăcinii acestuia, folosind tehnici de tratare a
@@ -37,7 +37,7 @@
 
     <!-- Treatment Steps -->
     <div class="">
-      <h2 class="text-center md:text-left">Etapele tratamentului</h2>
+      <h2 class="">Etapele tratamentului</h2>
       <p class="max-w-prose">
         Tratamentul de canal se administrează sub anestezie locală și durează în
         medie 2 ore. În cazuri complexe, atunci când pulpa este inflamată sau

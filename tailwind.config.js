@@ -32,7 +32,7 @@ module.exports = {
       },
       height: theme => ({
         "screen-adjusted": "calc(100vh - 1.5rem - 43px)", // vh - padding - logo height - gradient
-        "full-adjusted": "calc(100% - 2rem)", // vh - padding - logo height - gradient
+        "full-adjusted": "calc(100%)", // vh - padding - logo height
       }),
       width: {
         'icon-md': '4rem',

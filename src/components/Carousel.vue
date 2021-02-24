@@ -3,9 +3,9 @@
     class="flex flex-col md:my-32 md:container md:flex-row md:justify-center"
   >
     <div
-      class="mt-16 m-auto md:m-0 md:mt-0 w-4/5 md:w-80 lg:w-96 rounded-md md:order-last"
+      class="mt-16 m-auto md:m-0 md:mt-0 w-4/5 md:w-80 lg:w-96 md:order-last"
     >
-      <img :src="teamMember.image" :alt="teamMemberNameAndTitle" class="rounded-md"/>
+      <img :src="teamMember.image" :alt="teamMemberNameAndTitle" class="rounded-sm"/>
     </div>
 
     <div

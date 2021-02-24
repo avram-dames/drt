@@ -2,14 +2,14 @@
   <div class="mt-8 flex">
     
     <!-- Icon -->
-    <div class="flex justify-end w-1/6 lg:w-16">
+    <div class="w-16 flex justify-end">
       <icon :name="body.name"></icon>
     </div>
 
     <!-- Text -->
-    <div class="flex flex-col w-5/6 pl-4 pr-16 md:pr-0 md:w-72 lg:max-w-prose">
-      <div class="font-mwsb tracking-wide text-md">{{ body.title.ro }}</div>
-      <p class="mt-4 text-justify font-mvl tracking-wide text-md">
+    <div class="flex px-6 flex-col max-w-prose">
+      <h3 class="mt-0">{{ body.title.ro }}</h3>
+      <p>
         {{ body.description.ro }}
       </p>
       <router-link
@@ -18,7 +18,7 @@
           name: body.name,
           params: { serviceName: body.name },
         }"
-        class="mt-4 text-right tracking-wide font-mvl text-sm text-secondary-300"
+        class="mt-4 text-right tracking-wide font-mvl text-md text-secondary-300"
         :key="body.id"
       >
         Citește mai mult

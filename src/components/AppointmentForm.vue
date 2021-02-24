@@ -1,5 +1,5 @@
 <template> 
-    <div class="my-24 mx-6 md:container md:flex md:flex-row items-center space-x-12">
+    <div class="my-24 px-6 md:container md:flex md:flex-row items-center space-x-12">
       <div class="flex-shrink-0">
         <h2 class="mt-0 text-center font-mwb tracking-wide text-2xl text-primary">
           Programare Online
@@ -46,7 +46,7 @@
                 <button
                   type="submit"
                   disabled
-                  class="w-full flex items-center justify-center px-10 py-2 border border-transparent font-mwsr text-sm rounded-md text-white bg-primary hover:bg-primary-light shadow-md focus:shadow-none"
+                  class="w-full flex items-center tracking-wide justify-center px-6 py-3 border border-transparent font-mwsr text-md rounded-md text-white bg-primary hover:bg-primary-light shadow-md focus:shadow-none"
                 >
                   Trimite
                 </button>

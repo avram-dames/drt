@@ -1,9 +1,9 @@
 <template>
-  <div class="container px-6 md:px-0">
+  <div class="container px-6">
     <!-- Hero -->
     <div class="flex flex-col md:flex-row justify-between items-center">
       <!-- Text -->
-      <div class="max-w-prose order-last md:order-first">
+      <div class="max-w-prose mr-2 order-last md:order-first">
         <h1 class="text-center md:text-left">Tratamente Chirurgicale</h1>
         <p class="">
           Tratamentele chirurgicale sunt specialitatea clinicii noastre.

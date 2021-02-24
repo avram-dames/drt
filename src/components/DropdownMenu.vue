@@ -1,5 +1,6 @@
 <template>
   <div
+    id="dropdow-menu"
     class="relative inline-block text-left z-10"
     @mouseover="isOpen = true"
     @mouseleave="isOpen = false"
@@ -76,3 +77,9 @@ export default {
   components: {},
 };
 </script>
+
+<style scoped>
+#dropdown-menu a.router-link-exact-active {
+  color: #D4A45B;
+}
+</style>
