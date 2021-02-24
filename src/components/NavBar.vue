@@ -1,4 +1,5 @@
 <template>
+  <!-- <div class="fixed z-10 w-full bg-white shadow-md"></div> fixed navbar -->
   <header class="container px-6 pt-4 pb-2 flex flex-wrap items-center">
     <div class="flex-1 lg:flex-none justify-between items-center">
       <router-link to="/">

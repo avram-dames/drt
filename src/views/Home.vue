@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="">
     <div class="h-screen-adjusted bg-hero-image bg-cover md:container relative">
       <!-- Gradient step for mobile -->
       <div
