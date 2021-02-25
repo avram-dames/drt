@@ -19,6 +19,7 @@
               id="name"
               type="text"
               name="nume"
+              required
             />
 
             <label class="mt-4" for="phone">Telefon</label>
@@ -27,6 +28,7 @@
               id="phone"
               type="tel"
               name="telefon"
+              required
             />
 
             <label class="mt-4" form="reason">Motiv</label>
@@ -35,6 +37,7 @@
               class="border border-primary rounded-sm text-xl px-2 py-0"
               id="reason"
               name="motiv"
+              required
             >
               <option value="consultatie">Consultație</option>
               <option value="igienizare">Igienizare</option>
@@ -69,6 +72,7 @@
 
 <script>
 export default {
-    name: 'AppointmentForm',
+  components: {},
+  name: 'AppointmentForm',
 }
 </script>

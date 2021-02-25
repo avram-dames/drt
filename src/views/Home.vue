@@ -1,12 +1,14 @@
 <template>
-  <div class="">
-    <div class="h-screen-adjusted bg-hero-image bg-cover md:container relative">
-      <!-- Gradient step for mobile -->
+  <div>
+    <!-- Hero Section -->
+    <section class="h-screen-adjusted bg-hero-image bg-cover md:container relative">
+      
+      <!-- Gradient div for mobile -->
       <div
         class="bg-gradient-to-b from-white absolute inset-0 h-16 md:hidden"
       ></div>
 
-      <!-- Container for hero secion, turns to white background on medium screens and larger -->
+      <!-- Container for hero section, turns to white background on medium screens and larger -->
       <div
         class="h-full-adjusted md:h-full md:bg-white md:grid md:grid-cols-2 md:gap-4 md:justify-items-center md:items-center"
       >
@@ -32,15 +34,12 @@
               Echipa noastră de dentiști din Aiud îți va reda zâmbetul și starea
               de bine! Profită de consultația ta gratuită!
             </div>
+
+            <!-- CTA -->
             <div class="mt-8 md:flex md:justify-start">
-              <div class="rounded-md shadow">
-                <a
-                  href="#appointment-form"
-                  class="w-full flex items-center justify-center py-3 px-6 border border-transparent font-mwsr tracking-wide text-md rounded-md text-white bg-primary hover:bg-primary-light shadow-md focus:shadow-none"
-                >
-                  PROGRAMEAZĂ-TE ACUM
-                </a>
-              </div>
+              <button-primary :reference="'#appointment-form'">
+                PROGRAMEAZĂ-TE ACUM
+              </button-primary>
             </div>
           </div>
         </div>
@@ -53,9 +52,9 @@
           />
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Tratamente -->
+    <!-- Services Section -->
     <section id="services" class="md:mt-24 px-6 md:container">
       <div class="flex flex-col items-center">
         <h2 class="md:mt-0">Tratamente inovatoare</h2>
@@ -65,6 +64,7 @@
         </p>
       </div>
 
+      <!-- Cards -->
       <div class="mt-8 md:mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2">
         <t-card
           v-for="service in services"
@@ -74,18 +74,15 @@
         />
       </div>
 
+      <!-- CTA -->
       <div class="my-12 md:flex md:justify-center">
-        <div class="rounded-md shadow">
-          <a
-            href="#appointment-form"
-            class="w-full flex items-center justify-center py-3 px-6 border border-transparent font-mwsr tracking-wide text-md rounded-md text-white bg-primary hover:bg-primary-light shadow-md focus:shadow-none"
-          >
-            PROGRAMEAZĂ-TE ACUM
-          </a>
-        </div>
+        <button-primary :reference="'#appointment-form'">
+                PROGRAMEAZĂ-TE ACUM
+              </button-primary>
       </div>
     </section>
 
+    <!-- Our Team Section -->
     <section id="team">
       <h1 class="md:hidden text-2xl font-mwb my-8 text-center">
         Echipa Noastră
@@ -109,7 +106,7 @@
         </div>
       </div>
 
-      <!-- Carousel -->
+      <!-- Team Members Carousel -->
       <carousel></carousel>
     </section>
 
@@ -154,14 +151,17 @@
 </template>
 
 <script>
+import store from "@/store";
+
 import TCard from "@/components/TCard.vue";
 import Carousel from "@/components/Carousel.vue";
-import store from "@/store";
+import ButtonPrimary from '@/components/ButtonPrimary.vue';
 
 export default {
   components: {
     TCard,
     Carousel,
+    ButtonPrimary,
   },
   data() {
     return {

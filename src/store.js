@@ -29,10 +29,32 @@ export default {
       details: {
         hero: {
           title: {
-            ro: ''
+            ro: 'Tratamente de prevenție'
           },
           description: {
-            ro: ''
+            ro: [
+              'Întotdeauna este mai ieftin și mai puțin dureros să previi o afecțiune decât să o tratezi. Placa bacteriană (tartrul) este principala cauza a afecțiunilor dentare și gingivale. Astfel, prevenirea formării tartrului prin periaj regulat și igienizarea corectă a gurii este prima linie de protecție împotriva cariilor și bolilor parodontale.',
+              'Însă, de cele mai multe ori, chiar și o igienă corectă nu este suficientă pentru curățarea în profunzime a danturii. Prin urmare, tratamentul de igienizare profesională este recomandat o dată la 6 luni, pentru a curăța în totalitate dinții de tartru, prevenind astfel apariția cariilor și afecțiunile gingivale. Totodată, acesta oferă și o ușoară albire naturală a dinților, ajutându-te să te simți mai sănătos și să ai un zâmbet mai frumos.'
+            ]
+          },
+          image: {
+            src: require('@/assets/images/PreventionHero.png'),
+            alt: {
+              ro: 'Young girl brushing her teeth.'
+            }
+          }
+        },
+        ctaMessage: {
+          title: {
+            ro: 'Cum să previi afecțiunile dentare?'
+          },
+          description: {
+            ro: [
+              'Pe lângă îngălbenirea dinților și efectele respirației urât mirositoare, pe termen lung, tartrul cauzează apariția cariilor și, în unele cazuri, chiar și gingivită, atunci când se formează sub linia gingiei. Detartrajul periodic elimină riscul acestor afecțiuni, protejându-ți dinții timp de aproximativ 6 luni.'
+            ]
+          },
+          ctaButton: {
+            ro: 'Programare Igienizare Dentară'
           }
         },
         pageContent: {
@@ -79,6 +101,38 @@ export default {
       description: {
         ro: 'Endodonția se concentrează pe păstrarea dintelui natural cât mai mult timp posibil. Echipa noastră de dentiști din Aiud-Cluj are experiența necesară pentru a trata straturile interioare ale dintelui, contribuind astfel la prelungirea duratei sale de viață. Salvează-ți dinții cu tratamente stomatologice de ultimă generație!'
       },
+      details: {
+        hero: {
+          title: {
+            ro: 'Tratamente de salvare a dintelui'
+          },
+          description: {
+            ro: [
+              'Tratamentul endodontic are ca obiectiv salvarea dintelui natural sau cel puțin a rădăcinii acestuia, folosind tehnici de tratare a canalelor dintelui. De cele mai multe ori, acest tratament presupune extirparea nervului, igienizarea și umplerea canalelor cu materiale biocompatibile, precum și reconstrucția coroanei dentare.',
+              'Salvarea dintelui natural sau a rădăcinii acestuia este deosebit de importantă pentru că previne migrarea dinților adiacenți în spațiul gol rămas și elimină necesitatea implantului dentar (backlink la implanturi) sau a altor lucrări protetice. Din acest motiv, tratamentul endodontic este mai economic și mai benefic pentru pacient, pe termen lung, decât extracția.'
+            ]
+          },
+          image: {
+            src: require('@/assets/images/EndoHero.png'),
+            alt: {
+              ro: 'Little girl having a toothache.'
+            }
+          }
+        },
+        ctaMessage: {
+          title: {
+            ro: ''
+          },
+          description: {
+            ro: [
+              ''
+            ]
+          },
+          ctaButton: {
+            ro: ''
+          }
+        },
+      },
       priceTable: {
         title: {
           ro: 'Tratamente de salvare a dintelui'
@@ -124,6 +178,38 @@ export default {
       description: {
         ro: 'Când a sosit momentul să îți înlocuiești dinții, alege punți dentare sau proteze care să reziste! Lipsa unui dinte sau a unui grup de dinți se va răsfrânge dincolo de aspectul estetic. De la probleme de masticație și afecțiuni ale cavității bucale la afecțiuni ale articulației gurii și afecțiuni digestive, lipsa dinților îți poate afecta calitatea vieții. Profită de serviciile de protetică oferite de echipa noastră de dentiști din Aiud!'
       },
+      details: {
+        hero: {
+          title: {
+            ro: 'Protetică dentară'
+          },
+          description: {
+            ro: [
+              'Pe lângă dificultăți de masticație si vorbire, lipsa unui dinte sau a unui grup de dinți duce și la afecțiuni ale cavitații bucale,  ale articulației gurii sau afecțiuni digestive. De aceea este recomandată  înlocuirea dinților lipsă cu implanturi, punți dentare sau proteze. Află care  este cea mai potrivită variantă pentru tine.',
+            ]
+          },
+          image: {
+            src: require('@/assets/images/ProtHero.png'),
+            alt: {
+              ro: 'Little girl having a toothache.'
+            }
+          }
+        },
+        ctaMessage: {
+          title: {
+            ro: 'Care soluție e potrivită pentru mine?'
+          },
+          description: {
+            ro: [
+              'Există mai multe tipuri de proteze, fixe sau mobile, cum ar fi: proteze care se conectează la dinți sau implanturi, proteze care se atașează folosind adezivi, sau care pot fi menținute de mușchii înconjurători. Aceste proteze au scopul de a reda forma și culoarea dinților dumneavoastră naturali, pentru a vă oferi un zâmbet cât mai natural și estetic.',
+              'Soluția potrivită pentru tine, însă, trebuie aleasă împreună cu medicul stomatolog, în urma unei consultații profesioniste.',
+            ]
+          },
+          ctaButton: {
+            ro: 'Programare Consultatie'
+          }
+        },
+      },
       priceTable: {
         title: {
           ro: 'Tratamente protetice'
@@ -162,6 +248,38 @@ export default {
       },
       description: {
         ro: 'Echipa noastră de chirurgi stomatologi are o singură prioritate: salvarea dinților tăi naturali! Clinica noastră se mândrește cu tratamente chirurgicale de ultimă generație, care reduc la minim durerea și maximizează eficacitatea procedurilor chirurgicale. Ne concentrăm pe rezolvarea rapidă a complicațiilor dentare și gingivale și mizăm pe rezultate rapide, ușoare și fără durere!'
+      },
+      details: {
+        hero: {
+          title: {
+            ro: 'Tratamente Chirurgicale'
+          },
+          description: {
+            ro: [
+              'Tratamentele chirurgicale sunt specialitatea clinicii noastre. Obiectivul nostru este de a salva dinții recuperabili prin rezolvarea complicațiilor dentare și gingivale în cel mai scurt timp posibil, ușor și fără durere.',
+              'Află mai multe despre tratamentele noastre și fa-ți o programare online pentru a crește șansele de ați salva dinții aflați in pericol.'
+            ]
+          },
+          image: {
+            src: require('@/assets/images/EndoHero.png'),
+            alt: {
+              ro: 'Little girl having a toothache.'
+            }
+          }
+        },
+        ctaMessage: {
+          title: {
+            ro: ''
+          },
+          description: {
+            ro: [
+              ''
+            ]
+          },
+          ctaButton: {
+            ro: ''
+          }
+        },
       },
       priceTable: {
         title: {
@@ -214,6 +332,38 @@ export default {
       description: {
         ro: 'Clinica noastră perfecționează zâmbete prin tratamente ortodontice moderne. Folosind aparate dentare fixe sau mobile, ne asigurăm că dinții strâmbi sau înghesuiți rămân doar o amintire. Mai mult decât atât, tratamentele ortodontice nu numai că vor corecta dantura, dar vor contribui și la menținerea unei igiene orale impecabile și vor reduce riscul apariției cariilor.'
       },
+      details: {
+        hero: {
+          title: {
+            ro: 'Tratamente ortodontice'
+          },
+          description: {
+            ro: [
+              'Din ce în ce mai multe persoane adulte apelează la tratamente ortodontice recunoscând astfel importanța alinierii dinților și a mușcăturii. Tratamentele moderne nu impun nicio limită de vârstă, încurajând chiar corectarea anomaliilor arcadei dentare la adulți, pentru a preveni viitoare complicații.',
+              'Dinții înghesuiți sunt mai greu de curățat fiind astfel mai expuși riscului de a fi pierduți din cauza cariilor și a paradontozei. Ortodonția este specialitatea medicinei dentare care se ocupă de alinierea dinților folosind aparate dentare fixe sau mobile, cu scopul îmbunătățirii mușcăturii, igienei dentare și, nu în ultimul rând, a aspectului fizic al feței și al zâmbetului.'
+            ]
+          },
+          image: {
+            src: require('@/assets/images/OrtoHero.png'),
+            alt: {
+              ro: 'Man smiling wearing braces.'
+            }
+          }
+        },
+        ctaMessage: {
+          title: {
+            ro: ''
+          },
+          description: {
+            ro: [
+              ''
+            ]
+          },
+          ctaButton: {
+            ro: ''
+          }
+        },
+      },
       priceTable: {
         title: {
           ro: 'Tratamente ortodontice și aparate dentare'
@@ -253,6 +403,160 @@ export default {
       description: {
         ro: 'Implantologia este una dintre cele mai importante ramuri ale stomatologiei datorită rolului vital pe care îl joacă în păstrarea unei danturi frumoase și sănătoase. Implanturile dentare se remarcă datorită rezistenței în timp și nu compromit dinții alăturați. Cu cât se acționează mai repede pentru înlocuirea dintelui extras, cu atât mai bine pentru întreaga dantură! Descoperă materialele și tehnologia de ultimă generație utilizate pentru implanturi de către medicii noștri dentiști din Aiud!'
       },
+      details: {
+        hero: {
+          title: {
+            ro: 'Implanturi Dentare'
+          },
+          description: {
+            ro: [
+              'Implantul dentar este o procedură medicală prin care se înlocuiește rădăcina unuia sau mai multor dinți cu o rădăcină din titan de înaltă puritate, înfiletată chirurgical în țesutul osos al maxilarului. Această rădăcină va servi ca fundație pentru montarea lucrării protetice.',
+              'Materialul folosit pentru realizarea implantului este <strong class="font-mvb">100% biocompatibil</strong>, organismul nostru integrându-l astfel in osul mandibular prin <strong class="font-mvb">procesul natural de osteointegrare.</strong>'
+            ]
+          },
+          image: {
+            src: require('@/assets/images/ProtHero.png'),
+            alt: {
+              ro: 'Little girl having a toothache.'
+            }
+          }
+        },
+        ctaMessage: {
+          title: {
+            ro: 'TBD'
+          },
+          description: {
+            ro: [
+              'Implantul dentar este recomandat de medici din întreaga lume pentru că, spre deosebire de punțile sau protezele clasice, acesta este mai estetic, mai funcțional, mai rezistent și prezintă mai puține riscuri. Procedura de implant dentar este specialitatea clinicii noastre, echipa noastră oferind servicii de înaltă calitate la costuri sub nivelul celor din clinicile din marile orașe.'
+            ]
+          },
+          ctaButton: {
+            ro: 'Programare Consultatie'
+          }
+        },
+        dentalImplantBenefits: {
+          title: {
+            ro: 'Care sunt beneficiile implantului dentar?'
+          },
+          benefits: [
+            {
+              id: 1,
+              name: 'Prevention',
+              isComponent: false,
+              title: {
+                ro: 'Previne migrarea dinților',
+              },
+              description: {
+                ro: 'Implantul unei rădăcini artificiale previne procesul de migrare a dinților învecinați spre spațiul gol rămas după extracție, păstrând astfel forma naturală a maxilarului și prevenind posibile complicații de vorbire sau masticație.'
+              }
+            },
+            {
+              id: 2,
+              name: 'Prevention',
+              isComponent: false,
+              title: {
+                ro: 'Nu afectează dinții învecinați',
+              },
+              description: {
+                ro: 'Pe lângă prevenirea migrării dinților, procedura de implant dentar nu compromite dinții adiacenți pentru construcția de punți.'
+              }
+            },
+            {
+              id: 3,
+              name: 'Prevention',
+              isComponent: false,
+              title: {
+                ro: 'Nu restricționează masticația',
+              },
+              description: {
+                ro: 'Comparativ cu punțile sau protezele (backlink la proteze, daca există) clasice, un implant dentar este mai stabil și nu acoperă cerul gurii. De aceea, pacienții cu implanturi dentare se pot bucura de o gamă mai largă de produse alimentar.'
+              }
+            },
+            {
+              id: 4,
+              name: 'Prevention',
+              isComponent: false,
+              title: {
+                ro: 'Garantează o rezistență mai mare',
+              },
+              description: {
+                ro: 'Implantele dentare au o durată de viață superioară altor lucrări protetice. Implantul de titan poate rezista pe durata întregii vieți, pentru că este asimilat de organism, spre deosebire de o coroană dentară, care are o durată de viață intre 5 și 15 ani.'
+              }
+            },
+          ],
+        },
+        pageContent: {
+          implantProcedure: {
+            title: {
+              ro: "Etapele Implantului Dentar",
+            },
+            steps: [
+              {
+                step: 1,
+                title: {
+                  ro: "Consultația și planul de tratament",
+                },
+                image: require("@/assets/images/ImplantStep1.png"),
+                description: {
+                  ro: [
+                    "Planul de tratament este stabilit de medicul specialist, pe baza unei radiografii panoramice. În unele cazuri, este nevoie și de o scanare CT, în special atunci când radiografia simplă nu reflectă clar volumul osului. Dacă pacientul suferă de afecțiuni cronice, medicul implantolog poate recomanda efectuarea unor analize suplimentare.",
+                    "De obicei, planul de tratament cuprinde procedura de inserarea a rădăcinii din titan și montarea bontului de prindere și a coroanei dentare. Acest plan va conține o estimare a costurilor și a programărilor calendaristice.",
+                    "Uneori, este necesar ca planul de tratament sa conțină și proceduri de creștere a volumului de os, prin adiție osoasă și, eventual, sinus lifting.",
+                  ],
+                },
+              },
+              {
+                step: 2,
+                title: {
+                  ro: "Inserarea chirurgicală a implantului",
+                },
+                image: require("@/assets/images/ImplantStep2.png"),
+                description: {
+                  ro: [
+                    "Inserarea unui implant dentar în os se face sub anestezie locală. Procedura nu este dureroasă și are o durată de aproximativ 30 de minute. În funcție de caz, după inserare, implantul poate fi acoperit cu gingia, pentru a facilita procesul de osteointegrare sau se poate continua cu montarea bontului și atașarea coroanei.",
+                  ],
+                },
+              },
+              {
+                step: 3,
+                title: {
+                  ro: "Perioada de osteointegrarea",
+                },
+                image: false,
+                description: {
+                  ro: [
+                    "De cele mai multe ori, implantul dentar presupune o perioadă de vindecare între inserarea implantului și montarea bontului și a coroanei dentare. Această perioadă poate dura de la 3 la 6 luni, în funcție de recomandarea medicul implantolog.",
+                  ],
+                },
+              },
+              {
+                step: 4,
+                title: {
+                  ro: "Montarea bonturilor",
+                },
+                image: require("@/assets/images/ImplantStep3.png"),
+                description: {
+                  ro: [
+                    "La finalul perioadei de osteointegrare, se montează, pentru o perioadă de 2-3 săptămâni, un bont de vindecare, ce ajută gingia să capete o formă naturală. Apoi, se atașează o altă piesă, numită bont protetic, care va constitui suportul pentru coroana dentară ce va înlocui dintele lipsă.",
+                  ],
+                },
+              },
+              {
+                step: 5,
+                title: {
+                  ro: "Atașarea Coroanei",
+                },
+                image: false,
+                description: {
+                  ro: [
+                    "Coroana este realizată de tehnicianul dentar, conform specificațiilor medicului implantolog. Aceasta urmează a fi cimentată pe bont, rezultând astfel un dinte perfect funcțional și estetic.",
+                  ],
+                },
+              },
+            ],
+          },
+        },
+      },
       priceTable: {
         title: {
           ro: 'Tratamente de implantologie'
@@ -284,50 +588,4 @@ export default {
       }
     },
   ],
-  dentalImplantBenefits: [
-    {
-      id: 1,
-      name: 'Prevention',
-      isComponent: false,
-      title: {
-        ro: 'Previne migrarea dinților',
-      },
-      description: {
-        ro: 'Implantul unei rădăcini artificiale previne procesul de migrare a dinților învecinați spre spațiul gol rămas după extracție, păstrând astfel forma naturală a maxilarului și prevenind posibile complicații de vorbire sau masticație.'
-      }
-    },
-    {
-      id: 2,
-      name: 'Prevention',
-      isComponent: false,
-      title: {
-        ro: 'Nu afectează dinții învecinați',
-      },
-      description: {
-        ro: 'Pe lângă prevenirea migrării dinților, procedura de implant dentar nu compromite dinții adiacenți pentru construcția de punți.'
-      }
-    },
-    {
-      id: 3,
-      name: 'Prevention',
-      isComponent: false,
-      title: {
-        ro: 'Nu restricționează masticația',
-      },
-      description: {
-        ro: 'Comparativ cu punțile sau protezele (backlink la proteze, daca există) clasice, un implant dentar este mai stabil și nu acoperă cerul gurii. De aceea, pacienții cu implanturi dentare se pot bucura de o gamă mai largă de produse alimentar.'
-      }
-    },
-    {
-      id: 4,
-      name: 'Prevention',
-      isComponent: false,
-      title: {
-        ro: 'Garantează o rezistență mai mare',
-      },
-      description: {
-        ro: 'Implantele dentare au o durată de viață superioară altor lucrări protetice. Implantul de titan poate rezista pe durata întregii vieți, pentru că este asimilat de organism, spre deosebire de o coroană dentară, care are o durată de viață intre 5 și 15 ani.'
-      }
-    },
-  ]
 }

@@ -1,31 +1,8 @@
 <template>
   <div class="container px-6">
-    <!-- Hero -->
-    <div class="flex flex-col md:flex-row justify-between items-center">
-      <!-- Text -->
-      <div class="max-w-prose mr-2 order-last md:order-first">
-        <h1 class="text-center md:text-left">Tratamente Chirurgicale</h1>
-        <p class="">
-          Tratamentele chirurgicale sunt specialitatea clinicii noastre.
-          Obiectivul nostru este de a salva dinții recuperabili prin rezolvarea
-          complicațiilor dentare și gingivale în cel mai scurt timp posibil,
-          ușor și fără durere.
-        </p>
-        <p class="mt-8">
-          Află mai multe despre tratamentele noastre și fa-ți o programare
-          online pentru a crește șansele de ați salva dinții aflați in pericol.
-        </p>
-      </div>
 
-      <!-- Image -->
-      <div class="mt-16 lg:mt-24 md:max-w-xs lg:max-w-max">
-        <img
-          src="../assets/images/EndoHero.png"
-          alt="Little girl having a toothache."
-          class=""
-        />
-      </div>
-    </div>
+    <!-- Hero Section -->
+    <hero :service="service"></hero>
 
     <div class="">
       <div class="max-w-prose">
@@ -76,16 +53,12 @@
 <script>
 import store from "@/store";
 import PriceTable from "../components/PriceTable.vue";
+import Hero from '../components/Hero.vue';
 
 export default {
   components: {
     PriceTable,
-  },
-  props: {
-    serviceName: {
-      type: String,
-      required: true,
-    },
+    Hero
   },
   computed: {
     service() {

@@ -1,39 +1,8 @@
 <template>
   <div class="container px-6">
     
-    <!-- Hero -->
-    <div
-      class="flex flex-col md:flex-row justify-between items-center"
-    >
-      <!-- Text -->
-      <div class="md:max-w-sm lg:max-w-prose mr-2 order-last md:order-first">
-        <h1 class="">Tratamente de salvare a dintelui</h1>
-        <p class="">
-          Tratamentul endodontic are ca obiectiv salvarea dintelui natural sau
-          cel puțin a rădăcinii acestuia, folosind tehnici de tratare a
-          canalelor dintelui. De cele mai multe ori, acest tratament presupune
-          extirparea nervului, igienizara și umplerea canalelor cu materiale
-          biocompatibile, precum și reconstrucția coroanei dentare.
-        </p>
-        <p class="mt-8">
-          Salvarea dintelui natural sau a rădăcinii acestuia este deosebit de
-          importantă pentru că previne migrarea dinților adiacenți în spațiul
-          gol rămas și elimină necesitatea implantului dentar (backlink la
-          implanturi) sau a altor lucrări protetice. Din acest motiv,
-          tratamentul endodontic este mai economic și mai benefic pentru
-          pacient, pe termen lung, decât extracția.
-        </p>
-      </div>
-
-      <!-- Image -->
-      <div class="mt-16 lg:mt-24 md:max-w-xs lg:max-w-max">
-        <img
-          src="../assets/images/EndoHero.png"
-          alt="Little girl having a toothache."
-          class=""
-        />
-      </div>
-    </div>
+    <!-- Hero Section -->
+    <hero :service="service"></hero>
 
     <!-- Treatment Steps -->
     <div class="">
@@ -106,17 +75,13 @@
 <script>
 import store from "@/store";
 import PriceTable from "../components/PriceTable.vue";
+import Hero from '../components/Hero.vue';
 
 export default {
   name: "Endo",
   components: {
     PriceTable,
-  },
-  props: {
-    serviceName: {
-      type: String,
-      required: true,
-    },
+    Hero
   },
   computed: {
     service() {

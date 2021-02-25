@@ -5,13 +5,13 @@
 
 @layer base {
     h1 {
-      @apply mt-16 md:mt-24 mb-12 font-mwb tracking-wide text-black text-xl md:text-2xl lg:text-3xl;
+      @apply mt-16 md:mt-24 mb-12 font-mwb tracking-wide text-dark text-xl md:text-2xl lg:text-3xl;
     }
     h2 {
-      @apply mt-12 mb-8 font-mwsb tracking-wide text-black text-lg md:text-lg lg:text-xl;
+      @apply mt-12 mb-8 font-mwsb tracking-wide text-dark text-lg md:text-lg lg:text-xl;
     }
     h3 {
-      @apply mt-4 mb-2 font-mvb tracking-wide text-black text-base md:text-lg lg:text-xl;
+      @apply mt-4 mb-2 font-mvb tracking-wide text-dark text-base md:text-lg lg:text-xl;
     }
     p {
       @apply font-mvr text-black text-lg text-justify tracking-wide;
@@ -20,6 +20,6 @@
 
 @layer components {
   .navbar-link {
-    @apply lg:p-4 py-3 px-0 font-mwsr text-black block border-b-2 border-transparent hover:border-primary;
+    @apply lg:p-4 py-3 px-0 font-mwsl text-dark block border-b-2 border-transparent hover:border-primary;
   }
 }

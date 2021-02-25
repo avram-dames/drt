@@ -1,61 +1,15 @@
 <template>
     <div class="container px-6">
-      <!-- Hero -->
-      <section>
-      <div class="flex flex-col md:flex-row justify-between items-center">
-        <!-- Text -->
-        <div class="md:max-w-sm lg:max-w-prose mr-2 order-last md:order-first">
-            <h1>Protetică dentară</h1>
-            <p>
-              Pe lângă dificultăți de masticație si vorbire, lipsa unui dinte
-              sau a unui grup de dinți duce și la afecțiuni ale cavitații bucale, 
-              ale articulației gurii sau afecțiuni digestive. De aceea este recomandată 
-              înlocuirea dinților lipsă cu implanturi, punți dentare sau proteze. Află care 
-              este cea mai potrivită variantă pentru tine.
-          </p>
-        </div>
 
-        <!-- Image -->
-        <div class="mt-16 lg:mt-24 md:max-w-xs lg:max-w-max">
-          <img
-            src="../assets/images/ProtHero.png"
-            alt="Little girl having a toothache."
-            class=""
-          />
-        </div>
-      </div>
-      </section>
+    <!-- Hero Section -->
+    <hero :service="service"></hero>
 
-      <section class="mt-24">
-      <div
-        class="pb-12 px-4 flex justify-center bg-gradient-to-br from-primary-001 to-primary-200"
-      >
-        <div class="max-w-prose">
-          <h2 class="text-center">Care soluție e potrivită pentru mine?</h2>
-          <p>
-            Există mai multe tipuri de proteze, fixe sau mobile, cum ar fi: 
-        proteze care se conectează la dinți sau implanturi, proteze care se atașează 
-        folosind adezivi, sau care pot fi menținute de mușchii înconjurători. Aceste 
-        proteze au scopul de a reda forma și culoarea dinților dumneavoastră naturali, 
-        pentru a vă oferi un zâmbet cât mai natural și estetic.
-          </p>
-          <p class="mt-4">Soluția potrivită pentru tine, însă, trebuie aleasă împreună cu medicul stomatolog, 
-        în urma unei consultații profesioniste.</p>
-          <div class="mt-8 md:flex md:justify-center">
-            <div class="rounded-md shadow">
-              <a
-                href="#appointment-form"
-                class="w-full flex items-center justify-center px-4 py-3 md:px-6 md:py-3 border border-transparent font-mwsr text-sm rounded-md text-white bg-primary hover:bg-primary-light shadow-md focus:shadow-none"
-              >
-                Programare Consultatie
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+    <!-- CTA Card -->
+    <section class="mt-24">
+      <cta-card :ctaMessage="service.details.ctaMessage"></cta-card>
     </section>
 
-    <section>
+    <section class="mt-24">
       <h2 class="">Proteze dentare mobile</h2>      
       <div class="mt-8 flex flex-col md:flex-row justify-between">
         <div class="md:w-2/3 md:pr-4 order-last md:order-first">
@@ -178,16 +132,14 @@
 <script>
 import store from "@/store";
 import PriceTable from "../components/PriceTable.vue";
+import Hero from "../components/Hero.vue";
+import CtaCard from '../components/CtaCard.vue';
 
 export default {
   components: {
     PriceTable,
-  },
-  props: {
-    serviceName: {
-      type: String,
-      required: true,
-    },
+    Hero,
+    CtaCard
   },
   computed: {
     service() {
