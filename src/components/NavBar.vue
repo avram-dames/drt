@@ -1,73 +1,57 @@
 <template>
-  <!-- <div class="fixed z-10 w-full bg-white shadow-md"></div> fixed navbar -->
-  <header class="container px-6 pt-4 pb-2 flex flex-wrap items-center">
-    <div class="flex-1 lg:flex-none justify-between items-center">
-      <router-link to="/">
-        <icon name="logo"></icon>
-      </router-link>
-    </div>
+  <header 
+    class="w-full fixed h-20 pt-4 pb-6 flex flex-row flex-wrap justify-between bg-white items-center z-50"
+  >
+    <!-- Logo -->
+    <router-link 
+      class="pl-6"
+      to="/"
+    >
+      <icon name="logo"></icon>
+    </router-link>
 
-    <!-- Mobile Toggle -->
+    <!-- Hamburger Toggle -->
     <label
       @click="menuToggleOn = !menuToggleOn"
       for="menu-toggle"
-      class="cursor-pointer lg:hidden"
+      class="pr-6 cursor-pointer lg:hidden"
     >
-      <icon :name="menuToggleOn ? 'closeMenu' : 'openMenu'"></icon>
+      <div class="inline-block cursor-pointer">
+        <div class="bar1"></div>
+        <div class="bar2" :class="menuToggleOn ? 'change' : ''"></div>
+        <div class="bar3"></div>
+      </div>
     </label>
 
     <!-- Menu Items -->
-    <div
-      id="menu"
-      :class="menuToggleOn ? 'block' : 'hidden'"
-      class="w-full lg:block lg:w-auto h-screen lg:h-auto text-center text-xl lg:text-sm text-dark font-mwsl pt-4 lg:pt-0 lg:pl-16"
+    <transition
+      enter-active-class="transition ease-out duration-300 transform"
+      enter-from-class="translate-x-full"
+      enter-to-class="translate-x-0"
+      leave-active-class="transition ease-in duration-300 transform"
+      leave-from-class="translate-x-0"
+      leave-to-class="translate-x-full"
     >
-      <nav class="dividy-solid divide-y divide-black">
-        <ul class="lg:flex lg:items-center lg:justify-between">
-          <li class="hidden lg:block"><dropdown-menu></dropdown-menu></li>
-          <li class="navbar-link lg:hidden" @click="toggleOff">
-            <router-link :to="{ name: 'Home' }"> Home </router-link>
-          </li>
-          <li class="navbar-link" @click="toggleOff">
-            <a href="/#team"> Echipa Noastră </a>
-          </li>
-          <li class="navbar-link" @click="toggleOff">
-            <a href="#contact"> Contact </a>
-          </li>
-        </ul>
+    <div
+      id="mobile-menu"
+      v-show="menuToggleOn"
+      class="w-full h-screen py-8 text-center text-xl text-dark font-mwsl bg-white"
+    >
+      <!-- implement event to toggle off menu after click on link -->
+      <the-navigation @toggle-off-menu="toggleOff"></the-navigation>
+    </div>
+    </transition>
 
-        <ul class="lg:hidden">
-          <li class="text-xl font-mwsb my-4" role="menuitem">Tratamente</li>
-          <li
-            v-for="service in services"
-            :key="service.id"
-            @click="toggleOff"
-          >
-            <router-link 
-              :to="{ 
-                name: service.name,
-                params: { serviceName: service.name }
-                }"
-              role="menuitem"
-              class="navbar-link"
-              >{{ service.title.ro }}
-            </router-link>
-          </li>
-          <li @click="toggleOff">
-            <router-link
-              :to="{name: 'Details'}"
-              role="menuitem"
-              class="navbar-link"
-              >Detalii și Prețuri</router-link
-            >
-          </li>
-        </ul>
-      </nav>
+    <div
+      id="desktop-menu"
+      class="hidden lg:inline-block lg:text-sm text-dark font-mwsl pt-4 lg:pt-0 lg:pl-16" 
+      >
+      <the-navigation></the-navigation>
     </div>
 
     <!-- Call to Action -->
     <div
-      class="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:w-auto w-full"
+      class="hidden pr-6 lg:flex lg:flex-1 lg:items-center lg:justify-end lg:w-auto"
     >
       <ul class="lg:flex lg:items-center text-sm text-primary pt-4 lg:pt-0">
         <li>
@@ -84,35 +68,49 @@
       </ul>
     </div>
   </header>
+  
 </template>
 
 <script>
 import Icon from "./Icon.vue";
-import DropdownMenu from "./DropdownMenu";
-import store from "@/store";
+import TheNavigation from "./TheNavigation.vue"
 
 export default {
   name: "NavigationBar",
   components: {
     Icon,
-    DropdownMenu,
+    TheNavigation
   },
   data() {
     return {
       menuToggleOn: false,
-      services: store.services,
+
     };
   },
   methods: {
     toggleOff() {
-      this.menuToggleOn = false
-    }
-  }
+      this.menuToggleOn = false;
+    },
+  },
 };
 </script>
 
 <style scoped>
 #menu a.router-link-exact-active {
-  color: #D4A45B;
+  color: #d4a45b;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 2px;
+  background-color: #444444;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change {
+  transform: translate(-10px);
 }
 </style>

@@ -1,5 +1,6 @@
 <template>
   <nav-bar></nav-bar>
+
   <router-view :key="$route.path" />
 
   <appointment-form id="appointment-form"></appointment-form>

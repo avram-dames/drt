@@ -23,7 +23,7 @@
           Clinica noastră oferă tratamente de prevenție si salvare a dinților
           făcând tot posibilul sa se evite procedura de extracție. Totuși uneori
           pacientul vine prea târziu la cabinet pentru a se mai putea salva
-          dintele, astfel dintele trebuie scos. Citește mai mult despre
+          dintele, astfel dintele trebuie extras. Citește mai mult despre
           tratamentele de prevenție, aici.
         </p>
 

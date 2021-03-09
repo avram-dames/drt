@@ -83,7 +83,7 @@
           <p class="mt-8 max-w-prose">
             <strong class="font-mveb">Dezavantaje</strong>
           <ul class="list-inside list-disc">
-            <li>Cost mai ridicat decât cel al punților dentare.</li>
+            <li>Cost mai ridicat decât cel al protezelor mobile.</li>
           </ul>
           </p>
         </div>

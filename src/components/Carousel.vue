@@ -3,15 +3,14 @@
     class="flex flex-col md:my-32 md:container md:flex-row md:justify-center"
   >
     <div
-      class="mt-16 m-auto md:m-0 md:mt-0 w-4/5 md:w-80 lg:w-96 md:order-last"
+      class="m-auto md:m-0 w-4/5 md:w-80 lg:w-96 md:order-last"
     >
       <img :src="teamMember.image" :alt="teamMemberNameAndTitle" class="rounded-sm"/>
     </div>
 
     <div
-      class="flex flex-col h-80 md:h-auto md:w-80 lg:w-96 justify-between items-center md:items-start pt-4"
+      class="flex flex-col py-8 md:py-0 md:h-auto md:w-80 lg:w-96 justify-center items-center md:items-start"
     >
-      <div></div>
       <div>
         <h3
           class="text-center md:text-left font-mwsb tracking-wide text-md md:text-lg lg:text-xl"
@@ -22,13 +21,8 @@
           {{ teamMember.title }}
         </p>
       </div>
-      <p
-        class="mt-2 text-center md:text-left font-mvl tracking-wide text-md w-60"
-      >
-        {{ teamMember.description }}
-      </p>
 
-      <div class="flex flex-row pr-4 space-x-6 items-center">
+      <div class="flex flex-row pt-8 md:pt-20 space-x-6 items-center">
         <!-- Left Arrow -->
         <button
           class="w-8 h-8 md:w-6 md:h-6"

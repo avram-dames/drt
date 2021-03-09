@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="container max-w-prose px-4 md:px-0">
+    <div class="h-16"></div>
+    <div class="bg-gradient-to-b from-white inset-0 h-6"></div>
+    <div class="container max-w-prose px-6 md:px-0">
       <h1 class="text-center">Tratamente oferite de clinica noastră</h1>
 
       <div v-for="service in services" :key="service.id">

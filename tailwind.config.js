@@ -31,8 +31,7 @@ module.exports = {
         '192': "48rem",
       },
       height: theme => ({
-        "screen-adjusted": "calc(100vh - 1.5rem - 43px)", // vh - padding - logo height - gradient
-        "full-adjusted": "calc(100%)", // vh - padding - logo height
+        "screen-adjusted": "calc(100vh - 5rem - 1.5rem)", // vh - navbar height - gradient
       }),
       width: {
         'icon-md': '4rem',

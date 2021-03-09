@@ -33,7 +33,7 @@ export default {
           },
           description: {
             ro: [
-              'Întotdeauna este mai ieftin și mai puțin dureros să previi o afecțiune decât să o tratezi. Placa bacteriană (tartrul) este principala cauza a afecțiunilor dentare și gingivale. Astfel, prevenirea formării tartrului prin periaj regulat și igienizarea corectă a gurii este prima linie de protecție împotriva cariilor și bolilor parodontale.',
+              'Întotdeauna este mai ieftin și mai puțin dureros să previi o afecțiune decât să o tratezi. Placa bacteriană (tartrul) este principala cauza a afecțiunilor dentare și gingivale. Astfel, prevenirea formării tartrului prin periaj regulat și igienizarea corectă a cavității bucale este prima linie de protecție împotriva cariilor și bolilor parodontale.',
               'Însă, de cele mai multe ori, chiar și o igienă corectă nu este suficientă pentru curățarea în profunzime a danturii. Prin urmare, tratamentul de igienizare profesională este recomandat o dată la 6 luni, pentru a curăța în totalitate dinții de tartru, prevenind astfel apariția cariilor și afecțiunile gingivale. Totodată, acesta oferă și o ușoară albire naturală a dinților, ajutându-te să te simți mai sănătos și să ai un zâmbet mai frumos.'
             ]
           },
@@ -185,7 +185,7 @@ export default {
           },
           description: {
             ro: [
-              'Pe lângă dificultăți de masticație si vorbire, lipsa unui dinte sau a unui grup de dinți duce și la afecțiuni ale cavitații bucale,  ale articulației gurii sau afecțiuni digestive. De aceea este recomandată  înlocuirea dinților lipsă cu implanturi, punți dentare sau proteze. Află care  este cea mai potrivită variantă pentru tine.',
+              'Pe lângă dificultăți de masticație si vorbire, lipsa unui dinte sau a unui grup de dinți duce și la afecțiuni ale cavitații bucale,  ale articulației temporomandibulare sau afecțiuni digestive. De aceea este recomandată  înlocuirea dinților lipsă cu implanturi, punți dentare sau proteze. Află care  este cea mai potrivită variantă pentru tine.',
             ]
           },
           image: {
@@ -340,7 +340,7 @@ export default {
           description: {
             ro: [
               'Din ce în ce mai multe persoane adulte apelează la tratamente ortodontice recunoscând astfel importanța alinierii dinților și a mușcăturii. Tratamentele moderne nu impun nicio limită de vârstă, încurajând chiar corectarea anomaliilor arcadei dentare la adulți, pentru a preveni viitoare complicații.',
-              'Dinții înghesuiți sunt mai greu de curățat fiind astfel mai expuși riscului de a fi pierduți din cauza cariilor și a paradontozei. Ortodonția este specialitatea medicinei dentare care se ocupă de alinierea dinților folosind aparate dentare fixe sau mobile, cu scopul îmbunătățirii mușcăturii, igienei dentare și, nu în ultimul rând, a aspectului fizic al feței și al zâmbetului.'
+              'Dinții înghesuiți sunt mai greu de igienizat fiind astfel mai expuși riscului de a fi pierduți din cauza cariilor și a paradontozei. Ortodonția este specialitatea medicinei dentare care se ocupă de alinierea dinților folosind aparate dentare fixe sau mobile, cu scopul îmbunătățirii mușcăturii, igienei dentare și, nu în ultimul rând, a aspectului fizic al feței și al zâmbetului.'
             ]
           },
           image: {
@@ -427,7 +427,7 @@ export default {
           },
           description: {
             ro: [
-              'Implantul dentar este recomandat de medici din întreaga lume pentru că, spre deosebire de punțile sau protezele clasice, acesta este mai estetic, mai funcțional, mai rezistent și prezintă mai puține riscuri. Procedura de implant dentar este specialitatea clinicii noastre, echipa noastră oferind servicii de înaltă calitate la costuri sub nivelul celor din clinicile din marile orașe.'
+              'Implantul dentar este recomandat de medici din întreaga lume pentru că, spre deosebire de punțile sau protezele clasice, acesta este mai estetic, mai funcțional, mai rezistent și prezintă mai puține riscuri. Procedura de implant dentar este specialitatea clinicii noastre, echipa noastră oferind servicii de înaltă calitate.'
             ]
           },
           ctaButton: {

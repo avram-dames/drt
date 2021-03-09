@@ -1,20 +1,17 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="h-screen-adjusted bg-hero-image bg-cover md:container relative">
-      
-      <!-- Gradient div for mobile -->
-      <div
-        class="bg-gradient-to-b from-white absolute inset-0 h-16 md:hidden"
-      ></div>
+    <section class="h-screen bg-hero-image bg-cover md:container relative">
+      <div class="h-20"></div>
+      <div class="md:hidden bg-gradient-to-b from-white inset-0 h-6"></div>
 
       <!-- Container for hero section, turns to white background on medium screens and larger -->
       <div
-        class="h-full-adjusted md:h-full md:bg-white md:grid md:grid-cols-2 md:gap-4 md:justify-items-center md:items-center"
+        class="h-screen md:bg-white md:grid md:grid-cols-2 md:gap-4 md:justify-items-center md:items-center"
       >
         <!-- Hero Message -->
         <div
-          class="flex flex-col justify-end h-full-adjusted md:justify-start md:h-auto"
+          class="flex flex-col justify-end md:justify-start h-screen-adjusted md:h-auto"
         >
           <div
             class="px-6 py-8 bg-primary-200 bg-opacity-60 md:bg-white"
@@ -44,7 +41,7 @@
           </div>
         </div>
 
-        <!-- Hero Image -->
+        <!-- Hero Image MD and larger screens-->
         <div class="hidden md:inline-block">
           <img
             src="../assets/images/HeroShape.png"
@@ -125,7 +122,7 @@
         </h2>
         <p class="mt-12 text-justify font-mvl tracking-wide text-md">
           Clinica noastră a fost înființată în 2008 pentru a reinventa relația
-          dintre medicii stomatologi și pacienții acestora. Suntem determinați
+          dintre medicul stomatolog și pacient. Suntem determinați
           să ne întâmpinăm clienții într-un mediu primitor, în care fiecare
           pacient simte că este important și că problemele lui sunt ascultate.
         </p>
@@ -140,7 +137,7 @@
         <p class="mt-6 text-justify font-mvl tracking-wide text-md">
           Mai mult decât atât, datorită experienței pluridisciplinare a echipei
           noastre și aparaturilor de cea mai nouă generație, clinica noastră se
-          remarcă în peisajul clinicilor stomatologice din Aiud și Cluj datorită
+          remarcă în peisajul clinicilor stomatologice din Aiud și împrejurimi mulțumită
           duratelor mai scurte a tratamentelor, nivelului redus de durere al
           procedurilor implicate, dar și prețurilor rezonabile menite să
           respecte bugetul fiecărui pacient.
