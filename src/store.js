@@ -8,7 +8,7 @@ export default {
         ro: 'Prevenție',
       },
       description: {
-        ro: 'Primul pas spre un zâmbet sănătos este prevenția. Controalele regulate și tratamentele de igienizare profesională bianuale sunt recomandate de medicii dentiști din toată lumea pentru prevenția cariilor și a afecțiunilor gingivale. Alege un dentist în Aiud căruia îi pasă! Alege DRT Dentist!'
+        ro: 'Controalele regulate și tratamentele de igienizare profesională bianuale sunt recomandate de medicii dentiști din toată lumea pentru prevenția cariilor și a afecțiunilor gingivale. Alege un dentist în Aiud căruia îi pasă!'
       },
       priceTable: {
         title: {
@@ -99,7 +99,7 @@ export default {
         ro: 'Endodonție',
       },
       description: {
-        ro: 'Endodonția se concentrează pe păstrarea dintelui natural cât mai mult timp posibil. Echipa noastră de dentiști din Aiud-Cluj are experiența necesară pentru a trata straturile interioare ale dintelui, contribuind astfel la prelungirea duratei sale de viață. Salvează-ți dinții cu tratamente stomatologice de ultimă generație!'
+        ro: 'Pastrarea dintelui natural este deosebit de importantă. Echipa noastră de dentiști din Aiud și Cluj are experiența și tehnologia necesară pentru a trata cu succes straturile interioare ale dintelui.'
       },
       details: {
         hero: {
@@ -176,7 +176,7 @@ export default {
         ro: 'Protetică',
       },
       description: {
-        ro: 'Când a sosit momentul să îți înlocuiești dinții, alege punți dentare sau proteze care să reziste! Lipsa unui dinte sau a unui grup de dinți se va răsfrânge dincolo de aspectul estetic. De la probleme de masticație și afecțiuni ale cavității bucale la afecțiuni ale articulației gurii și afecțiuni digestive, lipsa dinților îți poate afecta calitatea vieții. Profită de serviciile de protetică oferite de echipa noastră de dentiști din Aiud!'
+        ro: 'Lipsa unui dinte sau a unui grup de dinți îți poate afecta calitatea vieții. Profită de serviciile de protetică oferite de echipa noastră de dentiști din Aiud și alege punți dentare sau proteze care să reziste!'
       },
       details: {
         hero: {
@@ -247,7 +247,7 @@ export default {
         ro: 'Chirurgie',
       },
       description: {
-        ro: 'Echipa noastră de chirurgi stomatologi are o singură prioritate: salvarea dinților tăi naturali! Clinica noastră se mândrește cu tratamente chirurgicale de ultimă generație, care reduc la minim durerea și maximizează eficacitatea procedurilor chirurgicale. Ne concentrăm pe rezolvarea rapidă a complicațiilor dentare și gingivale și mizăm pe rezultate rapide, ușoare și fără durere!'
+        ro: 'La DRT Dentist, echipa noastră de chirurgi stomatologi are o singură prioritate: salvarea dinților tăi naturali! De aceea, ne concentrăm pe rezolvarea rapidă a complicațiilor dentare și gingivale.'
       },
       details: {
         hero: {
@@ -330,7 +330,7 @@ export default {
         ro: 'Ortodonție',
       },
       description: {
-        ro: 'Clinica noastră perfecționează zâmbete prin tratamente ortodontice moderne. Folosind aparate dentare fixe sau mobile, ne asigurăm că dinții strâmbi sau înghesuiți rămân doar o amintire. Mai mult decât atât, tratamentele ortodontice nu numai că vor corecta dantura, dar vor contribui și la menținerea unei igiene orale impecabile și vor reduce riscul apariției cariilor.'
+        ro: 'Tratamentele ortodontice corectează dantura, contribuie la menținerea unei igiene orale impecabile și reduc riscul apariției cariilor. DRT Dentist perfecționează zâmbete prin tratamente ortodontice moderne, folosind aparate dentare fixe sau mobile.'
       },
       details: {
         hero: {
@@ -401,7 +401,7 @@ export default {
         ro: 'Implantologie',
       },
       description: {
-        ro: 'Implantologia este una dintre cele mai importante ramuri ale stomatologiei datorită rolului vital pe care îl joacă în păstrarea unei danturi frumoase și sănătoase. Implanturile dentare se remarcă datorită rezistenței în timp și nu compromit dinții alăturați. Cu cât se acționează mai repede pentru înlocuirea dintelui extras, cu atât mai bine pentru întreaga dantură! Descoperă materialele și tehnologia de ultimă generație utilizate pentru implanturi de către medicii noștri dentiști din Aiud!'
+        ro: 'Implanturile dentare se remarcă datorită rezistenței în timp și nu compromit dinții alăturați. Descoperă materialele și tehnologia de ultimă generație utilizate pentru implanturi de către medicii noștri dentiști din Aiud!'
       },
       details: {
         hero: {

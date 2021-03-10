@@ -26,7 +26,7 @@
               Zâmbetul perfect începe cu o consultație gratuită
             </div>
             <div
-              class="my-4 font-mvl tracking-wide text-justify text-dark text-sm md:text-md lg:text-lg"
+              class="my-4 font-mvl tracking-wide text-dark text-sm md:text-md lg:text-lg"
             >
               Echipa noastră de dentiști din Aiud îți va reda zâmbetul și starea
               de bine! Profită de consultația ta gratuită!
@@ -89,7 +89,7 @@
       >
         <div class="w-160 lg:w-192 my-16">
           <h1 class="text-2xl font-mwb my-8 text-center">Echipa Noastră</h1>
-          <p class="">
+          <p>
             Ne mândrim cu o echipă profesionistă, determinată să țină pasul cu
             descoperirile din domeniul stomatologiei și dornică să ofere
             pacienților servicii de cea mai bună calitate. Echipa noastră își
@@ -120,13 +120,13 @@
         >
           CLINICA NOASTRĂ
         </h2>
-        <p class="mt-12 text-justify font-mvl tracking-wide text-md">
+        <p class="mt-12 font-mvl tracking-wide text-md">
           Clinica noastră a fost înființată în 2008 pentru a reinventa relația
           dintre medicul stomatolog și pacient. Suntem determinați
           să ne întâmpinăm clienții într-un mediu primitor, în care fiecare
           pacient simte că este important și că problemele lui sunt ascultate.
         </p>
-        <p class="mt-6 text-justify font-mvl tracking-wide text-md">
+        <p class="mt-6 font-mvl tracking-wide text-md">
           Mizăm pe o relație deschisă și dorim să desființăm „frica de dentist”.
           Datorită unei abordări bazate pe comunicare, sinceritate și
           profesionalism, ne vom asigura că fiecare pacient va primi nu numai un
@@ -134,7 +134,7 @@
           ci și sprijinul psihologic de care are nevoie pentru a înțelege
           etapele tratamentului.
         </p>
-        <p class="mt-6 text-justify font-mvl tracking-wide text-md">
+        <p class="mt-6 font-mvl tracking-wide text-md">
           Mai mult decât atât, datorită experienței pluridisciplinare a echipei
           noastre și aparaturilor de cea mai nouă generație, clinica noastră se
           remarcă în peisajul clinicilor stomatologice din Aiud și împrejurimi mulțumită

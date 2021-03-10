@@ -4,7 +4,7 @@
   >
     <div class="max-w-prose">
       <h2 class="text-center">{{ ctaMessage.title.ro }}</h2>
-      <p class="text-justify" v-html="ctaMessage.description.ro"></p>
+      <p class="" v-html="ctaMessage.description.ro"></p>
       <div class="mt-8 md:flex md:justify-center">
         <button-primary :reference="'#appointment-form'">
           {{ ctaMessage.ctaButton.ro }}
