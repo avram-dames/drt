@@ -261,7 +261,7 @@ export default {
             ]
           },
           image: {
-            src: require('@/assets/images/EndoHero.png'),
+            src: require('@/assets/images/ImplantStep2.png'),
             alt: {
               ro: 'Little girl having a toothache.'
             }

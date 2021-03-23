@@ -4,16 +4,11 @@
     <!-- Hero Section -->
     <hero :service="service"></hero>
 
-    <!-- CTA Card -->
-    <section class="mt-24">
-      <cta-card :ctaMessage="service.details.ctaMessage"></cta-card>
-    </section>
-
     <!-- Benefits -->
-    <section id="benefits" class="mt-8 flex flex-col">
+    <section id="benefits" class="mt-12 md:mt-24">
       <h2 class="text-center">{{ benefits.title.ro }}</h2>
       
-      <div class="mt-8 md:mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2">
+      <div class="grid grid-cols-1 md:grid-cols-2">
         <t-card
           v-for="benefit in benefits.benefits"
           :key="benefit.id"
@@ -24,8 +19,8 @@
     </section>
 
     <!-- Procedure Steps -->
-    <section class="mt-24">
-    <h2>{{ procedure.title.ro }}</h2>
+    <section id="procedure" class="mt-12 md:mt-24">
+    <h2 class="text-center">{{ procedure.title.ro }}</h2>
 
     <div
       v-for="procedureStep in procedure.steps"
@@ -53,6 +48,15 @@
     </div>
     </section>
 
+    <!-- CTA Card -->
+    <section class="mt-12 md:mt-24">
+      <cta-card :ctaMessage="service.details.ctaMessage"></cta-card>
+    </section>
+
+    <section class="mt-12 md:mt-24">
+      <gallery></gallery>
+    </section>
+
     <!-- Price Table -->
     <!-- <section class="w-full my-24">
       <h3>Listă prețuri</h3>
@@ -66,12 +70,14 @@ import TCard from "../components/TCard.vue";
 import store from "@/store";
 import Hero from '../components/Hero.vue';
 import CtaCard from '../components/CtaCard.vue';
+import Gallery from '../components/Gallery.vue';
 
 export default {
   components: {
     TCard,
     Hero,
-    CtaCard
+    CtaCard,
+    Gallery
   },
   computed: {
     service() {

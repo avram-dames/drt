@@ -8,7 +8,7 @@
       <p
         v-for="(p, index) in service.details.hero.description.ro"
         :key="index"
-        class="mb-8"
+        class="mb-4"
         v-html="p"
       ></p>
     </div>
