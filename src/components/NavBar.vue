@@ -1,6 +1,7 @@
 <template>
+<div class="w-full fixed h-20 pt-4 pb-6 bg-white items-center z-50">
   <header 
-    class="w-full fixed h-20 pt-4 pb-6 flex flex-row flex-wrap justify-between bg-white items-center z-50"
+    class="md:container flex flex-row flex-wrap justify-between "
   >
     <!-- Logo -->
     <router-link 
@@ -68,6 +69,7 @@
       </ul>
     </div>
   </header>
+</div>
   
 </template>
 

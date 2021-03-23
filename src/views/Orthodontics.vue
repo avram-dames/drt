@@ -125,23 +125,15 @@
         />
       </div>
     </div>
-
-    <!-- Price Table -->
-    <div class="my-24 w-full">
-      <h3>Listă prețuri</h3>
-      <price-table :rows="service.priceTable.rows.ro"></price-table>
-    </div>
   </div>
 </template>
 
 <script>
 import store from "@/store";
-import PriceTable from "../components/PriceTable.vue";
 import Hero from '../components/Hero.vue';
 
 export default {
   components: {
-    PriceTable,
     Hero
   },
   computed: {

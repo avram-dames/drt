@@ -32,12 +32,12 @@
         </router-link>
       </li>
       <li @click="emitToggleOff">
-        <router-link
+        <!-- <router-link
           :to="{ name: 'Details' }"
           role="menuitem"
           class="navbar-link"
           >Detalii și Prețuri</router-link
-        >
+        > -->
       </li>
     </ul>
   </nav>

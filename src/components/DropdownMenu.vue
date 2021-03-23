@@ -46,12 +46,12 @@
             class="navbar-link"
             >{{ service.title.ro }}
           </router-link>
-          <router-link
+          <!-- <router-link
             :to="{ name: 'Details' }"
             role="menuitem"
             class="navbar-link"
             >Detalii și Prețuri</router-link
-          >
+          > -->
         </div>
       </div>
     </transition>

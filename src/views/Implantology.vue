@@ -54,15 +54,14 @@
     </section>
 
     <!-- Price Table -->
-    <section class="w-full my-24">
+    <!-- <section class="w-full my-24">
       <h3>Listă prețuri</h3>
       <price-table :rows="service.priceTable.rows.ro"></price-table>
-    </section>
+    </section> -->
   </div>
 </template>
 
 <script>
-import PriceTable from "../components/PriceTable.vue";
 import TCard from "../components/TCard.vue";
 import store from "@/store";
 import Hero from '../components/Hero.vue';
@@ -70,7 +69,6 @@ import CtaCard from '../components/CtaCard.vue';
 
 export default {
   components: {
-    PriceTable,
     TCard,
     Hero,
     CtaCard
