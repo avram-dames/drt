@@ -42,7 +42,7 @@
         </div>
 
         <!-- Hero Image MD and larger screens-->
-        <div class="hidden md:inline-block">
+        <div class="hidden md:mb-20 md:inline-block">
           <img
             src="../assets/images/HeroShape.png"
             alt="Photo of smiling lady by Hian Oliveira borrowd from Unsplash"
@@ -71,25 +71,33 @@
         />
       </div>
 
+      <div class="mt-16 md:mt-32 w-full flex justify-center">
+        <div class="w-full md:w-9/12">
+          <div
+            class="fb-video"
+            data-href="https://www.facebook.com/drtdentistaiud/videos/1593691661021499/"  
+            data-show-text="false">
+            <div class="fb-xfbml-parse-ignore"></div>
+          </div>
+        </div>
+      </div>
+
       <!-- CTA -->
       <div class="my-12 md:flex md:justify-center">
         <button-primary :reference="'#appointment-form'">
-                PROGRAMEAZĂ-TE ACUM
-              </button-primary>
+          PROGRAMEAZĂ-TE ACUM
+        </button-primary>
       </div>
     </section>
 
     <!-- Our Team Section -->
     <section id="team">
-      <h1 class="md:hidden text-2xl font-mwb my-8 text-center">
-        Echipa Noastră
-      </h1>
       <div
-        class="hidden md:flex mt-16 justify-center bg-gradient-to-br from-primary-001 to-primary-200"
+        class="flex mt-16 md:mt-24 justify-center bg-gradient-to-br from-primary-001 to-primary-200"
       >
-        <div class="w-160 lg:w-192 my-16">
-          <h1 class="text-2xl font-mwb my-8 text-center">Echipa Noastră</h1>
-          <p>
+        <div class="w-full md:w-160 lg:w-192">
+          <h2 class="text-2xl font-mwb text-center">Echipa Noastră</h2>
+          <p class="px-8 md:px-0 mb-16">
             Ne mândrim cu o echipă profesionistă, determinată să țină pasul cu
             descoperirile din domeniul stomatologiei și dornică să ofere
             pacienților servicii de cea mai bună calitate. Echipa noastră își
@@ -112,6 +120,7 @@
       <div
         class="min-h-screen bg-clinic-image bg-cover bg-right-bottom md:w-1/2"
       ></div>
+
       <div
         class="min-h-screen py-24 px-8 md:px-12 lg:px-16 bg-gradient-to-br from-primary-100 to-primary-200 md:w-1/2 md:flex md:flex-col md:justify-center"
       >
@@ -122,9 +131,9 @@
         </h2>
         <p class="mt-12 font-mvl tracking-wide text-md">
           Clinica noastră a fost înființată în 2008 pentru a reinventa relația
-          dintre medicul stomatolog și pacient. Suntem determinați
-          să ne întâmpinăm clienții într-un mediu primitor, în care fiecare
-          pacient simte că este important și că problemele lui sunt ascultate.
+          dintre medicul stomatolog și pacient. Suntem determinați să ne
+          întâmpinăm clienții într-un mediu primitor, în care fiecare pacient
+          simte că este important și că problemele lui sunt ascultate.
         </p>
         <p class="mt-6 font-mvl tracking-wide text-md">
           Mizăm pe o relație deschisă și dorim să desființăm „frica de dentist”.
@@ -137,12 +146,12 @@
         <p class="mt-6 font-mvl tracking-wide text-md">
           Mai mult decât atât, datorită experienței pluridisciplinare a echipei
           noastre și aparaturilor de cea mai nouă generație, clinica noastră se
-          remarcă în peisajul clinicilor stomatologice din Aiud și împrejurimi mulțumită
-          duratelor mai scurte a tratamentelor, nivelului redus de durere al
-          procedurilor implicate, dar și prețurilor rezonabile menite să
-          respecte bugetul fiecărui pacient.
+          remarcă în peisajul clinicilor stomatologice din Aiud și împrejurimi
+          mulțumită duratelor mai scurte a tratamentelor, nivelului redus de
+          durere al procedurilor implicate, dar și prețurilor rezonabile menite
+          să respecte bugetul fiecărui pacient.
         </p>
-      </div>
+        </div>
     </div>
 
   </div>
@@ -153,7 +162,7 @@ import store from "@/store";
 
 import TCard from "@/components/TCard.vue";
 import Carousel from "@/components/Carousel.vue";
-import ButtonPrimary from '@/components/ButtonPrimary.vue';
+import ButtonPrimary from "@/components/ButtonPrimary.vue";
 
 export default {
   components: {

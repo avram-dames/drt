@@ -38,7 +38,7 @@ export default {
             ]
           },
           image: {
-            src: require('@/assets/images/PreventionHero.png'),
+            src: require('@/assets/images/PreventionHero.jpg'),
             alt: {
               ro: 'Young girl brushing her teeth.'
             }
@@ -63,7 +63,6 @@ export default {
             {
               step: 1,
               title: 'Detartraj cu ultrasunete',
-              icon: require('@/assets/images/1.svg'),
               illustration: require('@/assets/images/Sonic.png'),
               description: {
                 'ro': 'Primul pas în tratamentul de igienizare profesională este îndepărtarea tartrului. Deoarece detartrajul manual crește riscul deteriorării smalțului, clinica noastră folosește procedura de detartraj cu ultrasunete, care nu afectează smalțul dinților sau gingiile și este mai puțin dureroasă decât procedura standard de detartraj.'
@@ -72,7 +71,6 @@ export default {
             {
               step: 2,
               title: 'Periaj profesional',
-              icon: require('@/assets/images/2.svg'),
               illustration: require('@/assets/images/Brush.png'),
               description: {
                 'ro': 'Urmează procedura de periaj profesional pentru a îndepărta resturile mai mici de tartru rămase în zonele mai puțin accesibile ale dinților. Aceasta este complet nedureroasă fiind realizată cu ajutorul unor instrumente și paste de dinți speciale. Periajul profesional nu folosește substanțe chimice care deteriorează dintele sau gingia.'
@@ -81,7 +79,6 @@ export default {
             {
               step: 3,
               title: 'Airflow',
-              icon: require('@/assets/images/3.svg'),
               illustration: require('@/assets/images/Airflow.png'),
               description: {
                 'ro': 'Air Flow-ul este ultima procedură efectuată în procesul de igienizare. Procedura este efectuată cu ajutorul unui aparat care pulverizează un jet de aer comprimat, apă și particule fine de bicarbonat de sodiu direct pe suprafața dintelui, curățând smalțul dinților de pete sau alte depuneri ce nu au putut fi îndepărtate cu ajutorul detartrajului și al periajului profesional.'
@@ -113,7 +110,7 @@ export default {
             ]
           },
           image: {
-            src: require('@/assets/images/EndoHero.png'),
+            src: require('@/assets/images/EndoHero.jpg'),
             alt: {
               ro: 'Little girl having a toothache.'
             }
@@ -189,7 +186,7 @@ export default {
             ]
           },
           image: {
-            src: require('@/assets/images/ProtHero.png'),
+            src: require('@/assets/images/ProtHero.jpg'),
             alt: {
               ro: 'Little girl having a toothache.'
             }
@@ -261,7 +258,7 @@ export default {
             ]
           },
           image: {
-            src: require('@/assets/images/ImplantStep2.png'),
+            src: require('@/assets/images/SurgeryHero.jpg'),
             alt: {
               ro: 'Little girl having a toothache.'
             }
@@ -344,7 +341,7 @@ export default {
             ]
           },
           image: {
-            src: require('@/assets/images/OrtoHero.png'),
+            src: require('@/assets/images/OrtoHero.jpg'),
             alt: {
               ro: 'Man smiling wearing braces.'
             }
@@ -415,7 +412,7 @@ export default {
             ]
           },
           image: {
-            src: require('@/assets/images/ProtHero.png'),
+            src: require('@/assets/images/ProtHero.jpg'),
             alt: {
               ro: 'Little girl having a toothache.'
             }
@@ -441,7 +438,7 @@ export default {
           benefits: [
             {
               id: 1,
-              name: 'Prevention',
+              name: 'Migration',
               isComponent: false,
               title: {
                 ro: 'Previne migrarea dinților',
@@ -452,7 +449,7 @@ export default {
             },
             {
               id: 2,
-              name: 'Prevention',
+              name: 'Prosthetics',
               isComponent: false,
               title: {
                 ro: 'Nu afectează dinții învecinați',
@@ -463,7 +460,7 @@ export default {
             },
             {
               id: 3,
-              name: 'Prevention',
+              name: 'Apple',
               isComponent: false,
               title: {
                 ro: 'Nu restricționează masticația',
@@ -488,7 +485,7 @@ export default {
         pageContent: {
           implantProcedure: {
             title: {
-              ro: "Etapele Implantului Dentar",
+              ro: "Care sunt etapele implantului dentar?",
             },
             steps: [
               {
@@ -522,7 +519,7 @@ export default {
                 title: {
                   ro: "Perioada de osteointegrarea",
                 },
-                image: false,
+                image: require("@/assets/images/ImplantStep3.jpg"),
                 description: {
                   ro: [
                     "De cele mai multe ori, implantul dentar presupune o perioadă de vindecare între inserarea implantului și montarea bontului și a coroanei dentare. Această perioadă poate dura de la 3 la 6 luni, în funcție de recomandarea medicul implantolog.",
@@ -534,7 +531,7 @@ export default {
                 title: {
                   ro: "Montarea bonturilor",
                 },
-                image: require("@/assets/images/ImplantStep3.png"),
+                image: "https://image.shutterstock.com/shutterstock/photos/112057412/display_1500/stock-photo-single-tooth-implant-112057412.jpg",
                 description: {
                   ro: [
                     "La finalul perioadei de osteointegrare, se montează, pentru o perioadă de 2-3 săptămâni, un bont de vindecare, ce ajută gingia să capete o formă naturală. Apoi, se atașează o altă piesă, numită bont protetic, care va constitui suportul pentru coroana dentară ce va înlocui dintele lipsă.",
@@ -546,7 +543,7 @@ export default {
                 title: {
                   ro: "Atașarea Coroanei",
                 },
-                image: false,
+                image: "https://image.shutterstock.com/shutterstock/photos/1254163057/display_1500/stock-photo-premolar-tooth-crown-installation-over-implant-abutment-medically-accurate-d-illustration-of-1254163057.jpg",
                 description: {
                   ro: [
                     "Coroana este realizată de tehnicianul dentar, conform specificațiilor medicului implantolog. Aceasta urmează a fi cimentată pe bont, rezultând astfel un dinte perfect funcțional și estetic.",

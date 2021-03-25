@@ -5,11 +5,11 @@
     <hero :service="service"></hero>
 
     <!-- CTA Card -->
-    <section class="mt-24">
+    <!-- <section class="mt-24">
       <cta-card :ctaMessage="service.details.ctaMessage"></cta-card>
-    </section>
+    </section> -->
 
-    <section class="mt-24">
+    <section class="">
       <h2 class="">Proteze dentare mobile</h2>      
       <div class="mt-8 flex flex-col md:flex-row justify-between">
         <div class="md:w-2/3 md:pr-4 order-last md:order-first">
@@ -34,8 +34,8 @@
           </p>
         </div>
         <img
-          src="../assets/images/ProtezaDentaraMobila.png"
-          alt="Little girl having a toothache."
+          src="@/assets/images/prosthetics/mobile.jpg"
+          alt="Proteză dentară mobilă"
           class="w-80 object-contain mb-8"
         />
       </div>
@@ -59,8 +59,8 @@
           </p>
         </div>
         <img
-          src="../assets/images/ProtezaDentaraFixa.png"
-          alt="Little girl having a toothache."
+          src="@/assets/images/prosthetics/fixed.jpg"
+          alt="Proteză dentară fixă"
           class="w-80 object-contain mb-8"
         />
       </div>
@@ -88,8 +88,8 @@
           </p>
         </div>
         <img
-          src="../assets/images/CoroanaDentara.png"
-          alt="Little girl having a toothache."
+          src="@/assets/images/prosthetics/crown.jpg"
+          alt="Coroană dentară"
           class="w-80 object-contain mb-8"
         />
       </div>
@@ -114,8 +114,8 @@
           </p>
         </div>
         <img
-          src="../assets/images/PunteDentara.png"
-          alt="Little girl having a toothache."
+          src="@/assets/images/prosthetics/bridge.jpg"
+          alt="Punte dentară"
           class="w-80 object-contain mb-8"
         />
       </div>
@@ -126,12 +126,12 @@
 <script>
 import store from "@/store";
 import Hero from "../components/Hero.vue";
-import CtaCard from '../components/CtaCard.vue';
+// import CtaCard from '../components/CtaCard.vue';
 
 export default {
   components: {
     Hero,
-    CtaCard
+    // CtaCard
   },
   computed: {
     service() {

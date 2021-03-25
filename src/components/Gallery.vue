@@ -1,10 +1,10 @@
 <template>
-  <h2 class="text-center">Galerie</h2>
+  <h1 class="text-center">Cazuri</h1>
   <div class="w-full flex flex-col items-center">
     
     <!-- Image -->
     <img
-      class="max-w-full lg:max-w-xl"
+      class="px-6 max-w-full lg:max-w-2xl"
       :src="teamMember.image" :alt="teamMemberNameAndTitle"
     />
 

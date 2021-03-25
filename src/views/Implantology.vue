@@ -1,14 +1,19 @@
 <template>
-  <div class="container px-6">
-    
+  <div class="">
     <!-- Hero Section -->
-    <hero :service="service"></hero>
+    <div class="container px-6">
+      <hero :service="service"></hero>
+    </div>
+    <!-- CTA Card -->
+    <!-- <section class="mt-12 md:mt-24">
+      <cta-card :ctaMessage="service.details.ctaMessage"></cta-card>
+    </section> -->
 
     <!-- Benefits -->
-    <section id="benefits" class="mt-12 md:mt-24">
-      <h2 class="text-center">{{ benefits.title.ro }}</h2>
-      
-      <div class="grid grid-cols-1 md:grid-cols-2">
+    <section id="benefits" class="mt-24 lg:mt-32 container px-6">
+      <h1 class="text-center">{{ benefits.title.ro }}</h1>
+
+      <div class="mt-8 lg:mt-24 grid grid-cols-1 md:grid-cols-2">
         <t-card
           v-for="benefit in benefits.benefits"
           :key="benefit.id"
@@ -19,41 +24,40 @@
     </section>
 
     <!-- Procedure Steps -->
-    <section id="procedure" class="mt-12 md:mt-24">
-    <h2 class="text-center">{{ procedure.title.ro }}</h2>
-
-    <div
-      v-for="procedureStep in procedure.steps"
-      :key="procedureStep.step"
-      class="flex flex-col md:flex-row md:justify-between"
-    >
-      <div class="md:w-2/3 md:pr-4 flex flex-col justify-around order-last md:order-first">
-        <div>
-          <h3>{{ procedureStep.title.ro }}</h3>
-          <p
-            v-for="(description, index) in procedureStep.description.ro"
-            :key="index"
-            class="mb-4 md:max-w-sm lg:max-w-prose"
+    <section id="procedure" class="mt-24 lg:mt-44 container px-6">
+      <h1 class="text-center">{{ procedure.title.ro }}</h1>
+      <div class="mt-8 lg:mt-20">
+        <div
+          v-for="procedureStep in procedure.steps"
+          :key="procedureStep.step"
+          class="flex flex-col md:flex-row md:justify-between"
+        >
+          <h2 class="md:hidden">{{ procedureStep.title.ro }}</h2>
+          <div
+            class="md:w-2/3 md:pr-4 flex flex-col justify-around order-last md:order-first"
           >
-            {{ description }}
-          </p>
+            <div>
+              <h2 class="hidden md:block">{{ procedureStep.title.ro }}</h2>
+              <p
+                v-for="(description, index) in procedureStep.description.ro"
+                :key="index"
+                class="my-4 md:max-w-sm lg:max-w-prose"
+              >
+                {{ description }}
+              </p>
+            </div>
+          </div>
+          <img
+            v-if="procedureStep.image"
+            :src="procedureStep.image"
+            :alt="procedureStep.title"
+            class="object-scale-down w-full md:w-72"
+          />
         </div>
       </div>
-      <img
-        v-if="procedureStep.image"
-        :src="procedureStep.image"
-        :alt="procedureStep.title"
-        class="object-scale-down w-full md:w-72"
-      />
-    </div>
     </section>
 
-    <!-- CTA Card -->
-    <section class="mt-12 md:mt-24">
-      <cta-card :ctaMessage="service.details.ctaMessage"></cta-card>
-    </section>
-
-    <section class="mt-12 md:mt-24">
+    <section class="mt-12 md:mt-24 bg-gray-100 pt-1 pb-12">
       <gallery></gallery>
     </section>
 
@@ -68,16 +72,16 @@
 <script>
 import TCard from "../components/TCard.vue";
 import store from "@/store";
-import Hero from '../components/Hero.vue';
-import CtaCard from '../components/CtaCard.vue';
-import Gallery from '../components/Gallery.vue';
+import Hero from "../components/Hero.vue";
+// import CtaCard from '../components/CtaCard.vue';
+import Gallery from "../components/Gallery.vue";
 
 export default {
   components: {
     TCard,
     Hero,
-    CtaCard,
-    Gallery
+    // CtaCard,
+    Gallery,
   },
   computed: {
     service() {
@@ -88,7 +92,7 @@ export default {
     },
     procedure() {
       return this.service.details.pageContent.implantProcedure;
-    }
+    },
   },
 };
 </script>

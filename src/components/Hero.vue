@@ -1,9 +1,9 @@
 <template>
   <div class="h-20"></div>
   <div class="md:hidden bg-gradient-to-b from-white inset-0 h-6"></div>
-  <div class="flex flex-col md:flex-row justify-between items-center">
+  <div class="flex flex-col lg:flex-row justify-between items-center">
     <!-- Text -->
-    <div class="md:max-w-sm lg:max-w-prose mr-2 order-last md:order-first">
+    <div class="lg:max-w-prose mr-2 order-last lg:order-first">
       <h1 class="text-center md:text-left">{{ service.details.hero.title.ro }}</h1>
       <p
         v-for="(p, index) in service.details.hero.description.ro"
@@ -14,7 +14,7 @@
     </div>
 
     <!-- Image -->
-    <div class="mt-12 lg:mt-24 px-12 md:max-w-xs lg:max-w-max">
+    <div class="mt-4 lg:mt-24 px-8 md:max-w-xs lg:max-w-max">
       <img
         :src="service.details.hero.image.src"
         :alt="service.details.hero.image.alt.ro"

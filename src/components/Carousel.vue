@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col md:my-32 md:container md:flex-row md:justify-center"
+    class="flex flex-col my-24 md:container md:flex-row md:justify-center"
   >
     <div
       class="m-auto md:m-0 w-4/5 md:w-80 lg:w-96 md:order-last"

@@ -14,10 +14,10 @@
       pacientului, alegerea aparatului se va face împreună cu medicul ortodont.
     </p>
 
-    <h2 class="md:hidden text-center">Aparate dentare fixe (Brackets)</h2>
+    <h2 class="md:hidden text-center">Aparate dentare fixe metalice (Brackets)</h2>
     <div class="flex flex-col md:flex-row justify-between items-end">
       <div>
-        <h2 class="hidden md:block">Aparate dentare fixe (Brackets)</h2>
+        <h2 class="hidden md:block">Aparate dentare fixe metalice (Brackets)</h2>
         <p class="max-w-prose">
           Aparatul dentar fix este dispozitivul recomandat cel mai des pentru
           adolescenți și adulți datorită timpului mai scurt de purtare și a
@@ -33,18 +33,19 @@
         </p>
       </div>
       <div
-        class="w-full mb-4 md:mb-0 md:w-60 flex justify-center order-first md:order-last"
+        class="w-full mb-4 md:mb-0 md:w-80 flex justify-center order-first md:order-last"
       >
         <img
-          src="../assets/images/AparatDentarFixMetalic.png"
-          alt="Little girl having a toothache."
-          class="w-60"
+          src="../assets/images/braces/metal.jpg"
+          alt="Ilustrație aparat dentar fix metalic"
         />
       </div>
     </div>
 
+    <h2 class="md:hidden text-center">Aparate dentare fixe ceramice</h2>
     <div class="flex flex-col md:flex-row justify-between items-end">
       <div>
+        <h2 class="hidden md:block">Aparate dentare fixe ceramice</h2>
         <p class="max-w-prose">
           Brackets-urile realizate din material ceramic sau safir sunt mai
           estetice comparativ cu cele metalice. De aceea, acestea sunt
@@ -60,12 +61,12 @@
         </p>
       </div>
       <div
-        class="w-full mb-4 md:mb-0 md:w-60 flex justify-center order-first md:order-last"
+        class="w-full mb-4 md:mb-0 md:w-80 flex justify-center order-first md:order-last"
       >
         <img
-          src="../assets/images/AparatDentarFixCeramic.png"
-          alt="Little girl having a toothache."
-          class="w-60 mt-4"
+          src="../assets/images/braces/ceramics.jpg"
+          alt="Ilustrație aparat dentar fix ceramic"
+          class="mt-4"
         />
       </div>
     </div>
@@ -89,12 +90,11 @@
         </p>
       </div>
       <div
-        class="w-full mb-4 md:mb-0 md:w-60 flex justify-center order-first md:order-last"
+        class="w-full mb-4 md:mb-0 md:w-80 flex justify-center order-first md:order-last"
       >
         <img
-          src="../assets/images/AparatDentarMobil.png"
-          alt="Little girl having a toothache."
-          class="w-60"
+          src="@/assets/images/braces/mobile.jpg"
+          alt="Ilustrație aparat dentar mobil"
         />
       </div>
     </div>
@@ -116,12 +116,11 @@
         </p>
       </div>
       <div
-        class="w-full mb-4 md:mb-0 md:w-60 flex justify-center order-first md:order-last"
+        class="w-full mb-4 md:mb-0 md:w-80 flex justify-center order-first md:order-last"
       >
         <img
-          src="../assets/images/AparatDentarContentie.png"
-          alt="Little girl having a toothache."
-          class="w-60"
+          src="../assets/images/braces/contention.jpg"
+          alt="Ilustrație aparat dentar de contenție"
         />
       </div>
     </div>
