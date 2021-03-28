@@ -1,68 +1,54 @@
 <template>
   <div>
+    <!-- Placeholder for navbar height -->
+    <div class="h-20"></div>
     <!-- Hero Section -->
-    <section class="h-screen bg-hero-image bg-cover md:container relative">
-      <div class="h-20"></div>
-      <div class="md:hidden bg-gradient-to-b from-white inset-0 h-6"></div>
-
-      <!-- Container for hero section, turns to white background on medium screens and larger -->
-      <div
-        class="h-screen md:bg-white md:grid md:grid-cols-2 md:gap-4 md:justify-items-center md:items-center"
-      >
+    <section class="h-auto lg:h-screen-adjusted md:container flex flex-col md:flex-row md:items-center">
+      
         <!-- Hero Message -->
-        <div
-          class="flex flex-col justify-end md:justify-start h-screen-adjusted md:h-auto"
-        >
-          <div
-            class="px-6 py-8 bg-primary-200 bg-opacity-60 md:bg-white"
-            style="
-              backdrop-filter: blur(20px);
-              -webkit-backdrop-filter: blur(20px);
-            "
-          >
+        <div class="px-6 mt-20 flex flex-col md:justify-start flex-grow">
             <div
-              class="font-mwb tracking-wide text-dark text-center md:text-left text-2xl md:text-3xl lg:text-4xl"
+              class="font-mwb leading-snug tracking-wide max-w-2xl text-dark text-3xl md:text-3xl lg:text-4xl"
             >
               Zâmbetul perfect începe cu o consultație gratuită
             </div>
             <div
-              class="my-4 font-mvl tracking-wide text-dark text-sm md:text-md lg:text-lg"
+              class="mt-4 font-mvl leading-relaxed tracking-wide max-w-xl text-dark text-base md:text-md lg:text-lg"
             >
               Echipa noastră de dentiști din Aiud îți va reda zâmbetul și starea
-              de bine! Profită de consultația ta gratuită!
+              de bine.
+              <!-- Profită de consultația ta gratuită! -->
             </div>
 
             <!-- CTA -->
-            <div class="mt-8 md:flex md:justify-start">
+            <div class="mt-4 md:flex md:justify-start">
               <button-primary :reference="'#appointment-form'">
                 PROGRAMEAZĂ-TE ACUM
               </button-primary>
-            </div>
           </div>
         </div>
 
         <!-- Hero Image MD and larger screens-->
-        <div class="hidden md:mb-20 md:inline-block">
+        <div class="px-12 mt-12 md:mt-12 lg:mt-0 lg:order-last flex-shrink">
           <img
             src="../assets/images/HeroShape.png"
             alt="Photo of smiling lady by Hian Oliveira borrowd from Unsplash"
           />
         </div>
-      </div>
+
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="md:mt-24 px-6 md:container">
-      <div class="flex flex-col items-center">
-        <h2 class="md:mt-0">Tratamente inovatoare</h2>
-        <p class="max-w-prose text-center">
-          Descoperă gama noastră variată de tratamente stomatologice la prețuri
-          surprinzător de avantajoase!
+    <section id="services" class="mt-24 px-6 md:container">
+      <div class="md:flex md:flex-col md:items-center">
+        <h1>Tratamente inovatoare</h1>
+        <p class="md:max-w-prose md:text-center">
+          Descoperă gama noastră variată de tratamente stomatologice.
         </p>
       </div>
 
       <!-- Cards -->
-      <div class="mt-8 md:mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2">
+      <div class="mt-4 md:mt-8 lg:mt-12 grid grid-cols-1 md:grid-cols-2">
         <t-card
           v-for="service in services"
           :key="service.id"
@@ -71,19 +57,20 @@
         />
       </div>
 
-      <div class="mt-16 md:mt-32 w-full flex justify-center">
-        <div class="w-full md:w-9/12">
+      <div class="mt-12 md:mt-20 w-full flex justify-center">
+        <div class="w-full lg:w-9/12">
           <div
             class="fb-video"
-            data-href="https://www.facebook.com/drtdentistaiud/videos/1593691661021499/"  
-            data-show-text="false">
+            data-href="https://www.facebook.com/drtdentistaiud/videos/1593691661021499/"
+            data-show-text="false"
+          >
             <div class="fb-xfbml-parse-ignore"></div>
           </div>
         </div>
       </div>
 
       <!-- CTA -->
-      <div class="my-12 md:flex md:justify-center">
+      <div class="mt-8 md:flex md:justify-center">
         <button-primary :reference="'#appointment-form'">
           PROGRAMEAZĂ-TE ACUM
         </button-primary>
@@ -93,11 +80,11 @@
     <!-- Our Team Section -->
     <section id="team">
       <div
-        class="flex mt-16 md:mt-24 justify-center bg-gradient-to-br from-primary-001 to-primary-200"
+        class="flex mt-24 md:mt-24 justify-center bg-gradient-to-br from-primary-001 to-primary-200"
       >
-        <div class="w-full md:w-160 lg:w-192">
-          <h2 class="text-2xl font-mwb text-center">Echipa Noastră</h2>
-          <p class="px-8 md:px-0 mb-16">
+        <div class="w-full px-6 md:w-160 lg:w-192">
+          <h1 class="md:text-center">Echipa Noastră</h1>
+          <p class="md:px-0 mb-16">
             Ne mândrim cu o echipă profesionistă, determinată să țină pasul cu
             descoperirile din domeniul stomatologiei și dornică să ofere
             pacienților servicii de cea mai bună calitate. Echipa noastră își
@@ -116,26 +103,26 @@
     </section>
 
     <!-- Clinica Noastra -->
-    <div class="mt-16 flex flex-col md:flex-row">
+    <section class="mt-24 flex flex-col md:flex-row">
       <div
         class="min-h-screen bg-clinic-image bg-cover bg-right-bottom md:w-1/2"
       ></div>
 
       <div
-        class="min-h-screen py-24 px-8 md:px-12 lg:px-16 bg-gradient-to-br from-primary-100 to-primary-200 md:w-1/2 md:flex md:flex-col md:justify-center"
+        class="min-h-screen px-6 pb-12 md:pb-16 md:px-12 lg:px-16 bg-gradient-to-br from-primary-100 to-primary-200 md:w-1/2 md:flex md:flex-col md:justify-start"
       >
-        <h2
-          class="text-center md:text-left font-mwb tracking-wide text-xl md:text-2xl"
+        <h1
+          class=""
         >
-          CLINICA NOASTRĂ
-        </h2>
-        <p class="mt-12 font-mvl tracking-wide text-md">
+          Clinica noastră
+        </h1>
+        <p class="font-mvl tracking-wide text-md">
           Clinica noastră a fost înființată în 2008 pentru a reinventa relația
           dintre medicul stomatolog și pacient. Suntem determinați să ne
           întâmpinăm clienții într-un mediu primitor, în care fiecare pacient
           simte că este important și că problemele lui sunt ascultate.
         </p>
-        <p class="mt-6 font-mvl tracking-wide text-md">
+        <p class="mt-4 font-mvl tracking-wide text-md">
           Mizăm pe o relație deschisă și dorim să desființăm „frica de dentist”.
           Datorită unei abordări bazate pe comunicare, sinceritate și
           profesionalism, ne vom asigura că fiecare pacient va primi nu numai un
@@ -143,7 +130,7 @@
           ci și sprijinul psihologic de care are nevoie pentru a înțelege
           etapele tratamentului.
         </p>
-        <p class="mt-6 font-mvl tracking-wide text-md">
+        <p class="mt-4 font-mvl tracking-wide text-md">
           Mai mult decât atât, datorită experienței pluridisciplinare a echipei
           noastre și aparaturilor de cea mai nouă generație, clinica noastră se
           remarcă în peisajul clinicilor stomatologice din Aiud și împrejurimi
@@ -151,8 +138,8 @@
           durere al procedurilor implicate, dar și prețurilor rezonabile menite
           să respecte bugetul fiecărui pacient.
         </p>
-        </div>
-    </div>
+      </div>
+    </section>
 
   </div>
 </template>

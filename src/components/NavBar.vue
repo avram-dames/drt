@@ -56,12 +56,12 @@
     >
       <ul class="lg:flex lg:items-center text-sm text-primary pt-4 lg:pt-0">
         <li>
-          <span class="pr-4 font-mwr text-lg">+40 358 405 272</span>
+          <a href="tel:+40358405272" class="pr-4 font-mwr text-lg">+40 358 405 272</a>
         </li>
         <li>
           <a
             href="#appointment-form"
-            class="px-6 py-3 block font-mwsr text-sm border-solid border-primary border-2 hover:border-primary-light hover:bg-primary-light hover:text-white rounded-md"
+            class="px-6 py-3 block font-mwsr text-sm border-solid border-primary border-2 hover:border-primary-light hover:bg-primary-light hover:text-white rounded-sm"
           >
             Programare Online
           </a>

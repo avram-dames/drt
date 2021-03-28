@@ -32,7 +32,7 @@ module.exports = {
         '192': "48rem",
       },
       height: theme => ({
-        "screen-adjusted": "calc(100vh - 5rem - 1.5rem)", // vh - navbar height - gradient
+        "screen-adjusted": "calc(100vh - 5rem - 1.5rem)", // vh - navbar height
       }),
       width: {
         'icon-md': '4rem',

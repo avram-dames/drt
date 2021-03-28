@@ -20,7 +20,7 @@
         </div>
 
         <div>
-          <h2 class="mt-12 font-mwsb tracking-wide text-xl">Unde ne găsiți</h2>
+          <h2 class="mt-12 font-mwsb tracking-wide text-xl">Unde ne găsești</h2>
           <div class="mt-1 font-mvr tracking-wide text-md">
             Strada Transilvania, BL. A6
           </div>

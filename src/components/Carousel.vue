@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col my-24 md:container md:flex-row md:justify-center"
+    class="flex flex-col mt-24 md:container md:flex-row md:justify-center"
   >
     <div
       class="m-auto md:m-0 w-4/5 md:w-80 lg:w-96 md:order-last"
@@ -12,12 +12,12 @@
       class="flex flex-col py-8 md:py-0 md:h-auto md:w-80 lg:w-96 justify-center items-center md:items-start"
     >
       <div>
-        <h3
-          class="text-center md:text-left font-mwsb tracking-wide text-md md:text-lg lg:text-xl"
+        <h2
+          class="text-center md:text-left font-mwsb tracking-wide"
         >
           {{ teamMember.name }}
-        </h3>
-        <p class="text-center md:text-left font-mvl tracking-wide text-sm">
+        </h2>
+        <p class="text-center md:text-left font-mvl tracking-wide text-base">
           {{ teamMember.title }}
         </p>
       </div>
