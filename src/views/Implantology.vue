@@ -51,7 +51,7 @@
             v-if="procedureStep.image"
             :src="procedureStep.image"
             :alt="procedureStep.title"
-            class="object-scale-down w-full md:w-72"
+            class="mt-8 object-scale-down w-full md:w-72"
           />
         </div>
       </div>

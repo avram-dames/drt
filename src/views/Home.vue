@@ -29,7 +29,7 @@
         </div>
 
         <!-- Hero Image MD and larger screens-->
-        <div class="px-12 mt-12 md:mt-12 lg:mt-0 lg:order-last flex-shrink">
+        <div class="px-12 md:px-6 mt-12 md:mt-12 lg:mt-0 lg:order-last flex-shrink">
           <img
             src="../assets/images/HeroShape.png"
             alt="Photo of smiling lady by Hian Oliveira borrowd from Unsplash"
@@ -39,7 +39,7 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="mt-24 px-6 md:container">
+    <section id="services" class="px-6 md:container">
       <div class="md:flex md:flex-col md:items-center">
         <h1>Tratamente inovatoare</h1>
         <p class="md:max-w-prose md:text-center">

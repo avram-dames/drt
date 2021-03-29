@@ -1,7 +1,7 @@
 <template>
 <div class="w-full fixed h-20 pt-4 pb-6 bg-white items-center z-50">
   <header 
-    class="md:container flex flex-row flex-wrap justify-between "
+    class="md:container flex flex-row flex-wrap justify-between"
   >
     <!-- Logo -->
     <router-link 
@@ -45,7 +45,7 @@
 
     <div
       id="desktop-menu"
-      class="hidden lg:inline-block lg:text-sm text-dark font-mwsl pt-4 lg:pt-0 lg:pl-16" 
+      class="hidden lg:inline-block text-sm text-dark font-mwsl pt-0 pl-16" 
       >
       <the-navigation></the-navigation>
     </div>

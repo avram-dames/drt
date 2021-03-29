@@ -2,15 +2,17 @@
     <div class="flex flex-col bg-gradient-to-br from-primary-001 to-pink-001">
       <div class="px-6 md:container flex flex-col md:flex-row md:justify-between">
         <div>
-          <h2 class="mt-12 font-mwsb tracking-wide text-xl">Contact</h2>
-          <div class="mt-1 font-mvr tracking-wide text-md">+40 358 405 272</div>
+          <h3 class="mt-12 font-mwsb tracking-wide text-xl">Contact</h3>
           <div class="mt-1 font-mvr tracking-wide text-md">
-            info@drtdentist.ro
+            <a href="tel:+40358405272">+40 358 405 272</a>
+          </div>
+          <div class="mt-1 font-mvr tracking-wide text-md">
+            <a href="mailto:info@drtdentist.ro">info@drtdentist.ro</a>
           </div>
         </div>
 
         <div>
-          <h2 class="mt-12 font-mwsb tracking-wide text-xl">Orar</h2>
+          <h3 class="mt-12 font-mwsb tracking-wide text-xl">Orar</h3>
           <div class="mt-4 font-mvr tracking-wide text-md">
             Marți - Miercuri: 09 - 14
           </div>
@@ -20,28 +22,34 @@
         </div>
 
         <div>
-          <h2 class="mt-12 font-mwsb tracking-wide text-xl">Unde ne găsești</h2>
-          <div class="mt-1 font-mvr tracking-wide text-md">
-            Strada Transilvania, BL. A6
+          <h3 class="mt-12 font-mwsb tracking-wide text-xl">Legal</h3>
+          <div class="mt-4 font-mvr tracking-wide text-md">
+            <a href="">Termeni și condiții</a>
           </div>
           <div class="mt-1 font-mvr tracking-wide text-md">
-            515 200, Aiud, Alba
+            <a href="">Politica de date</a>
           </div>
-          <div class="mt-1 font-mvr tracking-wide text-md">România</div>
+        </div>
+
+        <div>
+          <h3 class="mt-12 font-mwsb tracking-wide text-xl">Unde ne găsești</h3>
+          <div class="mt-1 font-mvr tracking-wide text-md">
+            <a href="https://goo.gl/maps/vDDJTyMD66uD84kF8">Strada Transilvania, BL. A6</a>
+          </div>
+          <div class="mt-1 font-mvr tracking-wide text-md">
+            <a href="https://goo.gl/maps/vDDJTyMD66uD84kF8">515 200, Aiud, Alba</a>
+          </div>
+          <div class="mt-1 font-mvr tracking-wide text-md">
+            <a href="https://goo.gl/maps/vDDJTyMD66uD84kF8">România</a></div>
         </div>
       </div>
 
-      <div
-        class="px-6 pb-4 md:container mt-12 flex flex-col md:flex-row md:justify-between md:align-baseline"
-      >
-        <div class="mt-1 font-mvl tracking-wide text-sm text-primary-light">
-          Copyright @2021 drtdentist.ro all rights reserved
-        </div>
-        <div class="mt-2 font-mvl tracking-wide text-sm text-primary-light">
-          Termeni și condiții
+
+        <div class="px-6 pb-4 md:container mt-8 font-mvl tracking-wide text-sm text-primary-light">
+          @2021 DRT Dentist
         </div>
       </div>
-    </div>
+
 </template>
 
 <script>

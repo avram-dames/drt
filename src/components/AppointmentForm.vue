@@ -4,9 +4,9 @@
   >
      <div class="px-6 max-w-screen-sm lg:max-w-screen-md">
     <div class="lg:hidden">
-      <h2 class="mt-0 font-mwb tracking-wide text-2xl">
+      <h1 class="mt-0 font-mwb tracking-wide text-2xl">
         Programare Telefonică
-      </h2>
+      </h1>
       <p>
         Sună direct la clinică, disponibil zilnic între orele 10:00 și 16:00.
       </p>
@@ -18,9 +18,9 @@
     </div>
 
    
-      <h2 class="mt-12 font-mwb tracking-wide text-2x lg:text-center">
+      <h1 class="mt-12 font-mwb tracking-wide text-2x lg:text-center">
         Programare Online
-      </h2>
+      </h1>
       <p class="lg:text-center">Lasă-ne datele tale de contact și te vom suna noi în cel mai scurt timp posibil.</p>
       <form
         name="programare"
