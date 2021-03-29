@@ -11,7 +11,7 @@
 
     <!-- Benefits -->
     <section id="benefits" class="mt-24 lg:mt-32 container px-6">
-      <h1 class="text-center">{{ benefits.title.ro }}</h1>
+      <h1 class="md:text-center">{{ benefits.title.ro }}</h1>
 
       <div class="mt-8 lg:mt-24 grid grid-cols-1 md:grid-cols-2">
         <t-card
@@ -25,19 +25,19 @@
 
     <!-- Procedure Steps -->
     <section id="procedure" class="mt-24 lg:mt-44 container px-6">
-      <h1 class="text-center">{{ procedure.title.ro }}</h1>
+      <h1 class="md:text-center">{{ procedure.title.ro }}</h1>
       <div class="mt-8 lg:mt-20">
         <div
           v-for="procedureStep in procedure.steps"
           :key="procedureStep.step"
-          class="flex flex-col md:flex-row md:justify-between"
+          class="md:mt-12 flex flex-col md:flex-row md:justify-between"
         >
           <h2 class="md:hidden">{{ procedureStep.title.ro }}</h2>
           <div
-            class="md:w-2/3 md:pr-4 flex flex-col justify-around order-last md:order-first"
+            class="md:w-2/3 md:pr-4 flex flex-col order-last md:order-first"
           >
             <div>
-              <h2 class="hidden md:block">{{ procedureStep.title.ro }}</h2>
+              <h2 class="hidden mt-0 pt-0 md:block">{{ procedureStep.title.ro }}</h2>
               <p
                 v-for="(description, index) in procedureStep.description.ro"
                 :key="index"
@@ -51,7 +51,7 @@
             v-if="procedureStep.image"
             :src="procedureStep.image"
             :alt="procedureStep.title"
-            class="mt-8 object-scale-down w-full md:w-72"
+            class="object-scale-down w-full md:w-72"
           />
         </div>
       </div>

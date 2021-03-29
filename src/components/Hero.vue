@@ -4,7 +4,7 @@
   <div class="flex flex-col lg:flex-row justify-between items-center">
     <!-- Text -->
     <div class="lg:max-w-prose mr-2 order-last lg:order-first">
-      <h1 class="text-center md:text-left">{{ service.details.hero.title.ro }}</h1>
+      <h1 class="lg:text-center">{{ service.details.hero.title.ro }}</h1>
       <p
         v-for="(p, index) in service.details.hero.description.ro"
         :key="index"
