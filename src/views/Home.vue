@@ -39,7 +39,7 @@
     <!-- Services Section -->
     <section id="services" class="px-6 md:container">
       <div class="md:flex md:flex-col md:items-center">
-        <h1>Tratamente inovatoare</h1>
+        <h1 class="mb-4">Tratamente inovatoare</h1>
         <p class="md:max-w-prose md:text-center">
           Descoperă gama noastră variată de tratamente stomatologice.
         </p>
@@ -119,7 +119,7 @@
           Clinica noastră a fost înființată în 2008 pentru a reinventa relația
           dintre medicul stomatolog și pacient. Suntem determinați să ne
           întâmpinăm clienții într-un mediu primitor, în care fiecare pacient
-          simte că este important și că problemele lui sunt ascultate.
+          simte că este important și că problemele îi sunt ascultate.
         </p>
         <p class="mt-4 font-mvl tracking-wide text-md">
           Mizăm pe o relație deschisă și dorim să desființăm „frica de dentist”.

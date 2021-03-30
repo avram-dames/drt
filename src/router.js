@@ -44,6 +44,18 @@ const routes = [
     component: () => import(/* webpackChunkName: "destinationDetails"*/ '@/views/Orthodontics.vue'),
   },
   {
+    path: '/legal',
+    name: 'Legal',
+    props: true,
+    component: () => import(/* webpackChunkName: "destinationDetails"*/ '@/views/Legal.vue'),
+  },
+  {
+    path: '/terms',
+    name: 'Terms',
+    props: true,
+    component: () => import(/* webpackChunkName: "destinationDetails"*/ '@/views/Terms.vue'),
+  },
+  {
     path: '/:catchAll(.*)',
     name: 'notFound',
     component: () => import(/* webpackChunkName: "notFound"*/ '@/views/NotFound.vue'),

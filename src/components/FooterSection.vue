@@ -24,10 +24,10 @@
         <div>
           <h3 class="mt-12 font-mwsb tracking-wide text-xl">Legal</h3>
           <div class="mt-4 font-mvr tracking-wide text-md">
-            <a href="">Termeni și condiții</a>
+            <router-link :to="{name: 'Terms'}">Termeni și condiții</router-link>
           </div>
           <div class="mt-1 font-mvr tracking-wide text-md">
-            <a href="">Politica de date</a>
+            <router-link :to="{name: 'Legal'}">Politica de date</router-link>
           </div>
         </div>
 
