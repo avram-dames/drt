@@ -1,31 +1,31 @@
 <template>
   <div
-    class="flex flex-col mt-24 md:container md:flex-row md:justify-center"
+    class="h-screen-adjusted py-24 flex flex-col lg:container lg:flex-row lg:items-center lg:justify-center"
   >
     <div
-      class="m-auto md:m-0 w-4/5 md:w-80 lg:w-96 md:order-last"
+      class="m-auto lg:m-0 w-4/5 md:w-3/5 lg:w-96 lg:order-last flex-grow-0"
     >
       <img :src="teamMember.image" :alt="teamMemberNameAndTitle" class="rounded-sm"/>
     </div>
 
     <div
-      class="flex flex-col py-8 md:py-0 md:h-auto md:w-80 lg:w-96 justify-center items-center md:items-start"
+      class="py-8 lg:py-0 lg:h-auto lg:w-96 flex flex-col justify-center items-center lg:items-start flex-grow lg:flex-grow-0"
     >
       <div>
         <h2
-          class="text-center md:text-left font-mwsb tracking-wide"
+          class="mt-0 text-center lg:text-left font-mwsb tracking-wide"
         >
           {{ teamMember.name }}
         </h2>
-        <p class="text-center md:text-left font-mvl tracking-wide text-base">
+        <p class="text-center lg:text-left font-mvl tracking-wide text-base">
           {{ teamMember.title }}
         </p>
       </div>
 
-      <div class="flex flex-row pt-8 md:pt-20 space-x-6 items-center">
+      <div class="flex flex-row pt-8 lg:pt-20 space-x-6 items-center">
         <!-- Left Arrow -->
         <button
-          class="w-8 h-8 md:w-6 md:h-6"
+          class="w-8 h-8 lg:w-6 lg:h-6"
           @click="previousTeamMember"
           :disabled="leftArrowDisabled"
         >
@@ -47,7 +47,7 @@
         <div class="font-mvr text-md">{{ teamMember.id }} / {{ teamLength }}</div>
         <!-- Right Arrow -->
         <button
-          class="w-8 h-8 md:w-6 md:h-6"
+          class="w-8 h-8 lg:w-6 lg:h-6"
           @click="nextTeamMember"
           :disabled="rightArrowDisabled"
         >

@@ -188,7 +188,7 @@ export default {
           image: {
             src: require('@/assets/images/ProtHero.jpg'),
             alt: {
-              ro: 'Little girl having a toothache.'
+              ro: 'Woman smiling.'
             }
           }
         },
@@ -412,7 +412,7 @@ export default {
             ]
           },
           image: {
-            src: "https://image.shutterstock.com/shutterstock/photos/373305709/display_1500/stock-photo-tooth-human-implant-373305709.jpg",
+            src: require('@/assets/images/ImplantHero.jpg'),
             alt: {
               ro: 'Little girl having a toothache.'
             }
@@ -493,7 +493,7 @@ export default {
                 title: {
                   ro: "Consultația și planul de tratament",
                 },
-                image: require("@/assets/images/ImplantStep1.png"),
+                image: require("@/assets/images/implants/ImplantStep1.png"),
                 description: {
                   ro: [
                     "Planul de tratament este stabilit de medicul specialist, pe baza unei radiografii panoramice. În unele cazuri, este nevoie și de o scanare CT, în special atunci când radiografia simplă nu reflectă clar volumul osului. Dacă pacientul suferă de afecțiuni cronice, medicul implantolog poate recomanda efectuarea unor analize suplimentare.",
@@ -507,7 +507,7 @@ export default {
                 title: {
                   ro: "Inserarea chirurgicală a implantului",
                 },
-                image: "https://image.shutterstock.com/shutterstock/photos/1741122383/display_1500/stock-photo-instaled-dental-implantat-medically-accurate-tooth-d-illustration-1741122383.jpg",
+                image: require("@/assets/images/implants/ImplantStep2.jpg"),
                 description: {
                   ro: [
                     "Inserarea unui implant dentar în os se face sub anestezie locală. Procedura nu este dureroasă și are o durată de aproximativ 30 de minute. În funcție de caz, după inserare, implantul poate fi acoperit cu gingia, pentru a facilita procesul de osteointegrare sau se poate continua cu montarea bontului și atașarea coroanei.",
@@ -519,7 +519,7 @@ export default {
                 title: {
                   ro: "Perioada de osteointegrarea",
                 },
-                image: "https://image.shutterstock.com/shutterstock/photos/1710200260/display_1500/stock-photo-temporary-implant-abutments-medically-accurate-d-illustration-of-human-teeth-and-dentures-concept-1710200260.jpg",
+                image: require("@/assets/images/implants/ImplantStep3.jpg"),
                 description: {
                   ro: [
                     "De cele mai multe ori, implantul dentar presupune o perioadă de vindecare între inserarea implantului și montarea bontului și a coroanei dentare. Această perioadă poate dura de la 3 la 6 luni, în funcție de recomandarea medicul implantolog.",
@@ -531,7 +531,7 @@ export default {
                 title: {
                   ro: "Montarea bonturilor",
                 },
-                image: "https://image.shutterstock.com/shutterstock/photos/1374951986/display_1500/stock-photo-implant-abutment-fixation-procedure-medically-accurate-d-illustration-of-human-teeth-and-dentures-1374951986.jpg",
+                image: require("@/assets/images/implants/ImplantStep4.jpg"),
                 description: {
                   ro: [
                     "La finalul perioadei de osteointegrare, se montează, pentru o perioadă de 2-3 săptămâni, un bont de vindecare, ce ajută gingia să capete o formă naturală. Apoi, se atașează o altă piesă, numită bont protetic, care va constitui suportul pentru coroana dentară ce va înlocui dintele lipsă.",
@@ -543,7 +543,7 @@ export default {
                 title: {
                   ro: "Atașarea Coroanei",
                 },
-                image: "https://image.shutterstock.com/shutterstock/photos/1414382606/display_1500/stock-photo-premolar-tooth-recovery-with-implant-medically-accurate-d-illustration-of-human-teeth-and-1414382606.jpg",
+                image: require("@/assets/images/implants/ImplantStep5.jpg"),
                 description: {
                   ro: [
                     "Coroana este realizată de tehnicianul dentar, conform specificațiilor medicului implantolog. Aceasta urmează a fi cimentată pe bont, rezultând astfel un dinte perfect funcțional și estetic.",

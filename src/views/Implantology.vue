@@ -4,6 +4,7 @@
     <div class="container px-6">
       <hero :service="service"></hero>
     </div>
+    
     <!-- CTA Card -->
     <!-- <section class="mt-12 md:mt-24">
       <cta-card :ctaMessage="service.details.ctaMessage"></cta-card>

@@ -40,7 +40,6 @@ module.exports = {
       maxWidth: {
       }, 
       backgroundImage: theme => ({
-        'hero-image': "url('../images/HeroFull.jpg')",
         'clinic-image': "url('../images/clinica.jpg')",
         'hero-none': "#FFFFFF",
       })

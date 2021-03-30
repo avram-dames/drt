@@ -103,7 +103,7 @@
     </section>
 
     <!-- Clinica Noastra -->
-    <section class="mt-24 flex flex-col md:flex-row">
+    <section class="flex flex-col md:flex-row">
       <div
         class="min-h-screen bg-clinic-image bg-cover bg-right-bottom md:w-1/2"
       ></div>
