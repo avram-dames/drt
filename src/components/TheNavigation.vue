@@ -1,5 +1,5 @@
 <template>
-  <nav class="h-screen divide-y-solid divide-y divide-grey z-10 px-8 overflow-scroll overscroll-contain">
+  <nav class="h-screen lg:h-auto divide-y-solid divide-y divide-grey px-8 overflow-scroll overscroll-contain">
     <ul class="lg:flex lg:items-center lg:justify-between">
       <!-- Treatments Dropdown Menu for large screeen only -->
       <li class="hidden lg:block">
