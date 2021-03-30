@@ -1,7 +1,7 @@
 <template>
   <div
     id="dropdow-menu"
-    class="relative inline-block text-left z-10"
+    class="relative z-10"
     @mouseover="isOpen = true"
     @mouseleave="isOpen = false"
   >
@@ -46,12 +46,6 @@
             class="navbar-link"
             >{{ service.title.ro }}
           </router-link>
-          <!-- <router-link
-            :to="{ name: 'Details' }"
-            role="menuitem"
-            class="navbar-link"
-            >Detalii și Prețuri</router-link
-          > -->
         </div>
       </div>
     </transition>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="divide-y-solid divide-y divide-grey px-8">
+  <nav class="h-screen divide-y-solid divide-y divide-grey z-10 px-8 overflow-scroll overscroll-contain">
     <ul class="lg:flex lg:items-center lg:justify-between">
       <!-- Treatments Dropdown Menu for large screeen only -->
       <li class="hidden lg:block">
@@ -18,7 +18,7 @@
     </ul>
 
     <!-- Treatment Pages for mobile -->
-    <ul class="lg:hidden">
+    <ul class="h-screen lg:hidden">
       <li class="text-xl font-mwsb my-4 text-gray" role="menuitem">Tratamente</li>
       <li v-for="service in services" :key="service.id" @click="emitToggleOff">
         <router-link
@@ -32,12 +32,6 @@
         </router-link>
       </li>
       <li @click="emitToggleOff">
-        <!-- <router-link
-          :to="{ name: 'Details' }"
-          role="menuitem"
-          class="navbar-link"
-          >Detalii și Prețuri</router-link
-        > -->
       </li>
     </ul>
   </nav>
