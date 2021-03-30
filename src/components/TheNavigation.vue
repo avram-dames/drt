@@ -10,10 +10,10 @@
         <router-link :to="{ name: 'Home' }"> Home </router-link>
       </li>
       <li class="navbar-link" @click="emitToggleOff">
-        <a href="/#team"> Echipa Noastră </a>
+        <router-link :to="{ name: 'Home', hash: '#team' }"> Echipa Noastră </router-link>
       </li>
       <li class="navbar-link" @click="emitToggleOff">
-        <a href="#contact"> Contact </a>
+        <router-link :to="{ name: 'Home', hash: '#contact' }"> Contact </router-link>
       </li>
     </ul>
 

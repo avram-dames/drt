@@ -76,7 +76,8 @@
     </section>
 
     <!-- Our Team Section -->
-    <section id="team">
+    <div id="team"></div>
+    <section>
       <div
         class="flex mt-24 md:mt-24 justify-center bg-gradient-to-br from-primary-001 to-primary-200"
       >

@@ -1,8 +1,11 @@
 <template>
   <div class="">
-    <a :href="reference" class="btn text-sm">
+    <router-link
+      class="btn text-sm pl-6"
+      :to="{ name: 'Home', hash: reference }"
+    >
       <slot></slot>
-    </a>
+    </router-link>
   </div>
 </template>
 

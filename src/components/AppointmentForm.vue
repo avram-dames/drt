@@ -1,4 +1,5 @@
 <template>
+  <div id="appointment-form"></div>
   <div
     class="my-24 flex items-center justify-center"
   >

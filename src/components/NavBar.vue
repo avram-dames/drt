@@ -59,12 +59,12 @@
           <a href="tel:+40358405272" class="pr-4 font-mwr text-lg">+40 358 405 272</a>
         </li>
         <li>
-          <a
-            href="#appointment-form"
+          <router-link
+            :to="{ name: 'Home', hash: '#appointment-form' }"
             class="px-6 py-3 block font-mwsr text-sm border-solid border-primary border-2 hover:border-primary-light hover:bg-primary-light hover:text-white rounded-sm"
           >
             Programare Online
-          </a>
+          </router-link>
         </li>
       </ul>
     </div>
