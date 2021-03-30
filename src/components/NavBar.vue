@@ -8,7 +8,7 @@
       class="pl-6"
       :to="{name: 'Home'}"
     >
-      <icon name="logo"></icon>
+      <span @click="toggleOff"><icon  name="logo"></icon></span>
     </router-link>
 
     <!-- Hamburger Toggle -->
