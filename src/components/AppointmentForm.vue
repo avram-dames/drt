@@ -65,7 +65,6 @@
           <div class="mt-8 md:mt-8 lg:flex lg:justify-center">
               <button
                 type="submit"
-                disabled
                 class="w-full md:w-1/2 flex items-center tracking-wide justify-center px-6 py-3 border border-transparent font-mwsr text-md rounded-sm text-white bg-primary hover:bg-primary-light"
               >
                 Trimite
