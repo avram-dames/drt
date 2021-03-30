@@ -55,6 +55,10 @@ export default {
           },
           ctaButton: {
             ro: 'Programare Igienizare Dentară'
+          },
+          ctaReference: {
+            name: 'Prevention',
+            hash: '#appointment-form'
           }
         },
         pageContent: {
@@ -204,6 +208,10 @@ export default {
           },
           ctaButton: {
             ro: 'Programare Consultatie'
+          },
+          ctaReference: {
+            name: 'Prosthetics',
+            hash: '#appointment-form'
           }
         },
       },
@@ -429,6 +437,10 @@ export default {
           },
           ctaButton: {
             ro: 'Programare Consultatie'
+          },
+          ctaReference: {
+            name: 'Implantology',
+            hash: '#appointment-form'
           }
         },
         dentalImplantBenefits: {

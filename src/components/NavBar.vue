@@ -60,7 +60,7 @@
         </li>
         <li>
           <router-link
-            :to="{ name: 'Home', hash: '#appointment-form' }"
+            :to="{ name: currentRouteName, hash: '#appointment-form' }"
             class="px-6 py-3 block font-mwsr text-sm border-solid border-primary border-2 hover:border-primary-light hover:bg-primary-light hover:text-white rounded-sm"
           >
             Programare Online
@@ -88,6 +88,11 @@ export default {
       menuToggleOn: false,
 
     };
+  },
+  computed: {
+    currentRouteName() {
+        return this.$route.name;
+    }
   },
   methods: {
     toggleOff() {

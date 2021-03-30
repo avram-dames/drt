@@ -6,7 +6,7 @@
       <h2 class="text-center">{{ ctaMessage.title.ro }}</h2>
       <p class="" v-html="ctaMessage.description.ro"></p>
       <div class="mt-8 md:flex md:justify-center">
-        <button-primary :reference="'#appointment-form'">
+        <button-primary :reference="ctaMessage.ctaReference">
           {{ ctaMessage.ctaButton.ro }}
         </button-primary>
       </div>

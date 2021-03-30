@@ -2,7 +2,7 @@
   <div class="">
     <router-link
       class="btn text-sm pl-6"
-      :to="{ name: 'Home', hash: reference }"
+      :to="reference"
     >
       <slot></slot>
     </router-link>
@@ -14,7 +14,7 @@ export default {
   name: "ButtonPrimary",
   props: {
     reference: {
-      type: String,
+      type: Object,
       required: true,
     },
   },

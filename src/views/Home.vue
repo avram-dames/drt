@@ -20,7 +20,7 @@
 
             <!-- CTA -->
             <div class="mt-4 md:flex md:justify-start">
-              <button-primary :reference="'#appointment-form'">
+              <button-primary :reference="{ name: 'Home', hash: '#appointment-form'}">
                 PROGRAMEAZĂ-TE ACUM
               </button-primary>
           </div>
@@ -69,7 +69,7 @@
 
       <!-- CTA -->
       <div class="mt-8 md:flex md:justify-center">
-        <button-primary :reference="'#appointment-form'">
+        <button-primary :reference="{ name: 'Home', hash: '#appointment-form'}">
           PROGRAMEAZĂ-TE ACUM
         </button-primary>
       </div>
