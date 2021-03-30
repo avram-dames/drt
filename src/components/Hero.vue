@@ -1,5 +1,4 @@
 <template>
-  <div class="h-20"></div>
   <div class="md:hidden bg-gradient-to-b from-white inset-0 h-6"></div>
   <div class="flex flex-col lg:flex-row justify-between items-center">
     <!-- Text -->

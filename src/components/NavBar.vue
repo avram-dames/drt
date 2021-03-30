@@ -6,7 +6,7 @@
     <!-- Logo -->
     <router-link 
       class="pl-6"
-      to="/"
+      :to="{name: 'Home'}"
     >
       <icon name="logo"></icon>
     </router-link>

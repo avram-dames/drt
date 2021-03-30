@@ -1,7 +1,5 @@
 <template>
   <div>
-    <!-- Placeholder for navbar height -->
-    <div class="h-20"></div>
     <!-- Hero Section -->
     <section class="h-auto lg:h-screen-adjusted md:container flex flex-col md:flex-row md:items-center">
       
