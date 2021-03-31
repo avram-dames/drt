@@ -26,6 +26,7 @@
       <form
         name="programare"
         method="post"
+        action="/succes"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
