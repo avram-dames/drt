@@ -2,7 +2,8 @@
   <div>
     <div class="h-20"></div>
   <div class="flex flex-col justify-center items-center whitespace-pre"> 
-    <h1>Pagina pe care o cauți nu există!</h1>
+    <h1 class="mb-0">Mulțumim pentru programare!</h1>
+    <h2 class="mt-12 font-mwr">Un membru al echipei noastre te va contacta în cel mai scurt timp.</h2>
     <p>
       Click 
       <router-link :to="{name: 'Home'}" class="text-primary underline">aici</router-link>
