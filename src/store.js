@@ -110,7 +110,7 @@ export default {
           description: {
             ro: [
               'Tratamentul endodontic are ca obiectiv salvarea dintelui natural sau cel puțin a rădăcinii acestuia, folosind tehnici de tratare a canalelor dintelui. De cele mai multe ori, acest tratament presupune extirparea nervului, igienizarea și umplerea canalelor cu materiale biocompatibile, precum și reconstrucția coroanei dentare.',
-              'Salvarea dintelui natural sau a rădăcinii acestuia este deosebit de importantă pentru că previne migrarea dinților adiacenți în spațiul gol rămas și elimină necesitatea implantului dentar (backlink la implanturi) sau a altor lucrări protetice. Din acest motiv, tratamentul endodontic este mai economic și mai benefic pentru pacient, pe termen lung, decât extracția.'
+              'Salvarea dintelui natural sau a rădăcinii acestuia este deosebit de importantă pentru că previne migrarea dinților adiacenți în spațiul gol rămas și elimină necesitatea implantului dentar sau a altor lucrări protetice. Din acest motiv, tratamentul endodontic este mai economic și mai benefic pentru pacient, pe termen lung, decât extracția.'
             ]
           },
           image: {
@@ -478,7 +478,7 @@ export default {
                 ro: 'Nu restricționează masticația',
               },
               description: {
-                ro: 'Comparativ cu punțile sau protezele (backlink la proteze, daca există) clasice, un implant dentar este mai stabil și nu acoperă cerul gurii. De aceea, pacienții cu implanturi dentare se pot bucura de o gamă mai largă de produse alimentar.'
+                ro: 'Comparativ cu punțile sau protezele clasice, un implant dentar este mai stabil și nu acoperă cerul gurii. De aceea, pacienții cu implanturi dentare se pot bucura de o gamă mai largă de produse alimentar.'
               }
             },
             {

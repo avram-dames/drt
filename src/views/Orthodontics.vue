@@ -54,7 +54,7 @@
           metalice, cum ar fi cazul persoanelor care lucrează cu publicul.
         </p>
         <p class="pr-2 max-w-prose mt-4">
-          Acest tip de aparat necesită o igienă riguroasă (backlink prevenție)
+          Acest tip de aparat necesită o <a class="text-blue-800 hover:underline" href="/preventie">igienă riguroasă</a>
           specifică pentru a menține aspectul discret al dispozitivului.
           Totodată, este importantă evitarea alimentelor tari ce pot cauza
           desprinderea bracket-ului de pe suprafața dintelui.
