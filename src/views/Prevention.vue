@@ -61,6 +61,8 @@
         </div>
       </div>
     </section>
+
+    <appointment-form></appointment-form>
   </div>
 </template>
 
@@ -68,11 +70,13 @@
 import store from "@/store";
 import Hero from "../components/Hero.vue";
 import CtaCard from '../components/CtaCard.vue';
+import AppointmentForm from "@/components/AppointmentForm.vue";
 
 export default {
   components: {
     Hero,
     CtaCard,
+    AppointmentForm
   },
   computed: {
     service() {

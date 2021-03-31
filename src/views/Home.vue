@@ -140,6 +140,7 @@
       </div>
     </section>
 
+    <appointment-form></appointment-form>
   </div>
 </template>
 
@@ -149,12 +150,14 @@ import store from "@/store";
 import TCard from "@/components/TCard.vue";
 import Carousel from "@/components/Carousel.vue";
 import ButtonPrimary from "@/components/ButtonPrimary.vue";
+import AppointmentForm from "@/components/AppointmentForm.vue";
 
 export default {
   components: {
     TCard,
     Carousel,
     ButtonPrimary,
+    AppointmentForm
   },
   data() {
     return {

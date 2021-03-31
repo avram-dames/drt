@@ -2,23 +2,18 @@
   <nav-bar></nav-bar>
 
   <router-view class="pt-20" :key="$route.path" />
-
-  <appointment-form></appointment-form>
   
-
   <footer-section id="contact"></footer-section>
 </template>
 
 <script>
 import NavBar from "./components/NavBar";
 import FooterSection from "./components/FooterSection.vue";
-import AppointmentForm from "@/components/AppointmentForm.vue";
 import './assets/styles/main.css';
 
 export default {
   components: {
     NavBar,
-    AppointmentForm,
     FooterSection
   },
 };

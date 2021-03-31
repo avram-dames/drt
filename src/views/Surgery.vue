@@ -42,16 +42,20 @@
         </p>
       </div>
     </div>
+
+    <appointment-form></appointment-form>
   </div>
 </template>
 
 <script>
 import store from "@/store";
 import Hero from '../components/Hero.vue';
+import AppointmentForm from "@/components/AppointmentForm.vue";
 
 export default {
   components: {
-    Hero
+    Hero,
+    AppointmentForm
   },
   computed: {
     service() {

@@ -67,6 +67,8 @@
       <h3>Listă prețuri</h3>
       <price-table :rows="service.priceTable.rows.ro"></price-table>
     </section> -->
+
+    <appointment-form></appointment-form>
   </div>
 </template>
 
@@ -76,6 +78,7 @@ import store from "@/store";
 import Hero from "../components/Hero.vue";
 // import CtaCard from '../components/CtaCard.vue';
 import Gallery from "../components/Gallery.vue";
+import AppointmentForm from "@/components/AppointmentForm.vue";
 
 export default {
   components: {
@@ -83,6 +86,7 @@ export default {
     Hero,
     // CtaCard,
     Gallery,
+    AppointmentForm
   },
   computed: {
     service() {
