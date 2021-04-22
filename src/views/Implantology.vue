@@ -59,7 +59,7 @@
     </section>
 
     <section class="mt-12 md:mt-24 bg-gray-100 pt-1 pb-12">
-      <gallery></gallery>
+      <gallery :images="galleryImages"></gallery>
     </section>
 
     <!-- Price Table -->
@@ -97,6 +97,9 @@ export default {
     },
     procedure() {
       return this.service.details.pageContent.implantProcedure;
+    },
+    galleryImages() {
+      return this.service.gallery.images;
     },
   },
 };

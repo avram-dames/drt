@@ -566,6 +566,101 @@ export default {
           },
         },
       },
+      gallery:{
+        images: [
+          {
+            id: 1,
+            name: "",
+            image: require("@/assets/images/gallery/implants/implant_01-05-2018.jpg"),
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 2,
+            name: "",
+            image: require("@/assets/images/gallery/implants/implant_01-12-2018.jpg"),
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 3,
+            name: "",
+            image: require("@/assets/images/gallery/implants/implant2_01-12-2018.jpg"),
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 4,
+            name: "",
+            image: require("@/assets/images/gallery/implants/implant_07-03-2020.jpg"),
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 5,
+            name: "",
+            image: require("@/assets/images/gallery/implants/16830702_1196659887119959_1141835219356672057_n_1196659887119959.jpg"),
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 6,
+            name: "",
+            image: require("@/assets/images/gallery/implants/16830806_1196659960453285_3764605308114760762_n_1196659960453285.jpg"),
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 7,
+            name: "",
+            image: require("@/assets/images/gallery/implants/16830854_1196659790453302_9138119100312445801_n_1196659790453302.jpg"),
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 8,
+            name: "",
+            image: require("@/assets/images/gallery/implants/16864739_1196659823786632_2460022174169156620_n_1196659823786632.jpg"),
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 9,
+            name: "",
+            image: require("@/assets/images/gallery/implants/16865169_1196659947119953_5513848739198845815_n_1196659947119953.jpg"),
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 10,
+            name: "",
+            image: require("@/assets/images/gallery/implants/16807649_1196659647119983_5948212443123081840_n_1196659647119983.jpg"),
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 11,
+            name: "",
+            image: require("@/assets/images/gallery/implants/16864805_1196659747119973_7263126389592529998_n_1196659747119973.jpg"),
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 12,
+            name: "",
+            image: require("@/assets/images/gallery/implants/16864998_1196659630453318_2525086518008781929_n_1196659630453318.jpg"),
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 13,
+            name: "",
+            image: require("@/assets/images/gallery/implants/16641012_1196659440453337_1235229032534191817_n_1196659440453337.jpg"),
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          }
+        ]
+      },
       priceTable: {
         title: {
           ro: 'Tratamente de implantologie'
