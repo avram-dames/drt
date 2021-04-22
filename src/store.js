@@ -571,91 +571,91 @@ export default {
           {
             id: 1,
             name: "",
-            image: require("@/assets/images/gallery/implants/implant_01-05-2018.jpg"),
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/implant_01-05-2018_sbp6im.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 2,
             name: "",
-            image: require("@/assets/images/gallery/implants/implant_01-12-2018.jpg"),
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/implant_01-12-2018_kpkgun.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 3,
             name: "",
-            image: require("@/assets/images/gallery/implants/implant2_01-12-2018.jpg"),
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/implant2_01-12-2018_nq3g5b.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 4,
             name: "",
-            image: require("@/assets/images/gallery/implants/implant_07-03-2020.jpg"),
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/implant_07-03-2020_scyjma.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 5,
             name: "",
-            image: require("@/assets/images/gallery/implants/16830702_1196659887119959_1141835219356672057_n_1196659887119959.jpg"),
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/16830702_1196659887119959_1141835219356672057_n_1196659887119959_b82ijj.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 6,
             name: "",
-            image: require("@/assets/images/gallery/implants/16830806_1196659960453285_3764605308114760762_n_1196659960453285.jpg"),
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/16830806_1196659960453285_3764605308114760762_n_1196659960453285_rzmmva.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 7,
             name: "",
-            image: require("@/assets/images/gallery/implants/16830854_1196659790453302_9138119100312445801_n_1196659790453302.jpg"),
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/16830854_1196659790453302_9138119100312445801_n_1196659790453302_zjpsua.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 8,
             name: "",
-            image: require("@/assets/images/gallery/implants/16864739_1196659823786632_2460022174169156620_n_1196659823786632.jpg"),
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/16864739_1196659823786632_2460022174169156620_n_1196659823786632_uymco0.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 9,
             name: "",
-            image: require("@/assets/images/gallery/implants/16865169_1196659947119953_5513848739198845815_n_1196659947119953.jpg"),
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/16865169_1196659947119953_5513848739198845815_n_1196659947119953_zn3iqy.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 10,
             name: "",
-            image: require("@/assets/images/gallery/implants/16807649_1196659647119983_5948212443123081840_n_1196659647119983.jpg"),
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/16807649_1196659647119983_5948212443123081840_n_1196659647119983_bbakix.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 11,
             name: "",
-            image: require("@/assets/images/gallery/implants/16864805_1196659747119973_7263126389592529998_n_1196659747119973.jpg"),
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/16864805_1196659747119973_7263126389592529998_n_1196659747119973_cfljgc.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 12,
             name: "",
-            image: require("@/assets/images/gallery/implants/16864998_1196659630453318_2525086518008781929_n_1196659630453318.jpg"),
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/16864998_1196659630453318_2525086518008781929_n_1196659630453318_dp0xhj.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 13,
             name: "",
-            image: require("@/assets/images/gallery/implants/16641012_1196659440453337_1235229032534191817_n_1196659440453337.jpg"),
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/16641012_1196659440453337_1235229032534191817_n_1196659440453337_k21gnd.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           }
