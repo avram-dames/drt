@@ -36,7 +36,7 @@
         class="w-full mb-4 md:mb-0 md:w-80 flex justify-center order-first md:order-last"
       >
         <img
-          src="../assets/images/braces/metal.jpg"
+          src="https://res.cloudinary.com/avram-dev/image/upload/v1619090450/drt/braces/metal_m38y1z.jpg"
           alt="Ilustrație aparat dentar fix metalic"
         />
       </div>
@@ -64,7 +64,7 @@
         class="w-full mb-4 md:mb-0 md:w-80 flex justify-center order-first md:order-last"
       >
         <img
-          src="../assets/images/braces/ceramics.jpg"
+          src="https://res.cloudinary.com/avram-dev/image/upload/v1619090450/drt/braces/ceramics_bmfkf9.jpg"
           alt="Ilustrație aparat dentar fix ceramic"
           class="mt-4"
         />
@@ -93,7 +93,7 @@
         class="w-full mb-4 md:mb-0 md:w-80 flex justify-center order-first md:order-last"
       >
         <img
-          src="@/assets/images/braces/mobile.jpg"
+          src="https://res.cloudinary.com/avram-dev/image/upload/v1619090450/drt/braces/mobile_imb2ko.jpg"
           alt="Ilustrație aparat dentar mobil"
         />
       </div>
@@ -119,7 +119,7 @@
         class="w-full mb-4 md:mb-0 md:w-80 flex justify-center order-first md:order-last"
       >
         <img
-          src="../assets/images/braces/contention.jpg"
+          src="https://res.cloudinary.com/avram-dev/image/upload/v1619090450/drt/braces/contention_mxrmoi.jpg"
           alt="Ilustrație aparat dentar de contenție"
         />
       </div>

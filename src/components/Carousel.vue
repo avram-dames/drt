@@ -83,7 +83,7 @@ export default {
           id: 1,
           name: "Alin Trif",
           title: "Medic Specialist Chirurgie și Implantologie BMF",
-          image: require("../assets/images/echipa/Alin.jpg"),
+          image: "https://res.cloudinary.com/avram-dev/image/upload/v1619090348/drt/echipa/Alin_xs8eol.jpg",
           description:
             "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
         },
@@ -91,7 +91,7 @@ export default {
           id: 2,
           name: "Roxana Trif",
           title: "Tehnician Dentar",
-          image: require("../assets/images/echipa/Roxana.jpg"),
+          image: "https://res.cloudinary.com/avram-dev/image/upload/v1619090348/drt/echipa/Roxana_cy0fqd.jpg",
           description:
             "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
         },
@@ -99,7 +99,7 @@ export default {
           id: 3,
           name: "Domnica Nechiforet",
           title: "Medic Specialist Ortodonție si Ortopedie Facială",
-          image: require("../assets/images/echipa/Dominica.jpg"),
+          image: "https://res.cloudinary.com/avram-dev/image/upload/v1619090348/drt/echipa/Dominica_jgmzhl.jpg",
           description:
             "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
         },
@@ -107,7 +107,7 @@ export default {
           id: 4,
           name: "Emanuela Breaz",
           title: "Contabil",
-          image: require("../assets/images/echipa/Emanuela.jpg"),
+          image: "https://res.cloudinary.com/avram-dev/image/upload/v1619090348/drt/echipa/Emanuela_ztoiz7.jpg",
           description:
             "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
         },

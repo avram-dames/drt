@@ -8,7 +8,7 @@
         <div class="">
           <h2 class="">Ce este tartrul?</h2>
           <img
-            src="../assets/images/Plaque.png"
+            src="https://res.cloudinary.com/avram-dev/image/upload/v1619090874/drt/prevention/Plaque_hmcurd.png"
             alt=""
             class="float-right pl-4 md:hidden"
           />
@@ -21,7 +21,7 @@
           </p>
         </div>
         <img
-          src="../assets/images/Plaque.png"
+          src="https://res.cloudinary.com/avram-dev/image/upload/v1619090874/drt/prevention/Plaque_hmcurd.png"
           alt=""
           class="hidden md:block object-none md:mt-8"
         />
@@ -45,11 +45,6 @@
           :key="treatmentStep.step"
           class="flex flex-col md:flex-row md:justify-start items-center md:mt-12"
         >
-          <!-- <img
-          :src="treatmentStep.icon"
-          :alt="treatmentStep.step"
-          class="w-20 float-left object-none"
-        /> -->
           <p class="clear-none max-w-prose">
             {{ treatmentStep.description.ro }}
           </p>

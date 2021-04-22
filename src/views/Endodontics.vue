@@ -24,7 +24,7 @@
         </div>
         <div class="flex-none order-first md:order-last">
           <img
-            src="../assets/images/Endo1.png"
+            src="https://res.cloudinary.com/avram-dev/image/upload/v1619090758/drt/endo/Endo1_erwlly.png"
             alt="Ilustratie Tratament Endodontic - Carie si Deschidere Dinte."
           />
         </div>
@@ -42,7 +42,7 @@
         </div>
         <div class="flex-none order-first md:order-last">
           <img
-            src="../assets/images/Endo2.png"
+            src="https://res.cloudinary.com/avram-dev/image/upload/v1619090758/drt/endo/Endo2_snhuiu.png"
             alt="Ilustratie Tratament Endodontic - Carie si Deschidere Dinte."
           />
         </div>
@@ -57,7 +57,7 @@
         </div>
         <div class="flex-none order-first md:order-last">
           <img
-            src="../assets/images/Endo3.png"
+            src="https://res.cloudinary.com/avram-dev/image/upload/v1619090758/drt/endo/Endo3_qprdgr.png"
             alt="Ilustratie Tratament Endodontic - Carie si Deschidere Dinte."
           />
         </div>

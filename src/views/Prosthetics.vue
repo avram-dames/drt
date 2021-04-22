@@ -34,7 +34,7 @@
           </p>
         </div>
         <img
-          src="@/assets/images/prosthetics/mobile.jpg"
+          src="https://res.cloudinary.com/avram-dev/image/upload/v1619090692/drt/prosthetics/mobile_rhxzoz.jpg"
           alt="Proteză dentară mobilă"
           class="w-80 object-contain mb-8"
         />
@@ -59,7 +59,7 @@
           </p>
         </div>
         <img
-          src="@/assets/images/prosthetics/fixed.jpg"
+          src="https://res.cloudinary.com/avram-dev/image/upload/v1619090692/drt/prosthetics/fixed_zbzf4w.jpg"
           alt="Proteză dentară fixă"
           class="w-80 object-contain mb-8"
         />
@@ -88,7 +88,7 @@
           </p>
         </div>
         <img
-          src="@/assets/images/prosthetics/crown.jpg"
+          src="https://res.cloudinary.com/avram-dev/image/upload/v1619090692/drt/prosthetics/crown_tbceic.jpg"
           alt="Coroană dentară"
           class="w-80 object-contain mb-8"
         />

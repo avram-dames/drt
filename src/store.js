@@ -38,7 +38,7 @@ export default {
             ]
           },
           image: {
-            src: require('@/assets/images/PreventionHero.jpg'),
+            src: "https://res.cloudinary.com/avram-dev/image/upload/v1619091110/drt/hero/PreventionHero_hn5zkw.jpg",
             alt: {
               ro: 'Young girl brushing her teeth.'
             }
@@ -67,7 +67,7 @@ export default {
             {
               step: 1,
               title: 'Detartraj cu ultrasunete',
-              illustration: require('@/assets/images/Sonic.png'),
+              illustration: "https://res.cloudinary.com/avram-dev/image/upload/v1619090874/drt/prevention/Sonic_sjcroe.png",
               description: {
                 'ro': 'Primul pas în tratamentul de igienizare profesională este îndepărtarea tartrului. Deoarece detartrajul manual crește riscul deteriorării smalțului, clinica noastră folosește procedura de detartraj cu ultrasunete, care nu afectează smalțul dinților sau gingiile și este mai puțin dureroasă decât procedura standard de detartraj.'
               }
@@ -75,7 +75,7 @@ export default {
             {
               step: 2,
               title: 'Periaj profesional',
-              illustration: require('@/assets/images/Brush.png'),
+              illustration: "https://res.cloudinary.com/avram-dev/image/upload/v1619090874/drt/prevention/Brush_rfsxc4.png",
               description: {
                 'ro': 'Urmează procedura de periaj profesional pentru a îndepărta resturile mai mici de tartru rămase în zonele mai puțin accesibile ale dinților. Aceasta este complet nedureroasă fiind realizată cu ajutorul unor instrumente și paste de dinți speciale. Periajul profesional nu folosește substanțe chimice care deteriorează dintele sau gingia.'
               }
@@ -83,7 +83,7 @@ export default {
             {
               step: 3,
               title: 'Airflow',
-              illustration: require('@/assets/images/Airflow.png'),
+              illustration: "https://res.cloudinary.com/avram-dev/image/upload/v1619090874/drt/prevention/Airflow_hdbhrk.png",
               description: {
                 'ro': 'Air Flow-ul este ultima procedură efectuată în procesul de igienizare. Procedura este efectuată cu ajutorul unui aparat care pulverizează un jet de aer comprimat, apă și particule fine de bicarbonat de sodiu direct pe suprafața dintelui, curățând smalțul dinților de pete sau alte depuneri ce nu au putut fi îndepărtate cu ajutorul detartrajului și al periajului profesional.'
               }
@@ -114,7 +114,7 @@ export default {
             ]
           },
           image: {
-            src: require('@/assets/images/EndoHero.jpg'),
+            src: "https://res.cloudinary.com/avram-dev/image/upload/v1619091109/drt/hero/EndoHero_fk2ryh.jpg",
             alt: {
               ro: 'Little girl having a toothache.'
             }
@@ -190,7 +190,7 @@ export default {
             ]
           },
           image: {
-            src: require('@/assets/images/ProtHero.jpg'),
+            src: "https://res.cloudinary.com/avram-dev/image/upload/v1619091109/drt/hero/ProtHero_m2ein1.jpg",
             alt: {
               ro: 'Woman smiling.'
             }
@@ -266,7 +266,7 @@ export default {
             ]
           },
           image: {
-            src: require('@/assets/images/SurgeryHero.jpg'),
+            src: "https://res.cloudinary.com/avram-dev/image/upload/v1619091109/drt/hero/SurgeryHero_p8miet.jpg",
             alt: {
               ro: 'Little girl having a toothache.'
             }
@@ -349,7 +349,7 @@ export default {
             ]
           },
           image: {
-            src: require('@/assets/images/OrtoHero.jpg'),
+            src: "https://res.cloudinary.com/avram-dev/image/upload/v1619091109/drt/hero/OrtoHero_arvdr9.jpg",
             alt: {
               ro: 'Man smiling wearing braces.'
             }
@@ -420,7 +420,7 @@ export default {
             ]
           },
           image: {
-            src: require('@/assets/images/ImplantHero.jpg'),
+            src: "https://res.cloudinary.com/avram-dev/image/upload/v1619091108/drt/hero/ImplantHero_bfgbgl.jpg",
             alt: {
               ro: 'Little girl having a toothache.'
             }
@@ -505,7 +505,7 @@ export default {
                 title: {
                   ro: "Consultația și planul de tratament",
                 },
-                image: require("@/assets/images/implants/ImplantStep1.png"),
+                image: "https://res.cloudinary.com/avram-dev/image/upload/v1619090206/drt/implants/ImplantStep1_xpr6is.png",
                 description: {
                   ro: [
                     "Planul de tratament este stabilit de medicul specialist, pe baza unei radiografii panoramice. În unele cazuri, este nevoie și de o scanare CT, în special atunci când radiografia simplă nu reflectă clar volumul osului. Dacă pacientul suferă de afecțiuni cronice, medicul implantolog poate recomanda efectuarea unor analize suplimentare.",
@@ -519,7 +519,7 @@ export default {
                 title: {
                   ro: "Inserarea chirurgicală a implantului",
                 },
-                image: require("@/assets/images/implants/ImplantStep2.jpg"),
+                image: "https://res.cloudinary.com/avram-dev/image/upload/v1619090206/drt/implants/ImplantStep2_usl9hr.jpg",
                 description: {
                   ro: [
                     "Inserarea unui implant dentar în os se face sub anestezie locală. Procedura nu este dureroasă și are o durată de aproximativ 30 de minute. În funcție de caz, după inserare, implantul poate fi acoperit cu gingia, pentru a facilita procesul de osteointegrare sau se poate continua cu montarea bontului și atașarea coroanei.",
@@ -531,7 +531,7 @@ export default {
                 title: {
                   ro: "Perioada de osteointegrarea",
                 },
-                image: require("@/assets/images/implants/ImplantStep3.jpg"),
+                image: "https://res.cloudinary.com/avram-dev/image/upload/v1619090206/drt/implants/ImplantStep3_sx4imo.jpg",
                 description: {
                   ro: [
                     "De cele mai multe ori, implantul dentar presupune o perioadă de vindecare între inserarea implantului și montarea bontului și a coroanei dentare. Această perioadă poate dura de la 3 la 6 luni, în funcție de recomandarea medicul implantolog.",
@@ -543,7 +543,7 @@ export default {
                 title: {
                   ro: "Montarea bonturilor",
                 },
-                image: require("@/assets/images/implants/ImplantStep4.jpg"),
+                image: "https://res.cloudinary.com/avram-dev/image/upload/v1619090206/drt/implants/ImplantStep4_j2hcw7.jpg",
                 description: {
                   ro: [
                     "La finalul perioadei de osteointegrare, se montează, pentru o perioadă de 2-3 săptămâni, un bont de vindecare, ce ajută gingia să capete o formă naturală. Apoi, se atașează o altă piesă, numită bont protetic, care va constitui suportul pentru coroana dentară ce va înlocui dintele lipsă.",
@@ -555,7 +555,7 @@ export default {
                 title: {
                   ro: "Atașarea Coroanei",
                 },
-                image: require("@/assets/images/implants/ImplantStep5.jpg"),
+                image: "https://res.cloudinary.com/avram-dev/image/upload/v1619090206/drt/implants/ImplantStep5_be4q5q.jpg",
                 description: {
                   ro: [
                     "Coroana este realizată de tehnicianul dentar, conform specificațiilor medicului implantolog. Aceasta urmează a fi cimentată pe bont, rezultând astfel un dinte perfect funcțional și estetic.",

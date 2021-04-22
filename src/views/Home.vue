@@ -29,7 +29,7 @@
         <!-- Hero Image MD and larger screens-->
         <div class="px-12 md:px-6 mt-12 md:mt-12 lg:mt-0 lg:order-last flex-shrink">
           <img
-            src="../assets/images/HeroShape.png"
+            src="https://res.cloudinary.com/avram-dev/image/upload/v1619091109/drt/hero/HeroShape_snq14u.png"
             alt="Photo of smiling lady by Hian Oliveira borrowd from Unsplash"
           />
         </div>
