@@ -114,7 +114,7 @@
           </p>
         </div>
         <img
-          src="@/assets/images/prosthetics/bridge.jpg"
+          src="https://res.cloudinary.com/avram-dev/image/upload/v1619090692/drt/prosthetics/bridge_puxmzy.jpg"
           alt="Punte dentară"
           class="w-80 object-contain mb-8"
         />
