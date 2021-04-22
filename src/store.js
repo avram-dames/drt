@@ -100,7 +100,7 @@ export default {
         ro: 'Endodonție',
       },
       description: {
-        ro: 'Pastrarea dintelui natural este deosebit de importantă. Echipa noastră de dentiști din Aiud și Cluj are experiența și tehnologia necesară pentru a trata cu succes straturile interioare ale dintelui.'
+        ro: 'Pastrareă dintelui natural este deosebit de importantă. Echipa noastră de dentiști din Aiud și Cluj are experiența și tehnologia necesară pentru a trata cu succes straturile interioare ale dintelui.'
       },
       details: {
         hero: {
@@ -178,6 +178,73 @@ export default {
       },
       description: {
         ro: 'Lipsa unui dinte sau a unui grup de dinți îți poate afecta calitatea vieții. Profită de serviciile de protetică oferite de echipa noastră de dentiști din Aiud și alege punți dentare sau proteze care să reziste!'
+      },
+      gallery:{
+        images: [
+          {
+            id: 1,
+            name: "",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/proteza_07-03-2020_g5d2sy.jpg",
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 2,
+            name: "",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/proteza_07_03_2020_q7jdae.jpg",
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 3,
+            name: "",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/untitled_04-04-2017_vyknt6.jpg",
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 4,
+            name: "",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089241/drt/16832115_1196659607119987_813756005539880528_n_1196659607119987_vickiw.jpg",
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 5,
+            name: "",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/proteza_27-03-2017_jv16py.jpg",
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 6,
+            name: "",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/16649525_1196659540453327_5090153599763481149_n_1196659540453327_kbp2tk.jpg",
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 7,
+            name: "",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089241/drt/16831120_1196659563786658_7170777486206027585_n_1196659563786658_qmo6to.jpg",
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 8,
+            name: "",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089241/drt/16807205_1196659603786654_7878507177079319884_n_1196659603786654_ukgudt.jpg",
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+          {
+            id: 9,
+            name: "",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089241/drt/16681881_1196659787119969_2574342283619225253_n_1196659787119969_r2247r.jpg",
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },
+        ]
       },
       details: {
         hero: {

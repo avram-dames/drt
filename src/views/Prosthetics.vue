@@ -120,26 +120,35 @@
         />
       </div>
     </section>
+</div>
+    <section class="mt-12 md:mt-24 bg-gray-100 pt-1 pb-12">
+      <gallery :images="galleryImages"></gallery>
+    </section>
 
     <appointment-form></appointment-form>
-  </div>
+  
 </template>
 
 <script>
 import store from "@/store";
 import Hero from "../components/Hero.vue";
 // import CtaCard from '../components/CtaCard.vue';
+import Gallery from "../components/Gallery.vue";
 import AppointmentForm from "@/components/AppointmentForm.vue";
 
 export default {
   components: {
     Hero,
     AppointmentForm,
+    Gallery
     // CtaCard
   },
   computed: {
     service() {
       return store.services.find((s) => s.id == 3);
+    },
+    galleryImages() {
+      return this.service.gallery.images;
     },
   },
 };
