@@ -54,9 +54,9 @@
         </p>
         <p class="pr-2 max-w-prose mt-4">
           Acest tip de aparat necesită o
-          <a class="text-blue-800 hover:underline" href="/preventie"
-            >igienă riguroasă</a
-          >
+          <router-link :to="{name: 'Prevention'}" class="text-blue-800 hover:underline">
+            igienă riguroasă
+          </router-link>
           specifică pentru a menține aspectul discret al dispozitivului.
           Totodată, este importantă evitarea alimentelor tari ce pot cauza
           desprinderea bracket-ului de pe suprafața dintelui.

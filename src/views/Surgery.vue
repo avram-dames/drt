@@ -15,7 +15,7 @@
           partea laterală a unui dinte. Este cauzat de bacteriile aflate în
           interiorul cariilor și care ajung să infecteze vasele de sânge de la
           baza dintelui. Citește mai mult despre tratamentele de salvare a
-          dintelui, aici.
+          dintelui, <router-link class="text-blue-800 hover:underline" :to="{name: 'Prevention'}">aici</router-link>.
         </p>
 
         <h2 class="">Extracții dentare</h2>
@@ -25,7 +25,7 @@
           făcând tot posibilul sa se evite procedura de extracție. Totuși uneori
           pacientul vine prea târziu la cabinet pentru a se mai putea salva
           dintele, astfel dintele trebuie extras. Citește mai mult despre
-          tratamentele de prevenție, aici.
+          tratamentele de prevenție, <router-link class="text-blue-800 hover:underline" :to="{name: 'Prevention'}">aici</router-link>.
         </p>
 
         <h2 class="">Rezecție apicală</h2>
