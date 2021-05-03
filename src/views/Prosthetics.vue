@@ -1,13 +1,8 @@
 <template>
-    <div class="container px-6">
-
+  <div class="">
+  <div class="container px-6">
     <!-- Hero Section -->
     <hero :service="service"></hero>
-
-    <!-- CTA Card -->
-    <!-- <section class="mt-24">
-      <cta-card :ctaMessage="service.details.ctaMessage"></cta-card>
-    </section> -->
 
     <section class="">
       <h2 class="">Proteze dentare mobile</h2>      
@@ -102,8 +97,8 @@
           <ul class="list-inside list-disc">
             <li>Cu o igienă corectă, acestea pot rezista pană la 10 ani;</li>
             <li>Sunt ancorate pe dinții vecini, cu ajutorul unor coroane dentare;</li>
-            <li>nu sefracturează;</li>
-            <li>nu există riscul apariției cariilor.</li>
+            <li>Nu se fracturează;</li>
+            <li>Nu există riscul apariției cariilor.</li>
           </ul>
           </p>
           <p class="mt-8 max-w-prose">
@@ -126,7 +121,7 @@
     </section>
 
     <appointment-form></appointment-form>
-  
+  </div>
 </template>
 
 <script>
@@ -140,7 +135,7 @@ export default {
   components: {
     Hero,
     AppointmentForm,
-    Gallery
+    Gallery,
     // CtaCard
   },
   computed: {

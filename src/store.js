@@ -33,7 +33,7 @@ export default {
           },
           description: {
             ro: [
-              'Întotdeauna este mai ieftin și mai puțin dureros să previi o afecțiune decât să o tratezi. Placa bacteriană (tartrul) este principala cauza a afecțiunilor dentare și gingivale. Astfel, prevenirea formării tartrului prin periaj regulat și igienizarea corectă a cavității bucale este prima linie de protecție împotriva cariilor și bolilor parodontale.',
+              'Întotdeauna este mai ieftin și mai puțin dureros să previi o afecțiune decât să o tratezi. Placa bacteriană (tartrul) este principala cauză a afecțiunilor dentare și gingivale. Astfel, prevenirea formării tartrului prin periaj regulat și igienizarea corectă a cavității bucale este prima linie de protecție împotriva cariilor și bolilor parodontale.',
               'Însă, de cele mai multe ori, chiar și o igienă corectă nu este suficientă pentru curățarea în profunzime a danturii. Prin urmare, tratamentul de igienizare profesională este recomandat o dată la 6 luni, pentru a curăța în totalitate dinții de tartru, prevenind astfel apariția cariilor și afecțiunile gingivale. Totodată, acesta oferă și o ușoară albire naturală a dinților, ajutându-te să te simți mai sănătos și să ai un zâmbet mai frumos.'
             ]
           },
@@ -100,7 +100,7 @@ export default {
         ro: 'Endodonție',
       },
       description: {
-        ro: 'Pastrareă dintelui natural este deosebit de importantă. Echipa noastră de dentiști din Aiud și Cluj are experiența și tehnologia necesară pentru a trata cu succes straturile interioare ale dintelui.'
+        ro: 'Păstrarea dintelui natural este deosebit de importantă. Echipa noastră de dentiști din Aiud și Cluj are experiența și tehnologia necesară pentru a trata cu succes straturile interioare ale dintelui.'
       },
       details: {
         hero: {
@@ -184,66 +184,40 @@ export default {
           {
             id: 1,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/proteza_07-03-2020_g5d2sy.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620042620/drt/prot_caz_3_oqguyj.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 2,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/proteza_07_03_2020_q7jdae.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620043368/drt/prot_3_vc4z0f.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 3,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/untitled_04-04-2017_vyknt6.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620043257/drt/prot_1_uwjxug.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 4,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089241/drt/16832115_1196659607119987_813756005539880528_n_1196659607119987_vickiw.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620043742/drt/prot_2_ubrgvr.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 5,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/proteza_27-03-2017_jv16py.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620044297/drt/prot_5_r5pd0u.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
-          {
-            id: 6,
-            name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/16649525_1196659540453327_5090153599763481149_n_1196659540453327_kbp2tk.jpg",
-            description:
-              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
-          },
-          {
-            id: 7,
-            name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089241/drt/16831120_1196659563786658_7170777486206027585_n_1196659563786658_qmo6to.jpg",
-            description:
-              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
-          },
-          {
-            id: 8,
-            name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089241/drt/16807205_1196659603786654_7878507177079319884_n_1196659603786654_ukgudt.jpg",
-            description:
-              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
-          },
-          {
-            id: 9,
-            name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089241/drt/16681881_1196659787119969_2574342283619225253_n_1196659787119969_r2247r.jpg",
-            description:
-              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
-          },
+          
+          
         ]
       },
       details: {
@@ -253,7 +227,7 @@ export default {
           },
           description: {
             ro: [
-              'Pe lângă dificultăți de masticație si vorbire, lipsa unui dinte sau a unui grup de dinți duce și la afecțiuni ale cavitații bucale,  ale articulației temporomandibulare sau afecțiuni digestive. De aceea este recomandată  înlocuirea dinților lipsă cu implanturi, punți dentare sau proteze. Află care  este cea mai potrivită variantă pentru tine.',
+              'Pe lângă dificultăți de masticație si vorbire, lipsa unui dinte sau a unui grup de dinți duce și la afecțiuni ale cavității bucale,  ale articulației temporomandibulare sau afecțiuni digestive. De aceea este recomandată  înlocuirea dinților lipsă cu implanturi, punți dentare sau proteze. Află care  este cea mai potrivită variantă pentru tine.',
             ]
           },
           image: {
@@ -287,7 +261,7 @@ export default {
           ro: 'Tratamente protetice'
         },
         description: {
-          ro: 'Pe lângă dificultăți de masticație si vorbire, lipsa unui dinte sau a unui grup de dinți duce și la afecțiuni ale cavitații bucale, ale articulației gurii sau afecțiuni digestive. Stabilește cu medicul tau stomatolog un plan de tratament folosind formularul de mai jos.',
+          ro: 'Pe lângă dificultăți de masticație si vorbire, lipsa unui dinte sau a unui grup de dinți duce și la afecțiuni ale cavității bucale, ale articulației gurii sau afecțiuni digestive. Stabilește cu medicul tau stomatolog un plan de tratament folosind formularul de mai jos.',
         },
         rows: {
           ro: [
@@ -329,7 +303,7 @@ export default {
           description: {
             ro: [
               'Tratamentele chirurgicale sunt specialitatea clinicii noastre. Obiectivul nostru este de a salva dinții recuperabili prin rezolvarea complicațiilor dentare și gingivale în cel mai scurt timp posibil, ușor și fără durere.',
-              'Află mai multe despre tratamentele noastre și fa-ți o programare online pentru a crește șansele de ați salva dinții aflați in pericol.'
+              'Află mai multe despre tratamentele noastre și fa-ți o programare online pentru a crește șansele de a-ți salva dinții aflați in pericol.'
             ]
           },
           image: {
@@ -545,7 +519,7 @@ export default {
                 ro: 'Nu restricționează masticația',
               },
               description: {
-                ro: 'Comparativ cu punțile sau protezele clasice, un implant dentar este mai stabil și nu acoperă cerul gurii. De aceea, pacienții cu implanturi dentare se pot bucura de o gamă mai largă de produse alimentar.'
+                ro: 'Comparativ cu punțile sau protezele clasice, un implant dentar este mai stabil și nu acoperă cerul gurii. De aceea, pacienții cu implanturi dentare se pot bucura de o gamă mai largă de produse alimentare.'
               }
             },
             {
@@ -556,7 +530,7 @@ export default {
                 ro: 'Garantează o rezistență mai mare',
               },
               description: {
-                ro: 'Implantele dentare au o durată de viață superioară altor lucrări protetice. Implantul de titan poate rezista pe durata întregii vieți, pentru că este asimilat de organism, spre deosebire de o coroană dentară, care are o durată de viață intre 5 și 15 ani.'
+                ro: 'Implanturile dentare au o durată de viață superioară altor lucrări protetice. Implantul de titan poate rezista pe durata întregii vieți, pentru că este asimilat de organism, spre deosebire de o coroană dentară, care are o durată de viață intre 5 și 15 ani.'
               }
             },
           ],
@@ -638,91 +612,49 @@ export default {
           {
             id: 1,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/implant_01-05-2018_sbp6im.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620042937/drt/implant_caz_7_y37ffu.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 2,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/implant_01-12-2018_kpkgun.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620042040/drt/implant_caz_5_l2kb1g.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 3,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/implant2_01-12-2018_nq3g5b.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620042040/drt/implant_caz_6_owk4gm.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 4,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/implant_07-03-2020_scyjma.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/implant_01-05-2018_sbp6im.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 5,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/16830702_1196659887119959_1141835219356672057_n_1196659887119959_b82ijj.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/implant_01-12-2018_kpkgun.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 6,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/16830806_1196659960453285_3764605308114760762_n_1196659960453285_rzmmva.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620041424/drt/implant_caz_3_mnylyz.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 7,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/16830854_1196659790453302_9138119100312445801_n_1196659790453302_zjpsua.jpg",
-            description:
-              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
-          },
-          {
-            id: 8,
-            name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/16864739_1196659823786632_2460022174169156620_n_1196659823786632_uymco0.jpg",
-            description:
-              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
-          },
-          {
-            id: 9,
-            name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/16865169_1196659947119953_5513848739198845815_n_1196659947119953_zn3iqy.jpg",
-            description:
-              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
-          },
-          {
-            id: 10,
-            name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/16807649_1196659647119983_5948212443123081840_n_1196659647119983_bbakix.jpg",
-            description:
-              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
-          },
-          {
-            id: 11,
-            name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089242/drt/16864805_1196659747119973_7263126389592529998_n_1196659747119973_cfljgc.jpg",
-            description:
-              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
-          },
-          {
-            id: 12,
-            name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/16864998_1196659630453318_2525086518008781929_n_1196659630453318_dp0xhj.jpg",
-            description:
-              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
-          },
-          {
-            id: 13,
-            name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1619089243/drt/16641012_1196659440453337_1235229032534191817_n_1196659440453337_k21gnd.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620044008/drt/implant_caz_4_edjrtg.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           }
@@ -733,7 +665,7 @@ export default {
           ro: 'Tratamente de implantologie'
         },
         description: {
-          ro: 'Pe lângă dificultăți de masticație si vorbire, lipsa unui dinte sau a unui grup de dinți duce și la afecțiuni ale cavitații bucale, ale articulației gurii sau afecțiuni digestive. Stabilește cu medicul tau stomatolog un plan de tratament folosind formularul de mai jos.',
+          ro: 'Pe lângă dificultăți de masticație si vorbire, lipsa unui dinte sau a unui grup de dinți duce și la afecțiuni ale cavității bucale, ale articulației gurii sau afecțiuni digestive. Stabilește cu medicul tau stomatolog un plan de tratament folosind formularul de mai jos.',
         },
         rows: {
           ro: [

@@ -4,15 +4,15 @@
     
     <!-- Image -->
     <img
-      class="px-6 max-w-full lg:max-w-2xl"
+      class="max-w-full lg:max-w-2xl"
       :src="item.image" alt=""
     />
 
     <!-- Arrows -->
-    <div class="flex flex-row pt-8 md:pt-20 space-x-6 items-center">
+    <div class="flex flex-row pt-12 md:pt-8 space-x-6 items-center">
         <!-- Left Arrow -->
         <button
-          class="w-8 h-8 md:w-6 md:h-6"
+          class="w-12 h-12"
           @click="previousItem"
           :disabled="leftArrowDisabled"
         >
@@ -34,7 +34,7 @@
         <div class="font-mvr text-md">{{ item.id }} / {{ nbOfItems }}</div>
         <!-- Right Arrow -->
         <button
-          class="w-8 h-8 md:w-6 md:h-6"
+          class="w-12 h-12"
           @click="nextItem"
           :disabled="rightArrowDisabled"
         >

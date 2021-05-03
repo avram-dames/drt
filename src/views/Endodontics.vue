@@ -1,6 +1,6 @@
 <template>
+<div>
   <div class="container px-6">
-    
     <!-- Hero Section -->
     <hero :service="service"></hero>
 
@@ -15,7 +15,9 @@
         24-48 de ore de la efectuarea tratamentului.
       </p>
 
-      <div class="mt-8 flex flex-col md:flex-row justify-beween items-center space-x-8">
+      <div
+        class="mt-8 flex flex-col md:flex-row justify-beween items-center space-x-8"
+      >
         <div class="max-w-prose">
           <p class="mt-8">
             Prima etapă a tratamentului constă în curățarea canalului (scoaterea
@@ -30,14 +32,16 @@
         </div>
       </div>
 
-      <div class="mt-8 flex flex-col md:flex-row justify-beween items-center space-x-8">
+      <div
+        class="mt-8 flex flex-col md:flex-row justify-beween items-center space-x-8"
+      >
         <div class="max-w-prose">
           <p class="mt-8">
             A doua etapă se concentrează pe umplerea canalului cu o pasta
             biocompatibilă (compusă din antibiotic, iodoform, endometazonă, oxid
-            de zinc, eugenol) pentru a preveni răspândirea baterilor. În anumite
-            cazuri, medicul dentist va trebui sa insereze și un dispozitiv
-            corono-radicular pentru stabilizarea lucrării protetice.
+            de zinc, eugenol) pentru a preveni răspândirea bacteriilor. În
+            anumite cazuri, medicul dentist va trebui să insereze și un
+            dispozitiv corono-radicular pentru stabilizarea lucrării protetice.
           </p>
         </div>
         <div class="flex-none order-first md:order-last">
@@ -48,7 +52,9 @@
         </div>
       </div>
 
-      <div class="mt-8 flex flex-col md:flex-row justify-beween items-center space-x-8">
+      <div
+        class="mt-8 flex flex-col md:flex-row justify-beween items-center space-x-8"
+      >
         <div class="max-w-prose">
           <p class="mt-8">
             A treia etapă are în vedere plombarea dintelui (obturație) și,
@@ -63,21 +69,21 @@
         </div>
       </div>
     </div>
-
-    <appointment-form></appointment-form>
+  </div>
+  <appointment-form></appointment-form>
   </div>
 </template>
 
 <script>
 import store from "@/store";
-import Hero from '../components/Hero.vue';
+import Hero from "../components/Hero.vue";
 import AppointmentForm from "@/components/AppointmentForm.vue";
 
 export default {
   name: "Endo",
   components: {
     Hero,
-    AppointmentForm
+    AppointmentForm,
   },
   computed: {
     service() {

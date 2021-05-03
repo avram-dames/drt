@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="container px-6">
     <!-- Hero Section -->
     <section>
@@ -56,8 +57,8 @@
         </div>
       </div>
     </section>
-
-    <appointment-form></appointment-form>
+  </div>
+  <appointment-form></appointment-form>
   </div>
 </template>
 

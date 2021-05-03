@@ -1,23 +1,25 @@
 <template>
+<div>
   <div class="container px-6">
     <!-- Hero Section -->
     <hero :service="service"></hero>
 
     <!-- Content -->
-    <h2 class="text-center md:text-left">
+    <h2>
       De ce tip de aparat dentar am nevoie?
     </h2>
     <p class="max-w-prose">
       Cu toții ne dorim ca tratamentul ortodontic sa fie cât mai scurt, iar
-      aparatul dentar să fie cât mai puțin vizibil. Însă, pentru că fiecare plan
-      de tratament trebuie să se țină cont de aspectele individuale ale
+      aparatul dentar să fie cât mai puțin vizibil. Însă, pentru că în fiecare
+      plan de tratament trebuie să se țină cont de aspectele individuale ale
       pacientului, alegerea aparatului se va face împreună cu medicul ortodont.
     </p>
 
-    <h2 class="md:hidden text-center">Aparate dentare fixe metalice (Brackets)</h2>
+    <h2>
+      Aparate dentare fixe metalice (Brackets)
+    </h2>
     <div class="flex flex-col md:flex-row justify-between items-end">
       <div>
-        <h2 class="hidden md:block">Aparate dentare fixe metalice (Brackets)</h2>
         <p class="pr-2 max-w-prose">
           Aparatul dentar fix este dispozitivul recomandat cel mai des pentru
           adolescenți și adulți datorită timpului mai scurt de purtare și a
@@ -32,20 +34,17 @@
           forțele corectoare asupra arcadei dentare.
         </p>
       </div>
-      <div
-        class="w-full mb-4 md:mb-0 md:w-80 flex justify-center order-first md:order-last"
-      >
         <img
+          class="object-scale-down w-full md:w-72 order-first md:order-last mb-4"
           src="https://res.cloudinary.com/avram-dev/image/upload/v1619090450/drt/braces/metal_m38y1z.jpg"
           alt="Ilustrație aparat dentar fix metalic"
         />
-      </div>
+
     </div>
 
-    <h2 class="md:hidden text-center">Aparate dentare fixe ceramice</h2>
+    <h2>Aparate dentare fixe ceramice</h2>
     <div class="flex flex-col md:flex-row justify-between items-end">
       <div>
-        <h2 class="hidden md:block">Aparate dentare fixe ceramice</h2>
         <p class="pr-2 max-w-prose">
           Brackets-urile realizate din material ceramic sau safir sunt mai
           estetice comparativ cu cele metalice. De aceea, acestea sunt
@@ -54,27 +53,27 @@
           metalice, cum ar fi cazul persoanelor care lucrează cu publicul.
         </p>
         <p class="pr-2 max-w-prose mt-4">
-          Acest tip de aparat necesită o <a class="text-blue-800 hover:underline" href="/preventie">igienă riguroasă</a>
+          Acest tip de aparat necesită o
+          <a class="text-blue-800 hover:underline" href="/preventie"
+            >igienă riguroasă</a
+          >
           specifică pentru a menține aspectul discret al dispozitivului.
           Totodată, este importantă evitarea alimentelor tari ce pot cauza
           desprinderea bracket-ului de pe suprafața dintelui.
         </p>
       </div>
-      <div
-        class="w-full mb-4 md:mb-0 md:w-80 flex justify-center order-first md:order-last"
-      >
+
         <img
+          class="object-scale-down w-full md:w-72 order-first md:order-last mb-4"
           src="https://res.cloudinary.com/avram-dev/image/upload/v1619090450/drt/braces/ceramics_bmfkf9.jpg"
           alt="Ilustrație aparat dentar fix ceramic"
-          class="mt-4"
         />
-      </div>
+
     </div>
 
-    <h2 class="md:hidden text-center">Aparate dentare mobile</h2>
+    <h2>Aparate dentare mobile</h2>
     <div class="flex flex-col md:flex-row justify-between items-end">
       <div>
-        <h2 class="hidden md:block">Aparate dentare mobile</h2>
         <p class="pr-2 max-w-prose">
           Acest tip de aparat poate fi aplicat și îndepărtat de pacient, fără
           ajutorul medicului. Spre deosebire de aparatul fix, acesta are un
@@ -89,20 +88,17 @@
           oaselor maxilare.
         </p>
       </div>
-      <div
-        class="w-full mb-4 md:mb-0 md:w-80 flex justify-center order-first md:order-last"
-      >
+
         <img
+          class="object-scale-down w-full md:w-72 order-first md:order-last mb-4"
           src="https://res.cloudinary.com/avram-dev/image/upload/v1619090450/drt/braces/mobile_imb2ko.jpg"
           alt="Ilustrație aparat dentar mobil"
         />
-      </div>
     </div>
 
-    <h2 class="md:hidden text-center">Aparate dentare de contenție</h2>
+    <h2>Aparate dentare de contenție</h2>
     <div class="flex flex-col md:flex-row justify-between items-end">
       <div>
-        <h2 class="hidden md:block">Aparate dentare de contenție</h2>
         <p class="pr-2 max-w-prose">
           Purtarea aparatului de contenție după terminarea tratamentului
           ortodontic este o etapă deosebit de importantă pentru păstrarea
@@ -115,29 +111,27 @@
           contenție se va face împreună cu medicul ortodont.
         </p>
       </div>
-      <div
-        class="w-full mb-4 md:mb-0 md:w-80 flex justify-center order-first md:order-last"
-      >
-        <img
+      <img
+          class="object-scale-down w-full md:w-72 order-first md:order-last mb-4"
           src="https://res.cloudinary.com/avram-dev/image/upload/v1619090450/drt/braces/contention_mxrmoi.jpg"
           alt="Ilustrație aparat dentar de contenție"
-        />
-      </div>
+      />
     </div>
-
-    <appointment-form></appointment-form>
+    
+  </div>
+  <appointment-form></appointment-form>
   </div>
 </template>
 
 <script>
 import store from "@/store";
-import Hero from '../components/Hero.vue';
+import Hero from "../components/Hero.vue";
 import AppointmentForm from "@/components/AppointmentForm.vue";
 
 export default {
   components: {
     Hero,
-    AppointmentForm
+    AppointmentForm,
   },
   computed: {
     service() {

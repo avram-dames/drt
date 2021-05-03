@@ -25,7 +25,7 @@
       <div class="flex flex-row pt-8 lg:pt-20 space-x-6 items-center">
         <!-- Left Arrow -->
         <button
-          class="w-8 h-8 lg:w-6 lg:h-6"
+          class="w-12 h-12 lg:w-8 lg:h-8"
           @click="previousTeamMember"
           :disabled="leftArrowDisabled"
         >
@@ -47,7 +47,7 @@
         <div class="font-mvr text-md">{{ teamMember.id }} / {{ teamLength }}</div>
         <!-- Right Arrow -->
         <button
-          class="w-8 h-8 lg:w-6 lg:h-6"
+          class="w-12 h-12 lg:w-8 lg:h-8"
           @click="nextTeamMember"
           :disabled="rightArrowDisabled"
         >

@@ -79,7 +79,7 @@
     <div id="team"></div>
     <section>
       <div
-        class="flex mt-24 md:mt-24 justify-center bg-gradient-to-br from-primary-001 to-primary-200"
+        class="flex mt-24 justify-center bg-gradient-to-br from-primary-001 to-primary-200"
       >
         <div class="w-full px-6 md:w-160 lg:w-192">
           <h1 class="md:text-center">Echipa Noastră</h1>
@@ -99,6 +99,7 @@
 
       <!-- Team Members Carousel -->
       <carousel></carousel>
+      <div class="h-20 md:h-0"></div>
     </section>
 
     <!-- Clinica Noastra -->

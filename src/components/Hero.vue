@@ -1,5 +1,5 @@
 <template>
-  <div class="md:hidden bg-gradient-to-b from-white inset-0 h-6"></div>
+  <div class="md:hidden h-6"></div>
   <div class="flex flex-col lg:flex-row justify-between items-center">
     <!-- Text -->
     <div class="lg:max-w-prose mr-2 order-last lg:order-first">
