@@ -184,21 +184,21 @@ export default {
           {
             id: 1,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620042620/drt/prot_caz_3_oqguyj.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620054527/drt/prot_1_pirbdt.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 2,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620043368/drt/prot_3_vc4z0f.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620054334/drt/prot_2_gdxe1i.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 3,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620043257/drt/prot_1_uwjxug.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620054154/drt/prot_3_tjh91f.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
@@ -216,8 +216,13 @@ export default {
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
-          
-          
+          {
+            id: 6,
+            name: "",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620056143/drt/prot_6_afjd0q.jpg",
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },    
         ]
       },
       details: {
@@ -619,14 +624,14 @@ export default {
           {
             id: 2,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620042040/drt/implant_caz_5_l2kb1g.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620055062/drt/impalnt_2_oq6k5t.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
           {
             id: 3,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620042040/drt/implant_caz_6_owk4gm.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620055623/drt/implant_3_hym63q.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
@@ -647,7 +652,7 @@ export default {
           {
             id: 6,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620041424/drt/implant_caz_3_mnylyz.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620055933/drt/implant_6_emdym5.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },
