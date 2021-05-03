@@ -230,6 +230,13 @@ export default {
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
           },  
+          {
+            id: 8,
+            name: "",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620060754/drt/61970426_10157602042459684_7581344514187460608_n_lwdvlp.jpg",
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          }, 
         ]
       },
       details: {
