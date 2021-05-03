@@ -219,10 +219,17 @@ export default {
           {
             id: 6,
             name: "",
-            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620056143/drt/prot_6_afjd0q.jpg",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620060545/drt/prot_6_qft9q9.jpg",
             description:
               "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
-          },    
+          },  
+          {
+            id: 7,
+            name: "",
+            image: "https://res.cloudinary.com/avram-dev/image/upload/v1620060544/drt/prot_7_c9iwbi.jpg",
+            description:
+              "Scurtă descriere, ... dacă este cazul. Dacă nu putem renunța la rubrica asta.",
+          },  
         ]
       },
       details: {
