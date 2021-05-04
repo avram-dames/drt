@@ -14,6 +14,9 @@
         <div>
           <h3 class="mt-12 font-mwsb tracking-wide text-xl">Orar</h3>
           <div class="mt-4 font-mvr tracking-wide text-md">
+            Luni: 09 - 17
+          </div>
+          <div class="mt-1 font-mvr tracking-wide text-md">
             Marți - Miercuri: 09 - 14
           </div>
           <div class="mt-1 font-mvr tracking-wide text-md">

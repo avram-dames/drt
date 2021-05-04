@@ -36,7 +36,7 @@
           <label for="name">Nume</label>
           <input
             class="border border-primary rounded-sm text-xl px-2 py-1"
-            id="name"
+            id="nume"
             type="text"
             name="nume"
             required
