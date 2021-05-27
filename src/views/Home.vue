@@ -1,40 +1,61 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="h-auto lg:h-screen-adjusted md:container flex flex-col md:flex-row md:items-center">
-      
-        <!-- Hero Message -->
-        <div class="px-6 mt-20 flex flex-col md:justify-start flex-grow">
-            <div
-              class="font-mwb leading-snug tracking-wide max-w-2xl text-dark text-3xl md:text-3xl lg:text-4xl"
-            >
-              Zâmbetul perfect începe cu o consultație gratuită
-            </div>
-            <div
-              class="mt-4 font-mvl leading-relaxed tracking-wide max-w-xl text-dark text-base md:text-md lg:text-lg"
-            >
-              Echipa noastră de dentiști din Aiud îți va reda zâmbetul și starea
-              de bine.
-              <!-- Profită de consultația ta gratuită! -->
-            </div>
-
-            <!-- CTA -->
-            <div class="mt-4 md:flex md:justify-start">
-              <button-primary :reference="{ name: 'Home', hash: '#appointment-form'}">
-                PROGRAMEAZĂ-TE ACUM
-              </button-primary>
-          </div>
+    <section
+      class="h-auto lg:h-screen-adjusted md:container flex flex-col md:flex-row md:items-center"
+    >
+      <!-- Hero Message -->
+      <div class="px-6 mt-20 flex flex-col md:justify-start flex-grow">
+        <div
+          class="font-mwb leading-snug tracking-wide max-w-2xl text-dark text-3xl md:text-3xl lg:text-4xl"
+        >
+          Zâmbetul perfect începe cu o consultație gratuită
+        </div>
+        <div
+          class="mt-4 font-mvl leading-relaxed tracking-wide max-w-xl text-dark text-base md:text-md lg:text-lg"
+        >
+          Echipa noastră de dentiști din Aiud îți va reda zâmbetul și starea de
+          bine.
+          <!-- Profită de consultația ta gratuită! -->
         </div>
 
-        <!-- Hero Image MD and larger screens-->
-        <div class="px-12 md:px-6 mt-12 md:mt-12 lg:mt-0 lg:order-last flex-shrink">
-          <img
-            src="https://res.cloudinary.com/avram-dev/image/upload/v1619091109/drt/hero/HeroShape_snq14u.png"
-            alt="Photo of smiling lady by Hian Oliveira borrowd from Unsplash"
-          />
+        <!-- CTA -->
+        <div class="mt-4 md:flex md:justify-start">
+          <button-primary
+            :reference="{ name: 'Home', hash: '#appointment-form' }"
+          >
+            PROGRAMEAZĂ-TE ACUM
+          </button-primary>
         </div>
+      </div>
 
+      <!-- Hero Image MD and larger screens-->
+      <div
+        class="hidden lg:block lg:px-6 lg:mt-0 lg:order-last lg:flex-shrink"
+      >
+        <img
+          src="https://res.cloudinary.com/avram-dev/image/upload/v1619091109/drt/hero/HeroShape_snq14u.png"
+          alt="Photo of smiling lady by Hian Oliveira borrowd from Unsplash"
+        />
+      </div>
     </section>
+
+    <div
+      class="wistia_responsive_padding mt-12"
+      style="padding: 56.25% 0 0 0; position: relative"
+    >
+      <div
+        class="wistia_responsive_wrapper"
+        style="height: 100%; left: 0; position: absolute; top: 0; width: 100%"
+      >
+        <div
+          class="wistia_embed wistia_async_4fhihx5tkf videoFoam=true"
+          style="height: 100%; position: relative; width: 100%"
+        >
+          &nbsp;
+        </div>
+      </div>
+    </div>
 
     <!-- Services Section -->
     <section id="services" class="px-6 md:container">
@@ -55,21 +76,11 @@
         />
       </div>
 
-      <div class="mt-12 md:mt-20 w-full flex justify-center">
-        <div class="w-full lg:w-9/12">
-          <div
-            class="fb-video"
-            data-href="https://www.facebook.com/drtdentistaiud/videos/1593691661021499/"
-            data-show-text="false"
-          >
-            <div class="fb-xfbml-parse-ignore"></div>
-          </div>
-        </div>
-      </div>
-
       <!-- CTA -->
       <div class="mt-8 md:flex md:justify-center">
-        <button-primary :reference="{ name: 'Home', hash: '#appointment-form'}">
+        <button-primary
+          :reference="{ name: 'Home', hash: '#appointment-form' }"
+        >
           PROGRAMEAZĂ-TE ACUM
         </button-primary>
       </div>
@@ -111,11 +122,7 @@
       <div
         class="min-h-screen px-6 pb-12 md:pb-16 md:px-12 lg:px-16 bg-gradient-to-br from-primary-100 to-primary-200 md:w-1/2 md:flex md:flex-col md:justify-start"
       >
-        <h1
-          class=""
-        >
-          Clinica noastră
-        </h1>
+        <h1 class="">Clinica noastră</h1>
         <p class="font-mvl tracking-wide text-md">
           Clinica noastră a fost înființată în 2008 pentru a reinventa relația
           dintre medicul stomatolog și pacient. Suntem determinați să ne
@@ -158,7 +165,7 @@ export default {
     TCard,
     Carousel,
     ButtonPrimary,
-    AppointmentForm
+    AppointmentForm,
   },
   data() {
     return {
