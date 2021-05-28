@@ -14,13 +14,19 @@
         <div>
           <h3 class="mt-12 font-mwsb tracking-wide text-xl">Orar</h3>
           <div class="mt-4 font-mvr tracking-wide text-md">
-            Luni: 09 - 17
+            Luni: 11 - 17
           </div>
           <div class="mt-1 font-mvr tracking-wide text-md">
-            Marți - Miercuri: 09 - 14
+            Marți: 09 - 14, 15 - 19
           </div>
           <div class="mt-1 font-mvr tracking-wide text-md">
-            Joi - Vineri: 09 - 18
+            Miercuri: 09 - 15
+          </div>
+          <div class="mt-1 font-mvr tracking-wide text-md">
+            Joi: 09 - 14, 15 - 19
+          </div>
+          <div class="mt-1 font-mvr tracking-wide text-md">
+            Vineri: 09 - 15
           </div>
         </div>
 
