@@ -9,14 +9,13 @@
         <div
           class="font-mwb leading-snug tracking-wide max-w-2xl text-dark text-3xl md:text-3xl lg:text-4xl"
         >
-          Zâmbetul perfect începe cu o consultație gratuită
+          Zâmbetul perfect începe cu o programare online
         </div>
         <div
           class="mt-4 font-mvl leading-relaxed tracking-wide max-w-xl text-dark text-base md:text-md lg:text-lg"
         >
           Echipa noastră de dentiști din Aiud îți va reda zâmbetul și starea de
           bine.
-          <!-- Profită de consultația ta gratuită! -->
         </div>
 
         <!-- CTA -->
