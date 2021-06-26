@@ -51,9 +51,9 @@
             required
           />
 
-          <label class="mt-4" form="reason">Motiv</label>
+          <!-- <label class="mt-4" form="reason">Motiv</label> -->
           <!-- Select input needs padding y 0 to keep in line with the otthers -->
-          <select
+          <!-- <select
             class="border border-primary rounded-sm text-xl px-2 py-0"
             id="reason"
             name="motiv"
@@ -62,7 +62,7 @@
             <option value="consultatie">Consultație</option>
             <option value="igienizare">Igienizare</option>
             <option value="urgenta">Urgență</option>
-          </select>
+          </select> -->
 
           <div class="mt-8 md:mt-8 lg:flex lg:justify-center">
               <button
