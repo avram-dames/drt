@@ -1,29 +1,47 @@
 <template>
   <div id="appointment-form"></div>
-  <div
-    class="my-24 flex items-center justify-center"
-  >
-     <div class="px-6 max-w-screen-sm lg:max-w-screen-md">
-    <div class="lg:hidden">
-      <h1 class="mt-0 font-mwb tracking-wide text-2xl">
-        Programare Telefonică
-      </h1>
-      <p>
-        Sună direct la clinică, disponibil zilnic între orele 10:00 și 16:00.
-      </p>
-      <a
-        class="mt-4 w-full md:w-1/2 flex items-center tracking-wide justify-center px-6 py-3 border border-transparent font-mwr text-md rounded-sm text-white bg-primary hover:bg-primary-light"
-        href="tel:+40358405272"
-        >+40 358 405 272
-      </a>
-    </div>
+  <div class="my-24 flex items-center justify-center">
+    <div class="px-6 max-w-screen-sm lg:max-w-screen-md">
+      <div class="lg:flex lg:flex-col lg:items-center">
+        <h1 class="mt-0 font-mwb tracking-wide text-2xl">
+          Programează o consultație!
+        </h1>
+        <p class="lg:text-center">
+          Toate planurile noastre de tratament sunt personalizate și realizate
+          pe baza consultației prealabile. Sună în
+          <router-link :to="{hash: '#contact' }" class="text-blue-800 hover:underline">
+            intervalul orelor de lucru </router-link
+          > pentru a planifica o consultație.
+        </p>
+        <a
+          class="
+            mt-4
+            w-full
+            md:w-1/2
+            flex
+            items-center
+            tracking-wide
+            justify-center
+            px-6
+            py-3
+            border border-transparent
+            font-mwr
+            text-md
+            rounded-sm
+            text-white
+            bg-primary
+            hover:bg-primary-light
+          "
+          href="tel:+40358405272"
+          >+40 358 405 272
+        </a>
+      </div>
 
-   
-      <h1 class="mt-12 font-mwb tracking-wide text-2x lg:text-center">
+      <!-- <h1 class="mt-12 font-mwb tracking-wide text-2x lg:text-center">
         Programare Online
       </h1>
-      <p class="lg:text-center">Lasă-ne datele tale de contact și te vom suna noi în cel mai scurt timp posibil.</p>
-      <form
+      <p class="lg:text-center">Lasă-ne datele tale de contact și te vom suna noi în cel mai scurt timp posibil.</p> -->
+      <!-- <form
         name="programare"
         method="post"
         action="/succes"
@@ -49,11 +67,11 @@
             type="tel"
             name="telefon"
             required
-          />
+          /> -->
 
-          <!-- <label class="mt-4" form="reason">Motiv</label> -->
-          <!-- Select input needs padding y 0 to keep in line with the otthers -->
-          <!-- <select
+      <!-- <label class="mt-4" form="reason">Motiv</label> -->
+      <!-- Select input needs padding y 0 to keep in line with the otthers -->
+      <!-- <select
             class="border border-primary rounded-sm text-xl px-2 py-0"
             id="reason"
             name="motiv"
@@ -64,7 +82,7 @@
             <option value="urgenta">Urgență</option>
           </select> -->
 
-          <div class="mt-8 md:mt-8 lg:flex lg:justify-center">
+      <!-- <div class="mt-8 md:mt-8 lg:flex lg:justify-center">
               <button
                 type="submit"
                 class="w-full md:w-1/2 flex items-center tracking-wide justify-center px-6 py-3 border border-transparent font-mwsr text-md rounded-sm text-white bg-primary hover:bg-primary-light"
@@ -73,7 +91,7 @@
               </button>
           </div>
         </div>
-      </form>
+      </form> -->
     </div>
   </div>
 </template>
